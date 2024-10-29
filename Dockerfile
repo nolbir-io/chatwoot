@@ -14,9 +14,6 @@ ENV RAILS_SERVE_STATIC_FILES=${RAILS_SERVE_STATIC_FILES}
 ARG RAILS_ENV=production
 ENV RAILS_ENV=${RAILS_ENV}
 
-ARG NODE_OPTIONS="--openssl-legacy-provider"
-ENV NODE_OPTIONS=${NODE_OPTIONS}
-
 # Set the working directory
 WORKDIR /app
 
@@ -27,6 +24,7 @@ RUN apk update && apk add --no-cache \
   postgresql-dev \
   git \
   tzdata \
+  nodejs=20.15.1-r0 \
   && gem install bundler
 
 # Copy only the Gemfile and Gemfile.lock first for caching
@@ -35,19 +33,16 @@ COPY Gemfile Gemfile.lock ./
 # Install gems
 RUN bundle install --jobs=4 --retry=3 --without development test
 
-# Install pnpm and configure environment
-RUN wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.shrc" SHELL="$(which sh)" sh - \
-    && echo 'export PNPM_HOME="/root/.local/share/pnpm"' >> /root/.shrc \
-    && echo 'export PATH="$PNPM_HOME:$PATH"' >> /root/.shrc \
-    && export PNPM_HOME="/root/.local/share/pnpm" \
-    && export PATH="$PNPM_HOME:$PATH"
+# Install pnpm
+RUN npm install -g pnpm
 
-# Persist the environment variables in Docker
-ENV PNPM_HOME="/root/.local/share/pnpm"
-ENV PATH="$PNPM_HOME:$PATH"
+# Verify pnpm installation
+RUN pnpm --version
+
+# Copy package.json and pnpm-lock.yaml
+COPY package.json pnpm-lock.yaml ./
 
 # Install npm dependencies
-COPY package.json pnpm-lock.yaml ./
 RUN pnpm install
 
 # Copy the rest of the application code
