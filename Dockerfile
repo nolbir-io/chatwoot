@@ -24,20 +24,24 @@ RUN apk update && apk add --no-cache \
   postgresql-dev \
   git \
   tzdata \
-  nodejs=20.15.1-r0 \
+  nodejs-current \
+  npm \
   && gem install bundler
+
+# Verify npm installation
+RUN npm --version
+
+# Install pnpm globally
+RUN npm install -g pnpm
+
+# Verify pnpm installation
+RUN pnpm --version
 
 # Copy only the Gemfile and Gemfile.lock first for caching
 COPY Gemfile Gemfile.lock ./
 
 # Install gems
 RUN bundle install --jobs=4 --retry=3 --without development test
-
-# Install pnpm
-RUN npm install -g pnpm
-
-# Verify pnpm installation
-RUN pnpm --version
 
 # Copy package.json and pnpm-lock.yaml
 COPY package.json pnpm-lock.yaml ./
