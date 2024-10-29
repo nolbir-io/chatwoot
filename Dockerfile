@@ -2,69 +2,85 @@
 FROM ruby:3.3.3-alpine3.19 AS pre-builder
 
 # ARG default to production settings
+# For development docker-compose file overrides ARGS
 ARG BUNDLE_WITHOUT="development:test"
-ENV BUNDLE_WITHOUT=${BUNDLE_WITHOUT}
+ENV BUNDLE_WITHOUT ${BUNDLE_WITHOUT}
 ENV BUNDLER_VERSION=2.1.2
-ENV BUNDLE_PATH="/gems"
 
-# Set environment variables for Rails
-ARG RAILS_SERVE_STATIC_FILES=true
-ENV RAILS_SERVE_STATIC_FILES=${RAILS_SERVE_STATIC_FILES}
-
-ARG RAILS_ENV=production
-ENV RAILS_ENV=${RAILS_ENV}
-
-# Set the working directory
-WORKDIR /app
-
-# Install required packages and gem dependencies
-RUN apk update && apk add --no-cache \
-  openssl \
-  build-base \
-  postgresql-dev \
-  git \
-  tzdata \
-  nodejs-current \
-  npm \
-  && gem install bundler
-
-# Verify npm installation
-RUN npm --version
-
-# Install pnpm globally
-RUN npm install -g pnpm
-
-# Verify pnpm installation
-RUN pnpm --version
-
-# Copy only the Gemfile and Gemfile.lock first for caching
-COPY Gemfile Gemfile.lock ./
-
-# Install gems
-RUN bundle install --jobs=4 --retry=3 --without development test
-
-# Copy package.json and pnpm-lock.yaml
 COPY package.json pnpm-lock.yaml ./
 
-# Install npm dependencies
-RUN pnpm install
 
-# Copy the rest of the application code
-COPY . .
+ARG RAILS_SERVE_STATIC_FILES=true
+ENV RAILS_SERVE_STATIC_FILES ${RAILS_SERVE_STATIC_FILES}
 
-# Creating a log directory to avoid errors when RAILS_LOG_TO_STDOUT is false
+ARG RAILS_ENV=production
+ENV RAILS_ENV ${RAILS_ENV}
+
+ARG NODE_OPTIONS="--openssl-legacy-provider"
+ENV NODE_OPTIONS ${NODE_OPTIONS}
+
+ENV BUNDLE_PATH="/gems"
+
+RUN apk update && apk add --no-cache \
+  openssl \
+  tar \
+  build-base \
+  tzdata \
+  postgresql-dev \
+  postgresql-client \
+  nodejs=20.15.1-r0 \
+  git \
+  && mkdir -p /var/app \
+  && gem install bundler
+
+# Install pnpm and configure environment
+RUN wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.shrc" SHELL="$(which sh)" sh - \
+    && echo 'export PNPM_HOME="/root/.local/share/pnpm"' >> /root/.shrc \
+    && echo 'export PATH="$PNPM_HOME:$PATH"' >> /root/.shrc \
+    && export PNPM_HOME="/root/.local/share/pnpm" \
+    && export PATH="$PNPM_HOME:$PATH" \
+    && pnpm --version
+
+# Persist the environment variables in Docker
+ENV PNPM_HOME="/root/.local/share/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+
+WORKDIR /app
+
+COPY Gemfile Gemfile.lock ./
+
+# natively compile grpc and protobuf to support alpine musl (dialogflow-docker workflow)
+# https://github.com/googleapis/google-cloud-ruby/issues/13306
+# adding xz as nokogiri was failing to build libxml
+# https://github.com/chatwoot/chatwoot/issues/4045
+RUN apk update && apk add --no-cache build-base musl ruby-full ruby-dev gcc make musl-dev openssl openssl-dev g++ linux-headers xz vips
+RUN bundle config set --local force_ruby_platform true
+
+# Do not install development or test gems in production
+RUN if [ "$RAILS_ENV" = "production" ]; then \
+  bundle config set without 'development test'; bundle install -j 4 -r 3; \
+  else bundle install -j 4 -r 3; \
+  fi
+
+COPY package.json pnpm-lock.yaml ./
+RUN pnpm i
+
+COPY . /app
+
+# creating a log directory so that image wont fail when RAILS_LOG_TO_STDOUT is false
+# https://github.com/chatwoot/chatwoot/issues/701
 RUN mkdir -p /app/log
 
-# Generate production assets if in production environment
+# generate production assets if production environment
 RUN if [ "$RAILS_ENV" = "production" ]; then \
   SECRET_KEY_BASE=precompile_placeholder RAILS_LOG_TO_STDOUT=enabled bundle exec rake assets:precompile \
   && rm -rf spec node_modules tmp/cache; \
   fi
 
-# Generate .git_sha file with the current commit hash
+# Generate .git_sha file with current commit hash
 RUN git rev-parse HEAD > /app/.git_sha
 
-# Remove unnecessary files to reduce image size
+# Remove unnecessary files
 RUN rm -rf /gems/ruby/3.3.0/cache/*.gem \
   && find /gems/ruby/3.3.0/gems/ \( -name "*.c" -o -name "*.o" \) -delete \
   && rm -rf .git \
@@ -73,45 +89,48 @@ RUN rm -rf /gems/ruby/3.3.0/cache/*.gem \
 # final build stage
 FROM ruby:3.3.3-alpine3.19
 
-# Set environment variables for final stage
+
 ARG BUNDLE_WITHOUT="development:test"
-ENV BUNDLE_WITHOUT=${BUNDLE_WITHOUT}
+ENV BUNDLE_WITHOUT ${BUNDLE_WITHOUT}
 ENV BUNDLER_VERSION=2.1.2
 
 ARG EXECJS_RUNTIME="Disabled"
-ENV EXECJS_RUNTIME=${EXECJS_RUNTIME}
+ENV EXECJS_RUNTIME ${EXECJS_RUNTIME}
 
 ARG RAILS_SERVE_STATIC_FILES=true
-ENV RAILS_SERVE_STATIC_FILES=${RAILS_SERVE_STATIC_FILES}
+ENV RAILS_SERVE_STATIC_FILES ${RAILS_SERVE_STATIC_FILES}
 
 ARG BUNDLE_FORCE_RUBY_PLATFORM=1
-ENV BUNDLE_FORCE_RUBY_PLATFORM=${BUNDLE_FORCE_RUBY_PLATFORM}
+ENV BUNDLE_FORCE_RUBY_PLATFORM ${BUNDLE_FORCE_RUBY_PLATFORM}
 
 ARG RAILS_ENV=production
-ENV RAILS_ENV=${RAILS_ENV}
+ENV RAILS_ENV ${RAILS_ENV}
 ENV BUNDLE_PATH="/gems"
 
-# Install required packages
 RUN apk update && apk add --no-cache \
   build-base \
+  openssl \
+  tzdata \
   postgresql-client \
   imagemagick \
   git \
   vips \
   && gem install bundler
 
-# Copy installed gems and application code from pre-builder stage
+RUN if [ "$RAILS_ENV" != "production" ]; then \
+  apk add --no-cache nodejs-current; \
+  # Install pnpm and configure environment
+  wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.shrc" SHELL="$(which sh)" sh - \
+  && source /root/.shrc \
+  && pnpm --version; \
+  fi
+
 COPY --from=pre-builder /gems/ /gems/
 COPY --from=pre-builder /app /app
 
 # Copy .git_sha file from pre-builder stage
 COPY --from=pre-builder /app/.git_sha /app/.git_sha
 
-# Set the working directory
 WORKDIR /app
 
-# Expose the application port
 EXPOSE 3000
-
-# Command to start your application (adjust as necessary)
-CMD ["rails", "server", "-b", "0.0.0.0"]

@@ -2,8 +2,8 @@ version: '3'
 
 services:
   base: &base
-    image: ghcr.io/ismoillmirabbosoff/chatwoot:main
-    # build: .
+    # image: ghcr.io/ismoillmirabbosoff/chatwoot:main
+    build: .
     env_file: .env
     volumes:
       - /data/storage:/app/storage
