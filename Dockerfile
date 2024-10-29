@@ -7,86 +7,112 @@ ENV BUNDLE_WITHOUT=${BUNDLE_WITHOUT}
 ENV BUNDLER_VERSION=2.1.2
 ENV BUNDLE_PATH="/gems"
 
-# Install essential packages
+# Set environment variables for Rails
+ARG RAILS_SERVE_STATIC_FILES=true
+ENV RAILS_SERVE_STATIC_FILES=${RAILS_SERVE_STATIC_FILES}
+
+ARG RAILS_ENV=production
+ENV RAILS_ENV=${RAILS_ENV}
+
+ARG NODE_OPTIONS="--openssl-legacy-provider"
+ENV NODE_OPTIONS=${NODE_OPTIONS}
+
+# Set the working directory
+WORKDIR /app
+
+# Install required packages and gem dependencies
 RUN apk update && apk add --no-cache \
   openssl \
   build-base \
-  tzdata \
   postgresql-dev \
-  postgresql-client \
-  nodejs=20.15.1-r0 \
   git \
+  tzdata \
   && gem install bundler
 
-# Set working directory
-WORKDIR /app
-
-# Copy Gemfile and Gemfile.lock and install gems
+# Copy only the Gemfile and Gemfile.lock first for caching
 COPY Gemfile Gemfile.lock ./
-RUN bundle config set --local force_ruby_platform true && \
-    if [ "$RAILS_ENV" = "production" ]; then \
-      bundle config set without 'development test'; \
-    fi && \
-    bundle install -j 4
+
+# Install gems
+RUN bundle install --jobs=4 --retry=3 --without development test
 
 # Install pnpm and configure environment
-RUN wget -qO- https://get.pnpm.io/install.sh | sh - && \
-    echo 'export PNPM_HOME="/root/.local/share/pnpm"' >> /root/.shrc && \
-    echo 'export PATH="$PNPM_HOME:$PATH"' >> /root/.shrc && \
-    source /root/.shrc
+RUN wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.shrc" SHELL="$(which sh)" sh - \
+    && echo 'export PNPM_HOME="/root/.local/share/pnpm"' >> /root/.shrc \
+    && echo 'export PATH="$PNPM_HOME:$PATH"' >> /root/.shrc \
+    && export PNPM_HOME="/root/.local/share/pnpm" \
+    && export PATH="$PNPM_HOME:$PATH"
 
-# Install project dependencies
+# Persist the environment variables in Docker
+ENV PNPM_HOME="/root/.local/share/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+
+# Install npm dependencies
 COPY package.json pnpm-lock.yaml ./
 RUN pnpm install
 
-# Copy application code
+# Copy the rest of the application code
 COPY . .
 
-# Create necessary directories and precompile assets if in production
-RUN mkdir -p log && \
-    if [ "$RAILS_ENV" = "production" ]; then \
-      SECRET_KEY_BASE=precompile_placeholder RAILS_LOG_TO_STDOUT=enabled bundle exec rake assets:precompile && \
-      rm -rf spec node_modules tmp/cache; \
-    fi
+# Creating a log directory to avoid errors when RAILS_LOG_TO_STDOUT is false
+RUN mkdir -p /app/log
 
-# Generate .git_sha file with current commit hash
-RUN git rev-parse HEAD > .git_sha
+# Generate production assets if in production environment
+RUN if [ "$RAILS_ENV" = "production" ]; then \
+  SECRET_KEY_BASE=precompile_placeholder RAILS_LOG_TO_STDOUT=enabled bundle exec rake assets:precompile \
+  && rm -rf spec node_modules tmp/cache; \
+  fi
 
-# Remove unnecessary files
-RUN rm -rf /gems/ruby/3.3.0/cache/*.gem && \
-    find /gems/ruby/3.3.0/gems/ -name "*.c" -o -name "*.o" -delete && \
-    rm -rf .git .gitignore
+# Generate .git_sha file with the current commit hash
+RUN git rev-parse HEAD > /app/.git_sha
+
+# Remove unnecessary files to reduce image size
+RUN rm -rf /gems/ruby/3.3.0/cache/*.gem \
+  && find /gems/ruby/3.3.0/gems/ \( -name "*.c" -o -name "*.o" \) -delete \
+  && rm -rf .git \
+  && rm .gitignore
 
 # final build stage
 FROM ruby:3.3.3-alpine3.19
 
-# ARG and ENV settings
+# Set environment variables for final stage
 ARG BUNDLE_WITHOUT="development:test"
 ENV BUNDLE_WITHOUT=${BUNDLE_WITHOUT}
 ENV BUNDLER_VERSION=2.1.2
+
+ARG EXECJS_RUNTIME="Disabled"
+ENV EXECJS_RUNTIME=${EXECJS_RUNTIME}
+
+ARG RAILS_SERVE_STATIC_FILES=true
+ENV RAILS_SERVE_STATIC_FILES=${RAILS_SERVE_STATIC_FILES}
+
+ARG BUNDLE_FORCE_RUBY_PLATFORM=1
+ENV BUNDLE_FORCE_RUBY_PLATFORM=${BUNDLE_FORCE_RUBY_PLATFORM}
+
 ARG RAILS_ENV=production
 ENV RAILS_ENV=${RAILS_ENV}
 ENV BUNDLE_PATH="/gems"
 
-# Install runtime dependencies
+# Install required packages
 RUN apk update && apk add --no-cache \
-  openssl \
-  tzdata \
+  build-base \
   postgresql-client \
   imagemagick \
   git \
-  vips && \
-  gem install bundler
+  vips \
+  && gem install bundler
 
-# Copy from pre-builder stage
+# Copy installed gems and application code from pre-builder stage
 COPY --from=pre-builder /gems/ /gems/
 COPY --from=pre-builder /app /app
 
 # Copy .git_sha file from pre-builder stage
 COPY --from=pre-builder /app/.git_sha /app/.git_sha
 
-# Set working directory
+# Set the working directory
 WORKDIR /app
 
-# Expose the port
+# Expose the application port
 EXPOSE 3000
+
+# Command to start your application (adjust as necessary)
+CMD ["rails", "server", "-b", "0.0.0.0"]
