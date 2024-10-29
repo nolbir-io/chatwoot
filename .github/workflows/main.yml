@@ -35,25 +35,27 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
-      # - name: Log in to Server and Restarting Kubernetes
-      #   uses: appleboy/ssh-action@master
-      #   with:
-      #     host: ${{ secrets.DROPLET_IP }}
-      #     username: ${{ secrets.DROPLET_USERNAME }}
-      #     key: ${{ secrets.SSH_PRIVATE_KEY }}
-      #     port: 22
-      #     script: |
-      #       cd /root/projects/admin
-      #       ls
-      #       kubectl delete -f k8s.yaml
-      #       kubectl apply -f k8s.yaml
+      - name: Log in to Server and Restarting Kubernetes
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.DROPLET_IP }}
+          username: ${{ secrets.DROPLET_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          script: |
+            cd /chatwoot
+            ls
+            docker-compose down
+            docker image prune
+            docker rmi $(docker images 'ghcr.io/ismoillmirabbosoff/chatwoot' -a -q)
+            docker-compose up --build -d
 
       - name: Telegram Notifications on Success
         if: ${{ success() }}
         uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_CHAT_ID }}
-          token: ${{ secrets.TELEGRAM_TOKEN }}
+          token: ${{ secrets.TELEGRAM_TO }}
           format: markdown
           message: |
             ${{ github.actor }} successfully created commit ✅✅✅:
@@ -67,7 +69,7 @@ jobs:
         uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_CHAT_ID }}
-          token: ${{ secrets.TELEGRAM_TOKEN }}
+          token: ${{ secrets.TELEGRAM_TO }}
           format: markdown
           message: |
             ${{ github.actor }} failed created commit ❌❌❌:
