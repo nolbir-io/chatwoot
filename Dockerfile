@@ -131,6 +131,6 @@ COPY --from=pre-builder /app /app
 # Copy .git_sha file from pre-builder stage
 COPY --from=pre-builder /app/.git_sha /app/.git_sha
 
-WORKDIR /app
+WORKDIR /app   
 
 EXPOSE 3000
