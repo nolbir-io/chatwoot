@@ -4,7 +4,7 @@ on:
     branches: ['develop']
 
 env:
-  REGISTRY: app.coolify.io
+  REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
@@ -18,8 +18,8 @@ jobs:
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
         with:
           registry: ${{ env.REGISTRY }}
-          username: ${{ secrets.COOLIFY_USERNAME }}
-          password: ${{ secrets.COOLIFY_PASSWORD }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.TOKEN }}
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
