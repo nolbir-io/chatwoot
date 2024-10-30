@@ -21,19 +21,19 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.TOKEN }}
 
-      # - name: Extract metadata (tags, labels) for Docker
-      #   id: meta
-      #   uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
-      #   with:
-      #     images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
-      # - name: Build and push Docker image
-      #   uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
-      #   with:
-      #     context: .
-      #     push: true
-      #     tags: ${{ steps.meta.outputs.tags }}
-      #     labels: ${{ steps.meta.outputs.labels }}
+      - name: Build and push Docker image
+        uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
 
       - name: Log in to Server and Restarting Kubernetes
         uses: appleboy/ssh-action@master
@@ -50,29 +50,29 @@ jobs:
             docker rmi $(docker images 'ghcr.io/nolbir-io/chatwoot:develop' -a -q)
             docker-compose up --build -d
 
-      # - name: Telegram Notifications on Success
-      #   if: ${{ success() }}
-      #   uses: appleboy/telegram-action@master
-      #   with:
-      #     to: ${{ secrets.TELEGRAM_CHAT_ID }}
-      #     token: ${{ secrets.TELEGRAM_TO }}
-      #     format: markdown
-      #     message: |
-      #       ${{ github.actor }} successfully created commit ✅✅✅:
-      #         Commit message: ${{ github.event.commits[0].message }}
-      #         Repository: ${{ github.repository }}
-      #         See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+      - name: Telegram Notifications on Success
+        if: ${{ success() }}
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_TO }}
+          format: markdown
+          message: |
+            ${{ github.actor }} successfully created commit ✅✅✅:
+              Commit message: ${{ github.event.commits[0].message }}
+              Repository: ${{ github.repository }}
+              See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
 
 
-      # - name: Telegram Notifications on Failure
-      #   if: ${{ failure() }}
-      #   uses: appleboy/telegram-action@master
-      #   with:
-      #     to: ${{ secrets.TELEGRAM_CHAT_ID }}
-      #     token: ${{ secrets.TELEGRAM_TO }}
-      #     format: markdown
-      #     message: |
-      #       ${{ github.actor }} failed created commit ❌❌❌:
-      #         Commit message: ${{ github.event.commits[0].message }}
-      #         Repository: ${{ github.repository }}
-      #         See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+      - name: Telegram Notifications on Failure
+        if: ${{ failure() }}
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_TO }}
+          format: markdown
+          message: |
+            ${{ github.actor }} failed created commit ❌❌❌:
+              Commit message: ${{ github.event.commits[0].message }}
+              Repository: ${{ github.repository }}
+              See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
