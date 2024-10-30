@@ -51,6 +51,7 @@ jobs:
             docker rmi $(docker images 'ghcr.io/nolbir-io/chatwoot:develop' -a -q)
             docker-compose up --build -d
 
+
       - name: Telegram Notifications on Success
         if: ${{ success() }}
         uses: appleboy/telegram-action@master
