@@ -35,7 +35,10 @@ jobs:
       #     tags: ${{ steps.meta.outputs.tags }}
       #     labels: ${{ steps.meta.outputs.labels }}
 
-      - name: Log in to Server and Restart Kubernetes
+      - name: Log in to GitHub Container Registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Log in to Server and Restarting Kubernetes
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DROPLET_IP }}
@@ -43,12 +46,12 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
-            cd /chatwoot || exit
+            cd /chatwoot
             ls
             docker-compose down
             docker image prune -f
-            docker rmi -f $(docker images 'ghcr.io/nolbir-io/chatwoot:develop' -q)
             docker-compose run --rm rails bundle exec rails db:chatwoot_prepare
+            docker rmi -f $(docker images 'ghcr.io/nolbir-io/chatwoot:develop' -q)
             docker-compose up --build -d
 
 
