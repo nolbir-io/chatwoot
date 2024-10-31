@@ -11,7 +11,7 @@ services:
       FORCE_SSL: "false"
       ENABLE_ACCOUNT_SIGNUP: "false"
       REDIS_URL: redis://redis:6379
-      REDIS_PASSWORD: ""
+      REDIS_PASSWORD: "Qwerty123$"
       REDIS_SENTINELS: ""
       REDIS_SENTINEL_MASTER_NAME: ""
       POSTGRES_DATABASE: chatwoot
