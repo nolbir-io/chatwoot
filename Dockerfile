@@ -9,8 +9,6 @@ ENV BUNDLE_PATH="/gems"
 ENV PNPM_HOME="/root/.local/share/pnpm"
 ENV PATH="${PNPM_HOME}:${PATH}"
 
-COPY package.json pnpm-lock.yaml ./
-
 # Rails environment settings
 ARG RAILS_SERVE_STATIC_FILES=true
 ENV RAILS_SERVE_STATIC_FILES=${RAILS_SERVE_STATIC_FILES}
@@ -34,13 +32,14 @@ RUN wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.shrc" SHELL="$(which 
 
 WORKDIR /app
 
+# Copy dependency files first to optimize Docker caching
+COPY package.json pnpm-lock.yaml ./
 COPY Gemfile Gemfile.lock ./
 
-# Additional dependencies for Alpine
+# Install gems
 RUN apk add --no-cache build-base musl ruby-full ruby-dev gcc make musl-dev openssl openssl-dev g++ linux-headers xz vips
 RUN bundle config set --local force_ruby_platform true
 
-# Install gems
 RUN if [ "$RAILS_ENV" = "production" ]; then \
   bundle config set without 'development test'; \
   bundle install -j 4 -r 3; \
@@ -48,10 +47,10 @@ RUN if [ "$RAILS_ENV" = "production" ]; then \
   fi
 
 # Install pnpm packages
-RUN pnpm i
+RUN pnpm install
 
 # Copy application files
-COPY . /app
+COPY . .
 
 # Create a log directory
 RUN mkdir -p /app/log
