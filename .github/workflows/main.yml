@@ -51,29 +51,29 @@ jobs:
             docker-compose run --rm rails bundle exec rails db:chatwoot_prepare
             docker-compose up --build -d
 
-      # - name: Telegram Notifications on Success
-      #   if: ${{ success() }}
-      #   uses: appleboy/telegram-action@master
-      #   with:
-      #     to: ${{ secrets.TELEGRAM_CHAT_ID }}
-      #     token: ${{ secrets.TELEGRAM_TO }}
-      #     format: markdown
-      #     message: |
-      #       ${{ github.actor }} successfully created commit ✅✅✅:
-      #         Commit message: ${{ github.event.commits[0].message }}
-      #         Repository: ${{ github.repository }}
-      #         See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+      - name: Telegram Notifications on Success
+        if: ${{ success() }}
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_TO }}
+          format: markdown
+          message: |
+            ${{ github.actor }} successfully created commit ✅✅✅:
+              Commit message: ${{ github.event.commits[0].message }}
+              Repository: ${{ github.repository }}
+              See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
 
 
-      # - name: Telegram Notifications on Failure
-      #   if: ${{ failure() }}
-      #   uses: appleboy/telegram-action@master
-      #   with:
-      #     to: ${{ secrets.TELEGRAM_CHAT_ID }}
-      #     token: ${{ secrets.TELEGRAM_TO }}
-      #     format: markdown
-      #     message: |
-      #       ${{ github.actor }} failed created commit ❌❌❌:
-      #         Commit message: ${{ github.event.commits[0].message }}
-      #         Repository: ${{ github.repository }}
-      #         See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+      - name: Telegram Notifications on Failure
+        if: ${{ failure() }}
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_TO }}
+          format: markdown
+          message: |
+            ${{ github.actor }} failed created commit ❌❌❌:
+              Commit message: ${{ github.event.commits[0].message }}
+              Repository: ${{ github.repository }}
+              See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
