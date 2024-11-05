@@ -1,0 +1,290 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+uz:
+  hello: "Salom dunyo"
+  messages:
+    reset_password_success: Parolni tiklash so'rovi muvaffaqiyatli yakunlandi. Ko'rsatmalar uchun pochtangizni tekshiring.
+    reset_password_failure: Kechirasiz! Biz ko'rsatilgan elektron pochta bilan foydalanuvchini topa olmadik.
+    inbox_deletetion_response: Sizning kirish qutingizni o'chirish so'rovingiz yaqin vaqt ichida ko'rib chiqiladi.
+
+  errors:
+    validations:
+      presence: bo'sh bo'lmasligi kerak
+    webhook:
+      invalid: Noto'g'ri hodisalar
+    signup:
+      disposable_email: Biz vaqtinchalik elektron pochta manzillariga ruxsat bermaymiz
+      blocked_domain: Bu domen ruxsat etilmagan. Agar bu xato deb o'ylasangiz, qo'llab-quvvatlash xizmatiga murojaat qiling.
+      invalid_email: Siz noto'g'ri elektron pochta manzilini kiritdingiz
+      email_already_exists: "Siz allaqachon %{email} bilan hisob yaratgansiz"
+      invalid_params: 'Noto'g'ri, iltimos ro'yxatdan o'tish parametrlarini tekshiring va qayta urinib ko'ring'
+      failed: Ro'yxatdan o'tish amalga oshmadi
+    data_import:
+      data_type:
+        invalid: Noto'g'ri ma'lumot turi
+    contacts:
+      import:
+        failed: Fayl bo'sh
+      export:
+        success: Kontaktlar eksport fayli ko'rish uchun tayyor bo'lganda sizga xabar beramiz.
+      email:
+        invalid: Noto'g'ri elektron pochta
+      phone_number:
+        invalid: e164 formatida bo'lishi kerak
+    categories:
+      locale:
+        unique: kategoriya va portal ichida noyob bo'lishi kerak
+    dyte:
+      invalid_message_type: "Noto'g'ri xabar turi. Harakat ruxsat etilmagan"
+    slack:
+      invalid_channel_id: "Noto'g'ri slack kanali. Iltimos qayta urinib ko'ring"
+    inboxes:
+      imap:
+        socket_error: Iltimos, tarmoq ulanishini, IMAP manzilini tekshiring va qayta urinib ko'ring.
+        no_response_error: Iltimos IMAP hisob ma'lumotlarini tekshiring va qayta urinib ko'ring.
+        host_unreachable_error: Host mavjud emas, Iltimos IMAP manzili, IMAP portini tekshiring va qayta urinib ko'ring.
+        connection_timed_out_error: %{address}:%{port} uchun ulanish vaqti tugadi
+        connection_closed_error: Ulanish yopildi.
+      validations:
+        name: belgilar bilan boshlanmasligi yoki tugamasligi kerak, va unda < > / \ @ belgilari bo'lmasligi kerak.
+    custom_filters:
+      number_of_records: Limit tugadi. Hisob uchun foydalanuvchi boshiga ruxsat etilgan maxsus filtrlarning maksimal soni 50 ta.
+      invalid_attribute: Noto'g'ri atribut kaliti - [%{key}]. Kalit [%{allowed_keys}] yoki hisobda belgilangan maxsus atributlardan biri bo'lishi kerak.
+      invalid_operator: Noto'g'ri operator. %{attribute_name} uchun ruxsat etilgan operatorlar [%{allowed_keys}].
+      invalid_value: Noto'g'ri qiymat. %{attribute_name} uchun berilgan qiymatlar noto'g'ri
+  reports:
+    period: Hisobot davri %{since} dan %{until} gacha
+    utc_warning: Hisobot UTC vaqt mintaqasida yaratilgan
+    agent_csv:
+      agent_name: Agent nomi
+      conversations_count: Tayinlangan suhbatlar
+      avg_first_response_time: O'rtacha birinchi javob vaqti
+      avg_resolution_time: O'rtacha hal qilish vaqti
+      resolution_count: Hal qilish soni
+      avg_customer_waiting_time: O'rtacha mijoz kutish vaqti
+    inbox_csv:
+      inbox_name: Kirish qutisi nomi
+      inbox_type: Kirish qutisi turi
+      conversations_count: Suhbatlar soni
+      avg_first_response_time: O'rtacha birinchi javob vaqti
+      avg_resolution_time: O'rtacha hal qilish vaqti
+    label_csv:
+      label_title: Yorliq
+      conversations_count: Suhbatlar soni
+      avg_first_response_time: O'rtacha birinchi javob vaqti
+      avg_resolution_time: O'rtacha hal qilish vaqti
+    team_csv:
+      team_name: Jamoa nomi
+      conversations_count: Suhbatlar soni
+      avg_first_response_time: O'rtacha birinchi javob vaqti
+      avg_resolution_time: O'rtacha hal qilish vaqti
+      resolution_count: Hal qilish soni
+      avg_customer_waiting_time: O'rtacha mijoz kutish vaqti
+    conversation_traffic_csv:
+      timezone: Vaqt mintaqasi
+    sla_csv:
+      conversation_id: Suhbat ID
+      sla_policy_breached: SLA siyosati
+      assignee: Tayinlangan shaxs
+      team: Jamoa
+      inbox: Kirish qutisi
+      labels: Yorliqlar
+      conversation_link: Suhbatga havola
+      breached_events: Buzilgan hodisalar
+    default_group_by: kun
+    csat:
+      headers:
+        contact_name: Kontakt nomi
+        contact_email_address: Kontakt elektron pochtasi
+        contact_phone_number: Kontakt telefon raqami
+        link_to_the_conversation: Suhbatga havola
+        agent_name: Agent nomi
+        rating: Baholash
+        feedback: Fikr-mulohaza izohi
+        recorded_at: Yozib olingan sana
+
+  notifications:
+    notification_title:
+      conversation_creation: "%{inbox_name}da (#%{display_id}) suhbat yaratildi"
+      conversation_assignment: "Sizga (#%{display_id}) suhbat tayinlandi"
+      assigned_conversation_new_message: "Suhbatda (#%{display_id}) yangi xabar yaratildi"
+      conversation_mention: "Siz (#%{display_id}) suhbatda eslatib o'tilgansiz"
+      sla_missed_first_response: "Suhbat (#%{display_id}) uchun SLA birinchi javob maqsadi bajarilmadi"
+      sla_missed_next_response: "Suhbat (#%{display_id}) uchun SLA keyingi javob maqsadi bajarilmadi"
+      sla_missed_resolution: "Suhbat (#%{display_id}) uchun SLA hal qilish maqsadi bajarilmadi"
+    attachment: "Ilova"
+    no_content: "Tarkib yo'q"
+  conversations:
+    messages:
+      instagram_story_content: "%{story_sender} sizni hikoyada esladi: "
+      instagram_deleted_story_content: Bu hikoya endi mavjud emas.
+      deleted: Bu xabar o'chirildi
+      delivery_status:
+        error_code: "Xato kodi: %{error_code}"
+    activity:
+      status:
+        resolved: "Suhbat %{user_name} tomonidan hal qilindi deb belgilandi"
+        contact_resolved: "Suhbat %{contact_name} tomonidan hal qilindi"
+        open: "Suhbat %{user_name} tomonidan qayta ochildi"
+        pending: "Suhbat %{user_name} tomonidan kutilmoqda deb belgilandi"
+        snoozed: "Suhbat %{user_name} tomonidan kechiktirildi"
+        auto_resolved: "Suhbat %{duration} kun harakatsizlik tufayli tizim tomonidan hal qilindi deb belgilandi"
+        system_auto_open: Tizim yangi kiruvchi xabar tufayli suhbatni qayta ochdi.
+      priority:
+        added: '%{user_name} ustuvorlikni %{new_priority} ga o''rnatdi'
+        updated: '%{user_name} ustuvorlikni %{old_priority} dan %{new_priority} ga o''zgartirdi'
+        removed: '%{user_name} ustuvorlikni olib tashladi'
+      assignee:
+        self_assigned: "%{user_name} bu suhbatni o'ziga tayinladi"
+        assigned: "%{user_name} tomonidan %{assignee_name}ga tayinlandi"
+        removed: "Suhbat %{user_name} tomonidan tayinlanmagan holga o'tkazildi"
+      team:
+        assigned: "%{user_name} tomonidan %{team_name}ga tayinlandi"
+        assigned_with_assignee: "%{user_name} tomonidan %{team_name} orqali %{assignee_name}ga tayinlandi"
+        removed: "%{user_name} tomonidan %{team_name}dan olib tashlandi"
+      labels:
+        added: "%{user_name} %{labels}ni qo'shdi"
+        removed: "%{user_name} %{labels}ni olib tashladi"
+      sla:
+        added: "%{user_name} SLA siyosati %{sla_name}ni qo'shdi"
+        removed: "%{user_name} SLA siyosati %{sla_name}ni olib tashladi"
+      muted: "%{user_name} suhbatni ovozsiz rejimga o'tkazdi"
+      unmuted: "%{user_name} suhbatni ovozli rejimga qaytardi"
+    templates:
+      greeting_message_body: "%{account_name} odatda bir necha soat ichida javob beradi."
+      ways_to_reach_you_message_body: "Jamoaga siz bilan bog'lanish yo'lini bering."
+      email_input_box_message_body: "Elektron pochta orqali xabardor bo'ling"
+      csat_input_message_body: "Iltimos suhbatni baholang"
+    reply:
+      email:
+        header:
+          from_with_name: "%{assignee_name} %{inbox_name}dan <%{from_email}>"
+          reply_with_name: "%{assignee_name} %{inbox_name}dan <reply+%{reply_email}>"
+          friendly_name: "%{sender_name} %{business_name}dan <%{from_email}>"
+          professional_name: "%{business_name} <%{from_email}>"
+      channel_email:
+        header:
+          reply_with_name: "%{assignee_name} %{inbox_name}dan <%{from_email}>"
+          reply_with_inbox_name: "%{inbox_name} <%{from_email}>"
+      email_subject: "Bu suhbatdagi yangi xabarlar"
+      transcript_subject: "Suhbat yozuvi"
+    survey:
+      response: "Iltimos bu suhbatni baholang, %{link}"
+  contacts:
+    online:
+      delete: "%{contact_name} onlayn, iltimos keyinroq qayta urinib ko'ring"
+  integration_apps:
+    dashboard_apps:
+      name: "Dashboard ilovalar"
+      description: "Dashboard ilovalar sizga foydalanuvchi ma'lumotlari, buyurtmalar yoki to'lov tarixini ko'rsatadigan ilovalarni yaratish va joylashtirishga imkon beradi, bu mijozlarni qo'llab-quvvatlash agentlariga ko'proq kontekst beradi."
+    dyte:
+      name: "Dyte"
+      description: "Dyte - bu ilovangizga audio va video funksiyalarini integratsiya qiladigan mahsulot. Bu integratsiya bilan sizning agentlaringiz Chatwoot orqali mijozlaringiz bilan video/ovozli qo'ng'iroqlarni boshlashi mumkin."
+      meeting_name: "%{agent_name} uchrashuvni boshladi"
+    slack:
+      name: "Slack"
+      description: "Chatwootni Slack bilan integratsiya qilib, jamoangizni sinxronlashtirib turing. Bu integratsiya yangi suhbatlar haqida xabarnomalar olish va ularga Slack interfeysi orqali javob berish imkonini beradi."
+    webhooks:
+      name: "Webhooklar"
+      description: "Webhook hodisalari sizning Chatwoot hisobingizdagi faoliyatlar haqida real vaqt yangilanishlarini taqdim etadi. Siz o'zingiz xohlagan hodisalarga obuna bo'lishingiz mumkin va Chatwoot sizga yangilanishlar bilan HTTP qayta qo'ng'iroqlarini yuboradi."
+    dialogflow:
+      name: "Dialogflow"
+      description: "Dialogflow yordamida chatbotlar yarating va ularni kirish qutingizga osongina integratsiya qiling. Bu botlar mijozlarga xizmat ko'rsatish agentiga o'tkazishdan oldin dastlabki so'rovlarni hal qila oladi."
+    google_translate:
+      name: "Google Tarjimon"
+      description: "Agentlarga mijoz xabarlarini osongina tarjima qilishga yordam berish uchun Google Tarjimonni integratsiya qiling. Bu integratsiya tilni avtomatik ravishda aniqlaydi va uni agent yoki administratorning afzal ko'rgan tiliga o'giradi."
+    openai:
+      name: "OpenAI"
+      description: "OpenAI dan katta til modellarining kuchidan javob taklif qilish, xulosa chiqarish, xabarni qayta ifodalash, imlo tekshirish va yorliq tasniflash kabi xususiyatlar bilan foydalaning."
+    linear:
+      name: "Linear"
+      description: "Suhbat oynasidan to'g'ridan-to'g'ri Linear da muammolarni yarating. Yoki muammolarni kuzatish jarayonini yanada samaraliroq qilish uchun mavjud Linear muammolarini bog'lang."
+    captain:
+      name: "Captain"
+      description: "Captain - bu mahsulotingiz uchun yaratilgan va kompaniyangizning bilimlar bazasida o'qitilgan mahalliy AI yordamchisi. U inson kabi javob beradi va mijoz so'rovlarini samarali hal qiladi. Uni kirish qutingizga osongina sozlang."
+  public_portal:
+    search:
+      search_placeholder: Maqolani sarlavha yoki matn bo'yicha qidiring...
+      empty_placeholder: Natijalar topilmadi.
+      loading_placeholder: Qidirilmoqda...
+      results_title: Qidiruv natijalari
+    toc_header: 'Bu sahifada'
+    hero:
+      sub_title: Maqolalarni shu yerda qidiring yoki quyidagi kategoriyalarni ko'rib chiqing.
+    common:
+      home: Bosh sahifa
+      last_updated_on: Oxirgi yangilanish %{last_updated_on}
+      view_all_articles: Hammasini ko'rish
+      article: maqola
+      articles: maqolalar
+      author: muallif
+      authors: mualliflar
+      other: boshqa
+      others: boshqalar
+      by: Muallif
+      no_articles: Bu yerda maqolalar yo'q
+    footer:
+      made_with: Bilan yaratilgan
+    header:
+      go_to_homepage: Veb-sayt
+      appearance:
+        system: Tizim
+        light: Yorug'
+        dark: Qorong'i
+      featured_articles: Tanlangan maqolalar
+      uncategorized: Kategoriyalanmagan
+    404:
+      title: Sahifa topilmadi
+      description: Siz qidirayotgan sahifani topa olmadik.
+      back_to_home: Bosh sahifaga qaytish
+  slack_unfurl:
+    fields:
+     name: Ism
+     email: Email
+     phone_number: Telefon
+     company_name: Kompaniya
+     inbox_name: Kirish qutisi
+     inbox_type: Kirish qutisi turi
+    button: Suhbatni ochish
+  time_units:
+    days:
+      one: "%{count} kun"
+      other: "%{count} kun"
+    hours:
+      one: "%{count} soat"
+      other: "%{count} soat"
+    minutes:
+      one: "%{count} daqiqa"
+      other: "%{count} daqiqa"
+    seconds:
+      one: "%{count} soniya"
+      other: "%{count} soniya"

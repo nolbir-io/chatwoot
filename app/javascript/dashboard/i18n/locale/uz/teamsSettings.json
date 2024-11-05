@@ -7,7 +7,7 @@
     "LEARN_MORE": "Jamoalar haqida ko'proq ma'lumot",
     "LIST": {
       "404": "Bu hisobda hech qanday jamoa yaratilmagan.",
-      "EDIT_TEAM": "Jamoani tahrirlash",
+      "EDIT_TEAM": "Jamoani tahrirlash", 
       "NONE": "Yo'q"
     },
     "CREATE_FLOW": {
@@ -83,7 +83,7 @@
     },
     "FINISH": {
       "TITLE": "Jamoangiz tayyor!",
-      "MESSAGE": "Endi siz jamoa bo'lib suhbatlarda hamkorlik qilishingiz mumkin. Yaxshi yordam berishni tilaymiz ",
+      "MESSAGE": "Endi siz suhbatlarda jamoa bo'lib hamkorlik qilishingiz mumkin. Yaxshi yordam bering ",
       "BUTTON_TEXT": "Tugatish"
     },
     "DELETE": {
@@ -93,7 +93,7 @@
         "ERROR_MESSAGE": "Jamoani o'chirib bo'lmadi. Qayta urinib ko'ring."
       },
       "CONFIRM": {
-        "TITLE": "Jamoani o'chirishni xohlaysizmi?", 
+        "TITLE": "Jamoani o'chirishni xohlaysizmi?",
         "PLACE_HOLDER": "Tasdiqlash uchun {teamName} ni kiriting",
         "MESSAGE": "Jamoani o'chirish ushbu jamoaga tayinlangan suhbatlardan jamoa tayinlovini olib tashlaydi.",
         "YES": "O'chirish ",
@@ -106,14 +106,14 @@
       "CREATE": "Jamoa yaratish",
       "NAME": {
         "LABEL": "Jamoa nomi",
-        "PLACEHOLDER": "Masalan: Sotuvlar, Mijozlarni qo'llab-quvvatlash"
+        "PLACEHOLDER": "Misol: Sotuvlar, Mijozlarni qo'llab-quvvatlash"
       },
       "DESCRIPTION": {
         "LABEL": "Jamoa tavsifi",
         "PLACEHOLDER": "Bu jamoa haqida qisqacha tavsif."
       },
       "AUTO_ASSIGN": {
-        "LABEL": "Bu jamoa uchun avtomatik tayinlashga ruxsat berish."
+        "LABEL": "Bu jamoa uchun avtomatik tayinlashga ruxsat bering."
       },
       "SUBMIT_CREATE": "Jamoa yaratish"
     }

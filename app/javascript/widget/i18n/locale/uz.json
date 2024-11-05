@@ -1,0 +1,142 @@
+{
+  "COMPONENTS": {
+    "FILE_BUBBLE": {
+      "DOWNLOAD": "Yuklab olish",
+      "UPLOADING": "Yuklanmoqda..."
+    },
+    "FORM_BUBBLE": {
+      "SUBMIT": "Yuborish"
+    },
+    "MESSAGE_BUBBLE": {
+      "RETRY": "Xabarni qayta yuborish",
+      "ERROR_MESSAGE": "Yuborib bo'lmadi, qayta urinib ko'ring"
+    }
+  },
+  "TEAM_AVAILABILITY": {
+    "ONLINE": "Biz onlaynmiz",
+    "OFFLINE": "Hozir band ekanmiz"
+  },
+  "REPLY_TIME": {
+    "IN_A_FEW_MINUTES": "Odatda bir necha daqiqada javob beradi",
+    "IN_A_FEW_HOURS": "Odatda bir necha soatda javob beradi",
+    "IN_A_DAY": "Odatda bir kunda javob beradi",
+    "BACK_IN": "Biz onlayn bo'lamiz"
+  },
+  "DAY_NAMES": {
+    "SUNDAY": "Yakshanba",
+    "MONDAY": "Dushanba",
+    "TUESDAY": "Seshanba",
+    "WEDNESDAY": "Chorshanba",
+    "THURSDAY": "Payshanba",
+    "FRIDAY": "Juma",
+    "SATURDAY": "Shanba"
+  },
+  "START_CONVERSATION": "Suhbatni boshlash",
+  "END_CONVERSATION": "Suhbatni tugatish",
+  "CONTINUE_CONVERSATION": "Suhbatni davom ettirish",
+  "YOU": "Siz",
+  "START_NEW_CONVERSATION": "Yangi suhbat boshlash",
+  "VIEW_UNREAD_MESSAGES": "O'qilmagan xabarlaringiz bor",
+  "UNREAD_VIEW": {
+    "VIEW_MESSAGES_BUTTON": "Yangi xabarlarni ko'rish",
+    "CLOSE_MESSAGES_BUTTON": "Yopish",
+    "COMPANY_FROM": "dan",
+    "BOT": "Bot"
+  },
+  "BUBBLE": {
+    "LABEL": "Biz bilan suhbatlashing"
+  },
+  "POWERED_BY": "Chatwoot tomonidan quvvatlanadi",
+  "EMAIL_PLACEHOLDER": "Elektron pochtangizni kiriting",
+  "CHAT_PLACEHOLDER": "Xabaringizni yozing",
+  "TODAY": "Bugun",
+  "YESTERDAY": "Kecha",
+  "PRE_CHAT_FORM": {
+    "FIELDS": {
+      "FULL_NAME": {
+        "LABEL": "To'liq ism",
+        "PLACEHOLDER": "Iltimos, to'liq ismingizni kiriting",
+        "REQUIRED_ERROR": "To'liq ism kiritish majburiy"
+      },
+      "EMAIL_ADDRESS": {
+        "LABEL": "Elektron pochta manzili",
+        "PLACEHOLDER": "Iltimos, elektron pochta manzilingizni kiriting",
+        "REQUIRED_ERROR": "Elektron pochta manzili kiritish majburiy",
+        "VALID_ERROR": "Iltimos, to'g'ri elektron pochta manzilini kiriting"
+      },
+      "PHONE_NUMBER": {
+        "LABEL": "Telefon raqami",
+        "PLACEHOLDER": "Iltimos, telefon raqamingizni kiriting",
+        "REQUIRED_ERROR": "Telefon raqami kiritish majburiy",
+        "DIAL_CODE_VALID_ERROR": "Iltimos, mamlakat kodini tanlang",
+        "VALID_ERROR": "Iltimos, to'g'ri telefon raqamini kiriting",
+        "DROPDOWN_EMPTY": "Natija topilmadi",
+        "DROPDOWN_SEARCH": "Mamlakatni qidirish"
+      },
+      "MESSAGE": {
+        "LABEL": "Xabar",
+        "PLACEHOLDER": "Iltimos, xabaringizni kiriting",
+        "ERROR": "Xabar juda qisqa"
+      }
+    },
+    "CAMPAIGN_HEADER": "Suhbatni boshlashdan oldin ismingiz va elektron pochtangizni kiriting",
+    "IS_REQUIRED": "majburiy",
+    "REQUIRED": "Majburiy",
+    "REGEX_ERROR": "Iltimos, to'g'ri ma'lumot kiriting"
+  },
+  "FILE_SIZE_LIMIT": "Fayl {MAXIMUM_FILE_UPLOAD_SIZE} hajm chegarasidan oshib ketdi",
+  "CHAT_FORM": {
+    "INVALID": {
+      "FIELD": "Noto'g'ri maydon"
+    }
+  },
+  "EMOJI": {
+    "PLACEHOLDER": "Emojilarni qidirish",
+    "NOT_FOUND": "Qidiruv bo'yicha emoji topilmadi",
+    "ARIA_LABEL": "Emoji tanlash"
+  },
+  "CSAT": {
+    "TITLE": "Suhbatingizni baholang",
+    "SUBMITTED_TITLE": "Baholaganingiz uchun rahmat",
+    "PLACEHOLDER": "Ko'proq ayting..."
+  },
+  "EMAIL_TRANSCRIPT": {
+    "BUTTON_TEXT": "Suhbat yozuvini so'rash",
+    "SEND_EMAIL_SUCCESS": "Chat yozuvi muvaffaqiyatli yuborildi",
+    "SEND_EMAIL_ERROR": "Xatolik yuz berdi, iltimos qayta urinib ko'ring"
+  },
+  "INTEGRATIONS": {
+    "DYTE": {
+      "CLICK_HERE_TO_JOIN": "Qo'shilish uchun bu yerga bosing",
+      "LEAVE_THE_ROOM": "Qo'ng'iroqni tugatish"
+    }
+  },
+  "PORTAL": {
+    "POPULAR_ARTICLES": "Mashhur maqolalar",
+    "VIEW_ALL_ARTICLES": "Barcha maqolalarni ko'rish",
+    "IFRAME_LOAD_ERROR": "Maqolani yuklashda xatolik yuz berdi, iltimos sahifani yangilab, qayta urinib ko'ring."
+  },
+  "ATTACHMENTS": {
+    "image": {
+      "CONTENT": "Rasm xabari"
+    },
+    "audio": {
+      "CONTENT": "Audio xabar"
+    },
+    "video": {
+      "CONTENT": "Video xabar"
+    },
+    "file": {
+      "CONTENT": "Fayl ilovasi"
+    },
+    "location": {
+      "CONTENT": "Joylashuv"
+    },
+    "fallback": {
+      "CONTENT": "url manzilini ulashdi"
+    }
+  },
+  "FOOTER_REPLY_TO": {
+    "REPLY_TO": "Javob berish:"
+  }
+}
