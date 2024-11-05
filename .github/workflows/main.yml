@@ -51,6 +51,7 @@ jobs:
             docker-compose run --rm rails bundle exec rails db:chatwoot_prepare
             docker-compose up --build -d
 
+            
       - name: Telegram Notifications on Success
         if: ${{ success() }}
         uses: appleboy/telegram-action@master
