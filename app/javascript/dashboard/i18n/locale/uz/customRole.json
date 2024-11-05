@@ -1,0 +1,93 @@
+{
+  "CUSTOM_ROLE": {
+    "HEADER": "Maxsus rollar",
+    "LEARN_MORE": "Maxsus rollar haqida ko'proq ma'lumot",
+    "DESCRIPTION": "Maxsus rollar - bu hisob egasi yoki administrator tomonidan yaratilgan rollar. Bu rollar agentlarga hisob ichidagi kirish va ruxsatlarini belgilash uchun tayinlanishi mumkin. Maxsus rollar tashkilot talablariga mos keladigan maxsus ruxsatlar va kirish darajalari bilan yaratilishi mumkin.",
+    "HEADER_BTN_TXT": "Maxsus rol qo'shish",
+    "LOADING": "Maxsus rollar yuklanmoqda...",
+    "SEARCH_404": "Bu so'rovga mos keladigan elementlar topilmadi.",
+    "PAYWALL": {
+      "TITLE": "Maxsus rollar yaratish uchun tarifni yangilang",
+      "AVAILABLE_ON": "Maxsus rol xususiyati faqat Biznes va Enterprise tariflarda mavjud.",
+      "UPGRADE_PROMPT": "Jamoa boshqaruvi, avtomatlashtirish, maxsus atributlar va boshqa ilg'or xususiyatlarga kirish uchun tarifingizni yangilang.",
+      "UPGRADE_NOW": "Hozir yangilash",
+      "CANCEL_ANYTIME": "Siz tarifingizni istalgan vaqtda o'zgartirish yoki bekor qilishingiz mumkin"
+    },
+    "ENTERPRISE_PAYWALL": {
+      "AVAILABLE_ON": "Maxsus rol xususiyati faqat pullik tariflarda mavjud.",
+      "UPGRADE_PROMPT": "Audit jurnallari, agent sig'imi va boshqa ilg'or xususiyatlarga kirish uchun pullik tarifga o'ting.",
+      "ASK_ADMIN": "Yangilash uchun administrator bilan bog'laning."
+    },
+    "LIST": {
+      "404": "Bu hisobda maxsus rollar mavjud emas.",
+      "TITLE": "Maxsus rollarni boshqarish",
+      "DESC": "Maxsus rollar - bu hisob egasi yoki administrator tomonidan yaratilgan rollar. Bu rollar agentlarga hisob ichidagi kirish va ruxsatlarini belgilash uchun tayinlanishi mumkin. Maxsus rollar tashkilot talablariga mos keladigan maxsus ruxsatlar va kirish darajalari bilan yaratilishi mumkin.",
+      "TABLE_HEADER": {
+        "NAME": "Nomi",
+        "DESCRIPTION": "Tavsif",
+        "CREATED_BY": "Yaratuvchi",
+        "CREATED_AT": "Yaratilgan vaqti",
+        "UPDATED_AT": "Yangilangan vaqti",
+        "ACTIONS": "Harakatlar"
+      }
+    },
+    "PERMISSIONS": {
+      "CONVERSATION_MANAGE": "Manage all conversations",
+      "CONVERSATION_UNASSIGNED_MANAGE": "Manage unassigned conversations and those assigned to them",
+      "CONVERSATION_PARTICIPATING_MANAGE": "Manage participating conversations and those assigned to them",
+      "CONTACT_MANAGE": "Manage contacts",
+      "REPORT_MANAGE": "Manage reports",
+      "KNOWLEDGE_BASE_MANAGE": "Manage knowledge base"
+    },
+    "FORM": {
+      "NAME": {
+        "LABEL": "Name",
+        "PLACEHOLDER": "Please enter a name.",
+        "ERROR": "Name is required."
+      },
+      "DESCRIPTION": {
+        "LABEL": "Description",
+        "PLACEHOLDER": "Please enter a description.",
+        "ERROR": "Description is required."
+      },
+      "PERMISSIONS": {
+        "LABEL": "Permissions",
+        "ERROR": "Permissions are required."
+      },
+      "CANCEL_BUTTON_TEXT": "Cancel",
+      "API": {
+        "ERROR_MESSAGE": "Could not connect to Woot server. Please try again."
+      }
+    },
+    "ADD": {
+      "TITLE": "Add custom role",
+      "DESC": " Custom roles allows you to create roles with specific permissions and access levels to suit the requirements of the organization.",
+      "SUBMIT": "Submit",
+      "API": {
+        "SUCCESS_MESSAGE": "Custom role added successfully."
+      }
+    },
+    "EDIT": {
+      "BUTTON_TEXT": "Tahrirlash",
+      "TITLE": "Maxsus rolni tahrirlash",
+      "DESC": "Maxsus rollar tashkilot talablariga mos keladigan maxsus ruxsatlar va kirish darajalari bilan rollar yaratish imkoniyatini beradi.",
+      "SUBMIT": "Yangilash",
+      "API": {
+        "SUCCESS_MESSAGE": "Maxsus rol muvaffaqiyatli yangilandi."
+      }
+    },
+    "DELETE": {
+      "BUTTON_TEXT": "O'chirish",
+      "API": {
+        "SUCCESS_MESSAGE": "Custom role deleted successfully.",
+        "ERROR_MESSAGE": "Could not connect to Woot server. Please try again."
+      },
+      "CONFIRM": {
+        "TITLE": "Confirm deletion",
+        "MESSAGE": "Are you sure to delete ",
+        "YES": "Yes, delete ",
+        "NO": "No, keep "
+      }
+    }
+  }
+}

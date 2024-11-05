@@ -1,0 +1,130 @@
+{
+  "AUTOMATION": {
+    "HEADER": "Avtomatlashtirish",
+    "DESCRIPTION": "Avtomatlashtirish teglarni qo'shish va suhbatlarni eng mos agentga tayinlash kabi qo'lda bajarish kerak bo'lgan mavjud jarayonlarni almashtirishi va optimallashtirishi mumkin. Bu jamoaga kundalik vazifalarga sarflanadigan vaqtni kamaytirgan holda o'z kuchli tomonlariga e'tibor qaratish imkonini beradi.",
+    "LEARN_MORE": "Avtomatlashtirish haqida ko'proq ma'lumot",
+    "HEADER_BTN_TXT": "Avtomatlashtirish qoidasini qo'shish",
+    "LOADING": "Avtomatlashtirish qoidalari yuklanmoqda",
+    "ADD": {
+      "TITLE": "Avtomatlashtirish qoidasini qo'shish",
+      "SUBMIT": "Yaratish",
+      "CANCEL_BUTTON_TEXT": "Bekor qilish",
+      "FORM": {
+        "NAME": {
+          "LABEL": "Qoida nomi",
+          "PLACEHOLDER": "Qoida nomini kiriting",
+          "ERROR": "Nom talab qilinadi"
+        },
+        "DESC": {
+          "LABEL": "Tavsif",
+          "PLACEHOLDER": "Qoida tavsifini kiriting",
+          "ERROR": "Tavsif talab qilinadi"
+        },
+        "EVENT": {
+          "LABEL": "Hodisa",
+          "PLACEHOLDER": "Iltimos, birini tanlang",
+          "ERROR": "Hodisa talab qilinadi"
+        },
+        "CONDITIONS": {
+          "LABEL": "Shartlar"
+        },
+        "ACTIONS": {
+          "LABEL": "Harakatlar"
+        }
+      },
+      "CONDITION_BUTTON_LABEL": "Shart qo'shish",
+      "ACTION_BUTTON_LABEL": "Harakat qo'shish",
+      "API": {
+        "SUCCESS_MESSAGE": "Avtomatlashtirish qoidasi muvaffaqiyatli qo'shildi",
+        "ERROR_MESSAGE": "Avtomatlashtirish qoidasini yaratib bo'lmadi, iltimos keyinroq qayta urinib ko'ring"
+      }
+    },
+    "LIST": {
+      "TABLE_HEADER": {
+        "NAME": "Nomi",
+        "DESCRIPTION": "Tavsif",
+        "ACTIVE": "Faol",
+        "CREATED_ON": "Yaratilgan sana"
+      },
+      "404": "Avtomatlashtirish qoidalari topilmadi"
+    },
+    "DELETE": {
+      "TITLE": "Avtomatlashtirish qoidasini o'chirish",
+      "SUBMIT": "O'chirish",
+      "CANCEL_BUTTON_TEXT": "Bekor qilish",
+      "CONFIRM": {
+        "TITLE": "O'chirishni tasdiqlash",
+        "MESSAGE": "O'chirishni xohlaysizmi ",
+        "YES": "Ha, o'chirish ",
+        "NO": "Yo'q, saqlash "
+      },
+      "API": {
+        "SUCCESS_MESSAGE": "Avtomatlashtirish qoidasi muvaffaqiyatli o'chirildi",
+        "ERROR_MESSAGE": "Avtomatlashtirish qoidasini o'chirib bo'lmadi, iltimos keyinroq qayta urinib ko'ring"
+      }
+    },
+    "EDIT": {
+      "TITLE": "Avtomatlashtirish qoidasini tahrirlash",
+      "SUBMIT": "Yangilash",
+      "CANCEL_BUTTON_TEXT": "Bekor qilish",
+      "API": {
+        "SUCCESS_MESSAGE": "Avtomatlashtirish qoidasi muvaffaqiyatli yangilandi",
+        "ERROR_MESSAGE": "Avtomatlashtirish qoidasini yangilab bo'lmadi, iltimos keyinroq qayta urinib ko'ring"
+      }
+    },
+    "CLONE": {
+      "TOOLTIP": "Nusxalash",
+      "API": {
+        "SUCCESS_MESSAGE": "Avtomatlashtirish muvaffaqiyatli nusxalandi",
+        "ERROR_MESSAGE": "Avtomatlashtirish qoidasini nusxalab bo'lmadi, iltimos keyinroq qayta urinib ko'ring"
+      }
+    },
+    "FORM": {
+      "EDIT": "Tahrirlash",
+      "CREATE": "Yaratish",
+      "DELETE": "O'chirish",
+      "CANCEL": "Bekor qilish",
+      "RESET_MESSAGE": "Hodisa turini o'zgartirish qo'shgan shartlar va hodisalaringizni qayta o'rnatadi"
+    },
+    "CONDITION": {
+      "DELETE_MESSAGE": "Saqlash uchun kamida bitta shart bo'lishi kerak",
+      "CONTACT_CUSTOM_ATTR_LABEL": "Kontakt maxsus atributlari",
+      "CONVERSATION_CUSTOM_ATTR_LABEL": "Suhbat maxsus atributlari"
+    },
+    "ACTION": {
+      "DELETE_MESSAGE": "Saqlash uchun kamida bitta harakat bo'lishi kerak",
+      "TEAM_MESSAGE_INPUT_PLACEHOLDER": "Xabaringizni shu yerga kiriting",
+      "TEAM_DROPDOWN_PLACEHOLDER": "Jamolarni tanlang",
+      "EMAIL_INPUT_PLACEHOLDER": "Email kiriting",
+      "URL_INPUT_PLACEHOLDER": "URL manzilini kiriting"
+    },
+    "TOGGLE": {
+      "ACTIVATION_TITLE": "Avtomatlashtirish qoidasini faollashtirish",
+      "DEACTIVATION_TITLE": "Avtomatlashtirish qoidasini o'chirish",
+      "ACTIVATION_DESCRIPTION": "Bu harakat '{automationName}' avtomatlashtirish qoidasini faollashtiradi. Davom etishni xohlaysizmi?",
+      "DEACTIVATION_DESCRIPTION": "Bu harakat '{automationName}' avtomatlashtirish qoidasini o'chiradi. Davom etishni xohlaysizmi?",
+      "ACTIVATION_SUCCESFUL": "Avtomatlashtirish qoidasi muvaffaqiyatli faollashtirildi",
+      "DEACTIVATION_SUCCESFUL": "Avtomatlashtirish qoidasi muvaffaqiyatli o'chirildi",
+      "ACTIVATION_ERROR": "Avtomatlashtirish qoidasini faollashtirish amalga oshmadi, iltimos keyinroq qayta urinib ko'ring",
+      "DEACTIVATION_ERROR": "Avtomatlashtirish qoidasini o'chirish amalga oshmadi, iltimos keyinroq qayta urinib ko'ring",
+      "CONFIRMATION_LABEL": "Ha",
+      "CANCEL_LABEL": "Yo'q"
+    },
+    "ATTACHMENT": {
+      "UPLOAD_ERROR": "Faylni yuklab bo'lmadi, iltimos qayta urinib ko'ring",
+      "LABEL_IDLE": "Fayl yuklash",
+      "LABEL_UPLOADING": "Yuklanmoqda...",
+      "LABEL_UPLOADED": "Muvaffaqiyatli yuklandi",
+      "LABEL_UPLOAD_FAILED": "Yuklash amalga oshmadi"
+    },
+    "ERRORS": {
+      "ATTRIBUTE_KEY_REQUIRED": "Atribut kaliti talab qilinadi",
+      "FILTER_OPERATOR_REQUIRED": "Filter operatori talab qilinadi",
+      "VALUE_REQUIRED": "Qiymat talab qilinadi",
+      "VALUE_MUST_BE_BETWEEN_1_AND_998": "Qiymat 1 va 998 orasida bo'lishi kerak",
+      "ACTION_PARAMETERS_REQUIRED": "Harakat parametrlari talab qilinadi",
+      "ATLEAST_ONE_CONDITION_REQUIRED": "Kamida bitta shart talab qilinadi",
+      "ATLEAST_ONE_ACTION_REQUIRED": "Kamida bitta harakat talab qilinadi"
+    }
+  }
+}

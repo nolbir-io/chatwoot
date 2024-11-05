@@ -1,0 +1,40 @@
+{
+  "HELP_CENTER": {
+    "HEADER": {
+      "FILTER": "Saralash",
+      "SORT": "Tartiblash",
+      "LOCALE": "Til",
+      "SETTINGS_BUTTON": "Sozlamalar",
+      "NEW_BUTTON": "Yangi maqola",
+      "DROPDOWN_OPTIONS": {
+        "PUBLISHED": "Nashr qilingan",
+        "DRAFT": "Qoralama",
+        "ARCHIVED": "Arxivlangan"
+      },
+      "TITLES": {
+        "ALL_ARTICLES": "Barcha maqolalar",
+        "MINE": "Mening maqolalarim",
+        "DRAFT": "Qoralama maqolalar",
+        "ARCHIVED": "Arxivlangan maqolalar"
+      },
+      "LOCALE_SELECT": {
+        "TITLE": "Tilni tanlang",
+        "PLACEHOLDER": "Tilni tanlang",
+        "NO_RESULT": "Til topilmadi",
+        "SEARCH_PLACEHOLDER": "Tilni qidirish"
+      }
+    },
+    "EDIT_HEADER": {
+      "ALL_ARTICLES": "Barcha maqolalar",
+      "PUBLISH_BUTTON": "Nashr qilish",
+      "MOVE_TO_ARCHIVE_BUTTON": "Arxivga ko'chirish",
+      "PREVIEW": "Ko'rib chiqish",
+      "ADD_TRANSLATION": "Tarjima qo'shish",
+      "OPEN_SIDEBAR": "Yon panelni ochish",
+      "CLOSE_SIDEBAR": "Yon panelni yopish",
+      "SAVING": "Saqlanmoqda...",
+      "SAVED": "Saqlandi"
+    }
+    // ... existing code ...
+  }
+}

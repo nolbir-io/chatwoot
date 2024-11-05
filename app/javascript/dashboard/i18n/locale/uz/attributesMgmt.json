@@ -1,0 +1,122 @@
+{
+  "ATTRIBUTES_MGMT": {
+    "HEADER": "Maxsus atributlar",
+    "HEADER_BTN_TXT": "Maxsus atribut qo'shish",
+    "LOADING": "Maxsus atributlar yuklanmoqda",
+    "DESCRIPTION": "Maxsus atribut kontaktlaringiz yoki suhbatlaringiz haqidagi qo'shimcha ma'lumotlarni kuzatib boradi - masalan, obuna rejasi yoki birinchi xarid sanasi. Sizga kerak bo'lgan ma'lumotlarni yig'ish uchun matn, ro'yxatlar yoki raqamlar kabi turli xil maxsus atributlarni qo'shishingiz mumkin.",
+    "LEARN_MORE": "Maxsus atributlar haqida ko'proq ma'lumot",
+    "ADD": {
+      "TITLE": "Maxsus atribut qo'shish",
+      "SUBMIT": "Yaratish",
+      "CANCEL_BUTTON_TEXT": "Bekor qilish",
+      "FORM": {
+        "NAME": {
+          "LABEL": "Ko'rsatiladigan nom",
+          "PLACEHOLDER": "Maxsus atributning ko'rsatiladigan nomini kiriting",
+          "ERROR": "Nom kiritish shart"
+        },
+        "DESC": {
+          "LABEL": "Tavsif",
+          "PLACEHOLDER": "Maxsus atribut tavsifini kiriting",
+          "ERROR": "Tavsif kiritish shart"
+        },
+        "MODEL": {
+          "LABEL": "Qo'llanilishi",
+          "PLACEHOLDER": "Iltimos, birini tanlang",
+          "ERROR": "Model tanlash shart"
+        },
+        "TYPE": {
+          "LABEL": "Turi",
+          "PLACEHOLDER": "Iltimos, turini tanlang",
+          "ERROR": "Tur tanlash shart",
+          "LIST": {
+            "LABEL": "Ro'yxat qiymatlari",
+            "PLACEHOLDER": "Iltimos, qiymatni kiriting va Enter tugmasini bosing",
+            "ERROR": "Kamida bitta qiymat bo'lishi kerak"
+          }
+        },
+        "KEY": {
+          "LABEL": "Kalit",
+          "PLACEHOLDER": "Maxsus atribut kalitini kiriting",
+          "ERROR": "Kalit kiritish shart",
+          "IN_VALID": "Noto'g'ri kalit"
+        },
+        "REGEX_PATTERN": {
+          "LABEL": "Regex namunasi",
+          "PLACEHOLDER": "Iltimos, maxsus atribut regex namunasini kiriting (Ixtiyoriy)"
+        },
+        "REGEX_CUE": {
+          "LABEL": "Regex ko'rsatmasi",
+          "PLACEHOLDER": "Iltimos, regex namunasi uchun ko'rsatma kiriting (Ixtiyoriy)"
+        },
+        "ENABLE_REGEX": {
+          "LABEL": "Regex tekshiruvini yoqish"
+        }
+      },
+      "API": {
+        "SUCCESS_MESSAGE": "Maxsus atribut muvaffaqiyatli qo'shildi!",
+        "ERROR_MESSAGE": "Maxsus atribut yaratib bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring."
+      }
+    },
+    "DELETE": {
+      "BUTTON_TEXT": "O'chirish",
+      "API": {
+        "SUCCESS_MESSAGE": "Maxsus atribut muvaffaqiyatli o'chirildi.",
+        "ERROR_MESSAGE": "Maxsus atributni o'chirib bo'lmadi. Qayta urinib ko'ring."
+      },
+      "CONFIRM": {
+        "TITLE": "{attributeName}ni o'chirishni xohlaysizmi",
+        "PLACE_HOLDER": "Tasdiqlash uchun {attributeName}ni kiriting",
+        "MESSAGE": "O'chirish maxsus atributni olib tashlaydi",
+        "YES": "O'chirish ",
+        "NO": "Bekor qilish"
+      }
+    },
+    "EDIT": {
+      "TITLE": "Maxsus atributni tahrirlash",
+      "UPDATE_BUTTON_TEXT": "Yangilash",
+      "TYPE": {
+        "LIST": {
+          "LABEL": "Ro'yxat qiymatlari",
+          "PLACEHOLDER": "Iltimos, qiymatlarni kiriting va Enter tugmasini bosing"
+        }
+      },
+      "API": {
+        "SUCCESS_MESSAGE": "Maxsus atribut muvaffaqiyatli yangilandi",
+        "ERROR_MESSAGE": "Maxsus atributni yangilashda xatolik yuz berdi, iltimos qayta urinib ko'ring"
+      }
+    },
+    "TABS": {
+      "HEADER": "Maxsus atributlar",
+      "CONVERSATION": "Suhbat",
+      "CONTACT": "Kontakt"
+    },
+    "LIST": {
+      "TABLE_HEADER": {
+        "NAME": "Nomi",
+        "DESCRIPTION": "Tavsif",
+        "TYPE": "Turi",
+        "KEY": "Kalit"
+      },
+      "BUTTONS": {
+        "EDIT": "Tahrirlash",
+        "DELETE": "O'chirish"
+      },
+      "EMPTY_RESULT": {
+        "404": "Hech qanday maxsus atribut yaratilmagan",
+        "NOT_FOUND": "Hech qanday maxsus atribut sozlanmagan"
+      },
+      "REGEX_PATTERN": {
+        "LABEL": "Regex namunasi",
+        "PLACEHOLDER": "Iltimos, maxsus atribut regex namunasini kiriting (Ixtiyoriy)"
+      },
+      "REGEX_CUE": {
+        "LABEL": "Regex ko'rsatmasi",
+        "PLACEHOLDER": "Iltimos, regex namunasi uchun ko'rsatma kiriting (Ixtiyoriy)"
+      },
+      "ENABLE_REGEX": {
+        "LABEL": "Regex tekshiruvini yoqish"
+      }
+    }
+  }
+}

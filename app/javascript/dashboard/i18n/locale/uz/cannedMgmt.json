@@ -1,0 +1,77 @@
+{
+  "CANNED_MGMT": {
+    "HEADER": "Tayyor javoblar",
+    "LEARN_MORE": "Tayyor javoblar haqida ko'proq ma'lumot",
+    "DESCRIPTION": "Tayyor javoblar - bu oldindan yozilgan javob shablonlari bo'lib, ular suhbat davomida tez javob berishga yordam beradi. Agentlar '/' belgisini va qisqa kodni yozib, suhbat davomida tayyor javobni kiritishlari mumkin.",
+    "HEADER_BTN_TXT": "Tayyor javob qo'shish",
+    "LOADING": "Tayyor javoblar yuklanmoqda...",
+    "SEARCH_404": "Bu so'rovga mos keladigan elementlar topilmadi.",
+    "LIST": {
+      "404": "Bu hisobda tayyor javoblar mavjud emas.",
+      "TITLE": "Tayyor javoblarni boshqarish",
+      "DESC": "Tayyor javoblar - bu oldindan belgilangan javob shablonlari bo'lib, ulardan suhbatlarga tez javob berish uchun foydalanish mumkin.",
+      "TABLE_HEADER": {
+        "SHORT_CODE": "Qisqa kod",
+        "CONTENT": "Mazmuni",
+        "ACTIONS": "Harakatlar"
+      }
+    },
+    "ADD": {
+      "TITLE": "Tayyor javob qo'shish",
+      "DESC": "Tayyor javoblar - bu oldindan belgilangan javob shablonlari bo'lib, ulardan suhbatlarga tez javob berish uchun foydalanish mumkin.",
+      "CANCEL_BUTTON_TEXT": "Bekor qilish",
+      "FORM": {
+        "SHORT_CODE": {
+          "LABEL": "Qisqa kod",
+          "PLACEHOLDER": "Iltimos, qisqa kodni kiriting",
+          "ERROR": "Qisqa kod kiritish shart"
+        },
+        "CONTENT": {
+          "LABEL": "Xabar",
+          "PLACEHOLDER": "Iltimos, keyinchalik foydalanish uchun shablon sifatida saqlamoqchi bo'lgan xabarni yozing",
+          "ERROR": "Xabar kiritish shart"
+        },
+        "SUBMIT": "Yuborish"
+      },
+      "API": {
+        "SUCCESS_MESSAGE": "Tayyor javob muvaffaqiyatli qo'shildi",
+        "ERROR_MESSAGE": "Serverga ulanib bo'lmadi. Iltimos, qayta urinib ko'ring"
+      }
+    },
+    "EDIT": {
+      "TITLE": "Tayyor javobni tahrirlash",
+      "CANCEL_BUTTON_TEXT": "Bekor qilish",
+      "FORM": {
+        "SHORT_CODE": {
+          "LABEL": "Qisqa kod",
+          "PLACEHOLDER": "Iltimos, qisqa kodni kiriting",
+          "ERROR": "Qisqa kod kiritish shart"
+        },
+        "CONTENT": {
+          "LABEL": "Xabar",
+          "PLACEHOLDER": "Iltimos, keyinchalik foydalanish uchun shablon sifatida saqlamoqchi bo'lgan xabarni yozing",
+          "ERROR": "Xabar kiritish shart"
+        },
+        "SUBMIT": "Yuborish"
+      },
+      "BUTTON_TEXT": "Tahrirlash",
+      "API": {
+        "SUCCESS_MESSAGE": "Tayyor javob muvaffaqiyatli yangilandi",
+        "ERROR_MESSAGE": "Serverga ulanib bo'lmadi. Iltimos, qayta urinib ko'ring"
+      }
+    },
+    "DELETE": {
+      "BUTTON_TEXT": "O'chirish",
+      "API": {
+        "SUCCESS_MESSAGE": "Tayyor javob muvaffaqiyatli o'chirildi",
+        "ERROR_MESSAGE": "Serverga ulanib bo'lmadi. Iltimos, qayta urinib ko'ring"
+      },
+      "CONFIRM": {
+        "TITLE": "O'chirishni tasdiqlash",
+        "MESSAGE": "O'chirishni xohlaysizmi ",
+        "YES": "Ha, o'chirish ",
+        "NO": "Yo'q, saqlash "
+      }
+    }
+  }
+}

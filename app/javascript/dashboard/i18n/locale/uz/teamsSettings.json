@@ -1,0 +1,121 @@
+{
+  "TEAMS_SETTINGS": {
+    "NEW_TEAM": "Yangi jamoa yaratish",
+    "HEADER": "Jamoalar",
+    "LOADING": "Jamoalar yuklanmoqda",
+    "DESCRIPTION": "Jamoalar agentlarni ularning vazifalari asosida guruhlarga ajratish imkonini beradi. Agent bir nechta jamoaga a'zo bo'lishi mumkin. Hamkorlikda ishlashda suhbatlarni ma'lum jamoalarga tayinlash mumkin.",
+    "LEARN_MORE": "Jamoalar haqida ko'proq ma'lumot",
+    "LIST": {
+      "404": "Bu hisobda hech qanday jamoa yaratilmagan.",
+      "EDIT_TEAM": "Jamoani tahrirlash",
+      "NONE": "Yo'q"
+    },
+    "CREATE_FLOW": {
+      "CREATE": {
+        "TITLE": "Yangi jamoa yaratish",
+        "DESC": "Yangi jamoangiz uchun sarlavha va tavsif qo'shing."
+      },
+      "AGENTS": {
+        "BUTTON_TEXT": "Jamoaga agentlar qo'shish",
+        "TITLE": "Jamoaga agentlar qo'shish - {teamName}",
+        "DESC": "Yangi yaratilgan jamoangizga agentlarni qo'shing. Bu sizga suhbatlarda jamoa bo'lib hamkorlik qilish, bir xil suhbatdagi yangi hodisalar haqida xabardor bo'lish imkonini beradi."
+      },
+      "WIZARD_CREATE": {
+        "TITLE": "Yaratish",
+        "BODY": "Agentlarning yangi jamoasini yarating."
+      },
+      "WIZARD_ADD_AGENTS": {
+        "TITLE": "Agentlar qo'shish",
+        "BODY": "Jamoaga agentlar qo'shing."
+      },
+      "WIZARD_FINISH": {
+        "TITLE": "Tugatish",
+        "BODY": "Hammasi tayyor!"
+      }
+    },
+    "EDIT_FLOW": {
+      "CREATE": {
+        "TITLE": "Jamoa ma'lumotlarini tahrirlash",
+        "DESC": "Jamoangiz sarlavhasi va tavsifini tahrirlang.",
+        "BUTTON_TEXT": "Jamoani yangilash"
+      },
+      "AGENTS": {
+        "BUTTON_TEXT": "Jamoadagi agentlarni yangilash",
+        "TITLE": "Jamoaga agentlar qo'shish - {teamName}",
+        "DESC": "Yangi yaratilgan jamoangizga agentlar qo'shing. Qo'shilgan barcha agentlar suhbat ushbu jamoaga tayinlanganda xabardor qilinadi."
+      },
+      "EDIT_WIZARD_DETAILS": {
+        "TITLE": "Jamoa tafsilotlari",
+        "ROUTE": "settings_teams_edit",
+        "BODY": "Nom, tavsif va boshqa tafsilotlarni o'zgartiring."
+      },
+      "EDIT_WIZARD_AGENTS": {
+        "TITLE": "Agentlarni tahrirlash",
+        "ROUTE": "settings_teams_edit_members",
+        "BODY": "Jamoangizda agentlarni tahrirlang."
+      },
+      "EDIT_WIZARD_FINISH": {
+        "TITLE": "Tugatish",
+        "ROUTE": "settings_teams_edit_finish",
+        "BODY": "Hammasi tayyor!"
+      }
+    },
+    "TEAM_FORM": {
+      "ERROR_MESSAGE": "Jamoa tafsilotlarini saqlab bo'lmadi. Qayta urinib ko'ring."
+    },
+    "AGENTS": {
+      "AGENT": "AGENT",
+      "EMAIL": "EMAIL",
+      "BUTTON_TEXT": "Agentlar qo'shish",
+      "ADD_AGENTS": "Jamoangizga agentlar qo'shilmoqda...",
+      "SELECT": "tanlang",
+      "SELECT_ALL": "barcha agentlarni tanlash",
+      "SELECTED_COUNT": "{total} agentdan {selected} tasi tanlandi."
+    },
+    "ADD": {
+      "TITLE": "Jamoaga agentlar qo'shish - {teamName}",
+      "DESC": "Yangi yaratilgan jamoangizga agentlar qo'shing. Bu sizga suhbatlarda jamoa bo'lib hamkorlik qilish, bir xil suhbatdagi yangi hodisalar haqida xabardor bo'lish imkonini beradi.",
+      "SELECT": "tanlang",
+      "SELECT_ALL": "barcha agentlarni tanlash",
+      "SELECTED_COUNT": "{total} agentdan {selected} tasi tanlandi.",
+      "BUTTON_TEXT": "Agentlar qo'shish",
+      "AGENT_VALIDATION_ERROR": "Kamida bitta agentni tanlang."
+    },
+    "FINISH": {
+      "TITLE": "Jamoangiz tayyor!",
+      "MESSAGE": "Endi siz jamoa bo'lib suhbatlarda hamkorlik qilishingiz mumkin. Yaxshi yordam berishni tilaymiz ",
+      "BUTTON_TEXT": "Tugatish"
+    },
+    "DELETE": {
+      "BUTTON_TEXT": "O'chirish",
+      "API": {
+        "SUCCESS_MESSAGE": "Jamoa muvaffaqiyatli o'chirildi.",
+        "ERROR_MESSAGE": "Jamoani o'chirib bo'lmadi. Qayta urinib ko'ring."
+      },
+      "CONFIRM": {
+        "TITLE": "Jamoani o'chirishni xohlaysizmi?", 
+        "PLACE_HOLDER": "Tasdiqlash uchun {teamName} ni kiriting",
+        "MESSAGE": "Jamoani o'chirish ushbu jamoaga tayinlangan suhbatlardan jamoa tayinlovini olib tashlaydi.",
+        "YES": "O'chirish ",
+        "NO": "Bekor qilish"
+      }
+    },
+    "SETTINGS": "Sozlamalar",
+    "FORM": {
+      "UPDATE": "Jamoani yangilash",
+      "CREATE": "Jamoa yaratish",
+      "NAME": {
+        "LABEL": "Jamoa nomi",
+        "PLACEHOLDER": "Masalan: Sotuvlar, Mijozlarni qo'llab-quvvatlash"
+      },
+      "DESCRIPTION": {
+        "LABEL": "Jamoa tavsifi",
+        "PLACEHOLDER": "Bu jamoa haqida qisqacha tavsif."
+      },
+      "AUTO_ASSIGN": {
+        "LABEL": "Bu jamoa uchun avtomatik tayinlashga ruxsat berish."
+      },
+      "SUBMIT_CREATE": "Jamoa yaratish"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "LOGIN": {
+    "TITLE": "Chatwoot tizimiga kirish",
+    "EMAIL": {
+      "LABEL": "Elektron pochta",
+      "PLACEHOLDER": "misol{'@'}kompaniya.com",
+      "ERROR": "Iltimos, to'g'ri elektron pochta manzilini kiriting"
+    },
+    "PASSWORD": {
+      "LABEL": "Parol",
+      "PLACEHOLDER": "Parol"
+    },
+    "API": {
+      "SUCCESS_MESSAGE": "Muvaffaqiyatli kirildi",
+      "ERROR_MESSAGE": "Woot serveriga ulanib bo'lmadi. Iltimos, qayta urinib ko'ring.",
+      "UNAUTH": "Foydalanuvchi nomi yoki parol noto'g'ri. Iltimos, qayta urinib ko'ring."
+    },
+    "OAUTH": {
+      "GOOGLE_LOGIN": "Google orqali kirish",
+      "BUSINESS_ACCOUNTS_ONLY": "Iltimos, tizimga kirish uchun kompaniyangizning elektron pochta manzilidan foydalaning",
+      "NO_ACCOUNT_FOUND": "Sizning elektron pochtangiz uchun hisob topilmadi."
+    },
+    "FORGOT_PASSWORD": "Parolingizni unutdingizmi?",
+    "CREATE_NEW_ACCOUNT": "Yangi hisob yaratish",
+    "SUBMIT": "Kirish"
+  }
+}

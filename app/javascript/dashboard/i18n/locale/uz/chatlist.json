@@ -1,0 +1,131 @@
+{
+  "CHAT_LIST": {
+    "LOADING": "Suhbatlar yuklanmoqda",
+    "LOAD_MORE_CONVERSATIONS": "Ko'proq suhbatlarni yuklash",
+    "EOF": "Barcha suhbatlar yuklandi 🎉",
+    "LIST": {
+      "404": "Bu guruhda faol suhbatlar yo'q."
+    },
+    "TAB_HEADING": "Suhbatlar",
+    "MENTION_HEADING": "Eslatmalar",
+    "UNATTENDED_HEADING": "E'tiborsiz qoldirilgan",
+    "SEARCH": {
+      "INPUT": "Odamlar, suhbatlar, tayyor javoblarni qidirish.."
+    },
+    "FILTER_ALL": "Hammasi",
+    "ASSIGNEE_TYPE_TABS": {
+      "me": "Meniki",
+      "unassigned": "Tayinlanmagan",
+      "all": "Hammasi"
+    },
+    "CHAT_STATUS_FILTER_ITEMS": {
+      "open": {
+        "TEXT": "Ochiq"
+      },
+      "resolved": {
+        "TEXT": "Hal qilingan"
+      },
+      "pending": {
+        "TEXT": "Kutilmoqda"
+      },
+      "snoozed": {
+        "TEXT": "Kechiktirilgan"
+      },
+      "all": {
+        "TEXT": "Hammasi"
+      }
+    },
+    "VIEW_FILTER": "Ko'rish",
+    "SORT_TOOLTIP_LABEL": "Suhbatlarni saralash",
+    "CHAT_SORT": {
+      "STATUS": "Holat",
+      "ORDER_BY": "Saralash"
+    },
+    "CHAT_TIME_STAMP": {
+      "CREATED": {
+        "LATEST": "Yaratilgan",
+        "OLDEST": "Yaratilgan vaqti:"
+      },
+      "LAST_ACTIVITY": {
+        "NOT_ACTIVE": "Oxirgi faollik:",
+        "ACTIVE": "Oxirgi faollik"
+      }
+    },
+    "SORT_ORDER_ITEMS": {
+      "last_activity_at_asc": {
+        "TEXT": "Oxirgi faollik: Avval eskisi"
+      },
+      "last_activity_at_desc": {
+        "TEXT": "Oxirgi faollik: Avval yangisi"
+      },
+      "created_at_desc": {
+        "TEXT": "Yaratilgan vaqti: Avval yangisi"
+      },
+      "created_at_asc": {
+        "TEXT": "Yaratilgan vaqti: Avval eskisi"
+      },
+      "priority_desc": {
+        "TEXT": "Muhimlik: Avval yuqorisi"
+      },
+      "priority_asc": {
+        "TEXT": "Muhimlik: Avval pasti"
+      },
+      "waiting_since_asc": {
+        "TEXT": "Kutish vaqti: Avval uzoqroq kutganlar"
+      },
+      "waiting_since_desc": {
+        "TEXT": "Kutish vaqti: Avval kamroq kutganlar"
+      }
+    },
+    "ATTACHMENTS": {
+      "image": {
+        "CONTENT": "Rasm xabari"
+      },
+      "audio": {
+        "CONTENT": "Audio xabar"
+      },
+      "video": {
+        "CONTENT": "Video xabar"
+      },
+      "file": {
+        "CONTENT": "Fayl biriktirmasi"
+      },
+      "location": {
+        "CONTENT": "Joylashuv"
+      },
+      "fallback": {
+        "CONTENT": "URL manzilini ulashdi"
+      }
+    },
+    "CHAT_SORT_BY_FILTER": {
+      "TITLE": "Suhbatni saralash",
+      "DROPDOWN_TITLE": "Saralash turi",
+      "ITEMS": {
+        "LATEST": {
+          "NAME": "Oxirgi faollik vaqti",
+          "LABEL": "Oxirgi faollik"
+        },
+        "CREATED_AT": {
+          "NAME": "Yaratilgan vaqti",
+          "LABEL": "Yaratilgan vaqti"
+        },
+        "LAST_USER_MESSAGE_AT": {
+          "NAME": "Oxirgi foydalanuvchi xabari vaqti",
+          "LABEL": "Oxirgi xabar"
+        }
+      }
+    },
+    "RECEIVED_VIA_EMAIL": "Email orqali qabul qilindi",
+    "VIEW_TWEET_IN_TWITTER": "Tvitni Twitterda ko'rish",
+    "REPLY_TO_TWEET": "Bu tvitga javob berish",
+    "LINK_TO_STORY": "Instagram hikoyasiga o'tish",
+    "SENT": "Muvaffaqiyatli yuborildi",
+    "READ": "Muvaffaqiyatli o'qildi",
+    "DELIVERED": "Muvaffaqiyatli yetkazildi",
+    "NO_MESSAGES": "Xabarlar yo'q",
+    "NO_CONTENT": "Tarkib mavjud emas",
+    "HIDE_QUOTED_TEXT": "Iqtibos qilingan matnni yashirish",
+    "SHOW_QUOTED_TEXT": "Iqtibos qilingan matnni ko'rsatish",
+    "MESSAGE_READ": "O'qildi"
+  }
+}

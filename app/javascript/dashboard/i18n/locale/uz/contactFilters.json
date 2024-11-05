@@ -1,0 +1,59 @@
+{
+  "CONTACTS_FILTER": {
+    "TITLE": "Kontaktlarni filtrlash",
+    "SUBTITLE": "Quyida filtrlarni qo'shing va kontaktlarni filtrlash uchun 'Yuborish' tugmasini bosing.",
+    "EDIT_CUSTOM_SEGMENT": "Segmentni tahrirlash",
+    "CUSTOM_VIEWS_SUBTITLE": "Filtrlarni qo'shing yoki olib tashlang va segmentingizni yangilang.",
+    "ADD_NEW_FILTER": "Filtr qo'shish",
+    "CLEAR_ALL_FILTERS": "Barcha filtrlarni tozalash",
+    "FILTER_DELETE_ERROR": "Saqlash uchun kamida bitta filtr bo'lishi kerak",
+    "SUBMIT_BUTTON_LABEL": "Yuborish",
+    "UPDATE_BUTTON_LABEL": "Segmentni yangilash",
+    "CANCEL_BUTTON_LABEL": "Bekor qilish",
+    "CLEAR_BUTTON_LABEL": "Filtrlarni tozalash",
+    "EMPTY_VALUE_ERROR": "Qiymat kiritish shart",
+    "SEGMENT_LABEL": "Segment nomi",
+    "SEGMENT_QUERY_LABEL": "Segment so'rovi",
+    "TOOLTIP_LABEL": "Kontaktlarni filtrlash",
+    "QUERY_DROPDOWN_LABELS": {
+      "AND": "VA",
+      "OR": "YOKI"
+    },
+    "OPERATOR_LABELS": {
+      "equal_to": "Teng",
+      "not_equal_to": "Teng emas",
+      "contains": "O'z ichiga oladi",
+      "does_not_contain": "O'z ichiga olmaydi",
+      "is_present": "Mavjud",
+      "is_not_present": "Mavjud emas",
+      "is_greater_than": "Kattaroq",
+      "is_lesser_than": "Kichikroq",
+      "days_before": "X kundan oldin"
+    },
+    "ERRORS": {
+      "VALUE_REQUIRED": "Qiymat kiritish shart"
+    },
+    "ATTRIBUTES": {
+      "NAME": "Ism",
+      "EMAIL": "Email",
+      "PHONE_NUMBER": "Telefon raqami",
+      "IDENTIFIER": "Identifikator",
+      "CITY": "Shahar",
+      "COUNTRY": "Mamlakat",
+      "CUSTOM_ATTRIBUTE_LIST": "Ro'yxat",
+      "CUSTOM_ATTRIBUTE_TEXT": "Matn",
+      "CUSTOM_ATTRIBUTE_NUMBER": "Raqam",
+      "CUSTOM_ATTRIBUTE_LINK": "Havola",
+      "CUSTOM_ATTRIBUTE_CHECKBOX": "Belgilash katagi",
+      "CREATED_AT": "Yaratilgan vaqti",
+      "LAST_ACTIVITY": "Oxirgi faollik",
+      "REFERER_LINK": "Yo'naltiruvchi havola",
+      "BLOCKED": "Bloklangan"
+    },
+    "GROUPS": {
+      "STANDARD_FILTERS": "Standart filtrlar",
+      "ADDITIONAL_FILTERS": "Qo'shimcha filtrlar",
+      "CUSTOM_ATTRIBUTES": "Maxsus atributlar"
+    }
+  }
+}

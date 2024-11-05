@@ -1,0 +1,359 @@
+{
+  "PROFILE_SETTINGS": {
+    "LINK": "Profil sozlamalari",
+    "TITLE": "Profil sozlamalari", 
+    "BTN_TEXT": "Profilni yangilash",
+    "DELETE_AVATAR": "Avatarni o'chirish",
+    "AVATAR_DELETE_SUCCESS": "Avatar muvaffaqiyatli o'chirildi",
+    "AVATAR_DELETE_FAILED": "Avatarni o'chirishda xatolik yuz berdi, iltimos qayta urinib ko'ring",
+    "UPDATE_SUCCESS": "Profilingiz muvaffaqiyatli yangilandi",
+    "PASSWORD_UPDATE_SUCCESS": "Parolingiz muvaffaqiyatli o'zgartirildi",
+    "AFTER_EMAIL_CHANGED": "Profilingiz muvaffaqiyatli yangilandi, kirish ma'lumotlaringiz o'zgarganligi sababli qayta tizimga kiring",
+    "FORM": {
+      "PICTURE": "Profil rasmi",
+      "AVATAR": "Profil surati",
+      "ERROR": "Iltimos, forma xatolarini tuzating",
+      "REMOVE_IMAGE": "O'chirish",
+      "UPLOAD_IMAGE": "Rasm yuklash",
+      "UPDATE_IMAGE": "Rasmni yangilash",
+      "PROFILE_SECTION": {
+        "TITLE": "Profil",
+        "NOTE": "Elektron pochta manzilingiz sizning identifikatoringiz bo'lib, tizimga kirishda ishlatiladi."
+      },
+      "SEND_MESSAGE": {
+        "TITLE": "Xabar yuborish uchun tezkor tugma",
+        "NOTE": "Yozish usluningizga qarab tezkor tugmani tanlashingiz mumkin (Enter yoki Cmd/Ctrl+Enter).",
+        "UPDATE_SUCCESS": "Sozlamalaringiz muvaffaqiyatli yangilandi",
+        "CARD": {
+          "ENTER_KEY": {
+            "HEADING": "Enter (↵)",
+            "CONTENT": "Yuborish tugmasini bosish o'rniga Enter tugmasini bosib xabarlarni yuborish."
+          },
+          "CMD_ENTER_KEY": {
+            "HEADING": "Cmd/Ctrl + Enter (⌘ + ↵)", 
+            "CONTENT": "Yuborish tugmasini bosish o'rniga Cmd/Ctrl + enter tugmasini bosib xabarlarni yuborish."
+          }
+        }
+      },
+      "MESSAGE_SIGNATURE_SECTION": {
+        "TITLE": "Shaxsiy xabar imzosi",
+        "NOTE": "Har qanday pochta qutisidan yuboriladigan har bir xabaringiz oxirida paydo bo'ladigan noyob xabar imzosini yarating. Siz jonli chat, elektron pochta va API pochta qutilari tomonidan qo'llab-quvvatlanadigan ichki rasmni ham qo'shishingiz mumkin.",
+        "BTN_TEXT": "Xabar imzosini saqlash",
+        "API_ERROR": "Imzoni saqlab bo'lmadi! Qayta urinib ko'ring",
+        "API_SUCCESS": "Imzo muvaffaqiyatli saqlandi",
+        "IMAGE_UPLOAD_ERROR": "Rasmni yuklab bo'lmadi! Qayta urinib ko'ring",
+        "IMAGE_UPLOAD_SUCCESS": "Rasm muvaffaqiyatli qo'shildi. Imzoni saqlash uchun saqlash tugmasini bosing",
+        "IMAGE_UPLOAD_SIZE_ERROR": "Rasm hajmi {size}MB dan kam bo'lishi kerak"
+      },
+      "MESSAGE_SIGNATURE": {
+        "LABEL": "Xabar imzosi",
+        "ERROR": "Xabar imzosi bo'sh bo'lishi mumkin emas",
+        "PLACEHOLDER": "Shaxsiy xabar imzongizni shu yerga kiriting."
+      },
+      "PASSWORD_SECTION": {
+        "TITLE": "Parol",
+        "NOTE": "Parolingizni yangilash bir nechta qurilmalardagi kirishlaringizni qayta o'rnatadi.",
+        "BTN_TEXT": "Parolni o'zgartirish"
+      },
+      "ACCESS_TOKEN": {
+        "TITLE": "Kirish tokeni",
+        "NOTE": "Agar siz API asosidagi integratsiyani yaratayotgan bo'lsangiz, bu tokendan foydalanishingiz mumkin",
+        "COPY": "Nusxalash"
+      },
+      "AUDIO_NOTIFICATIONS_SECTION": {
+        "TITLE": "Audio bildirishnomalar",
+        "NOTE": "Boshqaruv panelida yangi xabarlar va suhbatlar uchun audio bildirishnomalarni yoqing.",
+        "ALERT_TYPES": {
+          "NONE": "Yo'q",
+          "MINE": "Belgilangan",
+          "ALL": "Hammasi"
+        },
+        "ALERT_TYPE": {
+          "TITLE": "Suhbatlar uchun ogohlantirish hodisalari:",
+          "NONE": "Yo'q",
+          "ASSIGNED": "Belgilangan suhbatlar",
+          "ALL_CONVERSATIONS": "Barcha suhbatlar"
+        },
+        "DEFAULT_TONE": {
+          "TITLE": "Ogohlantirish toni:"
+        },
+        "CONDITIONS": {
+          "TITLE": "Ogohlantirish shartlari:",
+          "CONDITION_ONE": "Brauzer oynasi faol bo'lmaganda audio ogohlantirishlarni yuborish",
+          "CONDITION_TWO": "Barcha belgilangan suhbatlar o'qilgunga qadar har 30 soniyada ogohlantirishlarni yuborish"
+        }
+      },
+      "EMAIL_NOTIFICATIONS_SECTION": {
+        "TITLE": "Elektron pochta bildirishnomalari",
+        "NOTE": "Bu yerda elektron pochta bildirishnomalar sozlamalarini yangilang",
+        "CONVERSATION_ASSIGNMENT": "Menga suhbat belgilanganda elektron pochta bildirishnomalarini yuborish",
+        "CONVERSATION_CREATION": "Yangi suhbat yaratilganda elektron pochta bildirishnomalarini yuborish",
+        "CONVERSATION_MENTION": "Suhbatda eslatib o'tilganingizda elektron pochta bildirishnomalarini yuborish",
+        "ASSIGNED_CONVERSATION_NEW_MESSAGE": "Belgilangan suhbatda yangi xabar yaratilganda elektron pochta bildirishnomalarini yuborish",
+        "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "Ishtirok etayotgan suhbatda yangi xabar yaratilganda elektron pochta bildirishnomalarini yuborish",
+        "SLA_MISSED_FIRST_RESPONSE": "Suhbat birinchi javob SLA ni o'tkazib yuborganda elektron pochta bildirishnomalarini yuborish",
+        "SLA_MISSED_NEXT_RESPONSE": "Suhbat keyingi javob SLA ni o'tkazib yuborganda elektron pochta bildirishnomalarini yuborish",
+        "SLA_MISSED_RESOLUTION": "Suhbat yechim SLA ni o'tkazib yuborganda elektron pochta bildirishnomalarini yuborish"
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Bildirishnoma sozlamalari",
+        "TYPE_TITLE": "Bildirishnoma turi",
+        "EMAIL": "Elektron pochta",
+        "PUSH": "Push bildirishnoma",
+        "TYPES": {
+          "CONVERSATION_CREATED": "Yangi suhbat yaratildi",
+          "CONVERSATION_ASSIGNED": "Sizga suhbat belgilandi",
+          "CONVERSATION_MENTION": "Siz suhbatda eslatib o'tildingiz",
+          "ASSIGNED_CONVERSATION_NEW_MESSAGE": "Belgilangan suhbatda yangi xabar yaratildi",
+          "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "Ishtirok etayotgan suhbatda yangi xabar yaratildi",
+          "SLA_MISSED_FIRST_RESPONSE": "Suhbat birinchi javob SLA ni o'tkazib yubordi",
+          "SLA_MISSED_NEXT_RESPONSE": "Suhbat keyingi javob SLA ni o'tkazib yubordi",
+          "SLA_MISSED_RESOLUTION": "Suhbat yechim SLA ni o'tkazib yubordi"
+        },
+        "BROWSER_PERMISSION": "Ularni qabul qilish uchun brauzeringiz uchun push bildirishnomalarni yoqing"
+      },
+      "API": {
+        "UPDATE_SUCCESS": "Bildirishnoma sozlamalaringiz muvaffaqiyatli yangilandi",
+        "UPDATE_ERROR": "Sozlamalarni yangilashda xatolik yuz berdi, iltimos qayta urinib ko'ring"
+      },
+      "PUSH_NOTIFICATIONS_SECTION": {
+        "TITLE": "Push bildirishnomalar",
+        "NOTE": "Bu yerda push bildirishnoma sozlamalarini yangilang",
+        "CONVERSATION_ASSIGNMENT": "Menga suhbat belgilanganda push bildirishnomalarini yuborish",
+        "CONVERSATION_CREATION": "Yangi suhbat yaratilganda push bildirishnomalarini yuborish",
+        "CONVERSATION_MENTION": "Suhbatda eslatib o'tilganingizda push bildirishnomalarini yuborish",
+        "ASSIGNED_CONVERSATION_NEW_MESSAGE": "Belgilangan suhbatda yangi xabar yaratilganda push bildirishnomalarini yuborish",
+        "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "Ishtirok etayotgan suhbatda yangi xabar yaratilganda push bildirishnomalarini yuborish",
+        "HAS_ENABLED_PUSH": "Siz bu brauzer uchun push bildirishnomalarni yoqdingiz.",
+        "REQUEST_PUSH": "Push bildirishnomalarni yoqish",
+        "SLA_MISSED_FIRST_RESPONSE": "Suhbat birinchi javob SLA ni o'tkazib yuborganda push bildirishnomalarini yuborish",
+        "SLA_MISSED_NEXT_RESPONSE": "Suhbat keyingi javob SLA ni o'tkazib yuborganda push bildirishnomalarini yuborish",
+        "SLA_MISSED_RESOLUTION": "Suhbat yechim SLA ni o'tkazib yuborganda push bildirishnomalarini yuborish"
+      },
+      "PROFILE_IMAGE": {
+        "LABEL": "Profil rasmi"
+      },
+      "NAME": {
+        "LABEL": "To'liq ismingiz",
+        "ERROR": "Iltimos, to'g'ri to'liq ismni kiriting",
+        "PLACEHOLDER": "Iltimos, to'liq ismingizni kiriting"
+      },
+      "DISPLAY_NAME": {
+        "LABEL": "Ko'rsatiladigan ism",
+        "ERROR": "Iltimos, to'g'ri ko'rsatiladigan ismni kiriting",
+        "PLACEHOLDER": "Iltimos, ko'rsatiladigan ismni kiriting, bu suhbatlarda ko'rsatiladi"
+      },
+      "AVAILABILITY": {
+        "LABEL": "Mavjudlik",
+        "STATUS": {
+          "ONLINE": "Onlayn",
+          "BUSY": "Band",
+          "OFFLINE": "Oflayn"
+        },
+        "SET_AVAILABILITY_SUCCESS": "Mavjudlik muvaffaqiyatli o'rnatildi",
+        "SET_AVAILABILITY_ERROR": "Mavjudlikni o'rnatib bo'lmadi, iltimos qayta urinib ko'ring"
+      },
+      "EMAIL": {
+        "LABEL": "Elektron pochta manzilingiz",
+        "ERROR": "Iltimos, to'g'ri elektron pochta manzilini kiriting",
+        "PLACEHOLDER": "Iltimos, elektron pochta manzilingizni kiriting, bu suhbatlarda ko'rsatiladi"
+      },
+      "CURRENT_PASSWORD": {
+        "LABEL": "Joriy parol",
+        "ERROR": "Iltimos, joriy parolni kiriting",
+        "PLACEHOLDER": "Iltimos, joriy parolni kiriting"
+      },
+      "PASSWORD": {
+        "LABEL": "Yangi parol",
+        "ERROR": "Iltimos, 6 yoki undan ko'p belgidan iborat parol kiriting",
+        "PLACEHOLDER": "Iltimos, yangi parol kiriting"
+      },
+      "PASSWORD_CONFIRMATION": {
+        "LABEL": "Yangi parolni tasdiqlang",
+        "ERROR": "Tasdiqlash paroli parolga mos kelishi kerak",
+        "PLACEHOLDER": "Iltimos, yangi parolingizni qayta kiriting"
+      }
+    }
+  },
+  "SIDEBAR_ITEMS": {
+    "CHANGE_AVAILABILITY_STATUS": "O'zgartirish",
+    "CHANGE_ACCOUNTS": "Hisobni almashtirish",
+    "CONTACT_SUPPORT": "Qo'llab-quvvatlash xizmatiga murojaat",
+    "SELECTOR_SUBTITLE": "Quyidagi ro'yxatdan hisobni tanlang",
+    "PROFILE_SETTINGS": "Profil sozlamalari",
+    "KEYBOARD_SHORTCUTS": "Klaviatura yorliqlari",
+    "APPEARANCE": "Ko'rinishni o'zgartirish",
+    "SUPER_ADMIN_CONSOLE": "Super Admin konsoli",
+    "LOGOUT": "Chiqish"
+  },
+  "APP_GLOBAL": {
+    "TRIAL_MESSAGE": "kun sinov muddati qoldi.",
+    "TRAIL_BUTTON": "Hozir sotib olish",
+    "DELETED_USER": "O'chirilgan foydalanuvchi",
+    "EMAIL_VERIFICATION_PENDING": "Siz hali elektron pochta manzilingizni tasdiqlamaganga o'xshaysiz. Iltimos, tasdiqlash xati uchun pochta qutingizni tekshiring.",
+    "RESEND_VERIFICATION_MAIL": "Tasdiqlash xatini qayta yuborish",
+    "EMAIL_VERIFICATION_SENT": "Tasdiqlash xati yuborildi. Iltimos, pochta qutingizni tekshiring.",
+    "ACCOUNT_SUSPENDED": {
+      "TITLE": "Hisob to'xtatildi",
+      "MESSAGE": "Hisobingiz to'xtatildi. Ko'proq ma'lumot olish uchun qo'llab-quvvatlash jamoasiga murojaat qiling."
+    }
+  },
+  "COMPONENTS": {
+    "CODE": {
+      "BUTTON_TEXT": "Nusxalash",
+      "CODEPEN": "CodePen-da ochish",
+      "COPY_SUCCESSFUL": "Vaqtinchalik xotiraga nusxalandi"
+    },
+    "SHOW_MORE_BLOCK": {
+      "SHOW_MORE": "Ko'proq ko'rsatish",
+      "SHOW_LESS": "Kamroq ko'rsatish"
+    },
+    "FILE_BUBBLE": {
+      "DOWNLOAD": "Yuklab olish",
+      "UPLOADING": "Yuklanmoqda...",
+      "INSTAGRAM_STORY_UNAVAILABLE": "Bu hikoya endi mavjud emas."
+    },
+    "LOCATION_BUBBLE": {
+      "SEE_ON_MAP": "Xaritada ko'rish"
+    },
+    "FORM_BUBBLE": {
+      "SUBMIT": "Yuborish"
+    }
+  },
+  "CONFIRM_EMAIL": "Tasdiqlanmoqda...",
+  "SETTINGS": {
+    "INBOXES": {
+      "NEW_INBOX": "Quti qo'shish"
+    }
+  },
+  "SIDEBAR": {
+    "CURRENTLY_VIEWING_ACCOUNT": "Hozir ko'rilmoqda:",
+    "SWITCH": "Almashtirish",
+    "INBOX_VIEW": "Quti ko'rinishi",
+    "CONVERSATIONS": "Suhbatlar",
+    "INBOX": "Quti",
+    "ALL_CONVERSATIONS": "Barcha suhbatlar",
+    "MENTIONED_CONVERSATIONS": "Eslatib o'tilganlar",
+    "PARTICIPATING_CONVERSATIONS": "Ishtirok etayotganlar",
+    "UNATTENDED_CONVERSATIONS": "E'tiborsiz qolganlar",
+    "REPORTS": "Hisobotlar",
+    "SETTINGS": "Sozlamalar",
+    "CONTACTS": "Kontaktlar",
+    "CAPTAIN": "Kapitan",
+    "HOME": "Bosh sahifa",
+    "AGENTS": "Agentlar",
+    "AGENT_BOTS": "Botlar",
+    "AUDIT_LOGS": "Audit jurnallari",
+    "INBOXES": "Qutilar",
+    "NOTIFICATIONS": "Bildirishnomalar",
+    "CANNED_RESPONSES": "Tayyor javoblar",
+    "INTEGRATIONS": "Integratsiyalar",
+    "PROFILE_SETTINGS": "Profil sozlamalari",
+    "ACCOUNT_SETTINGS": "Hisob sozlamalari",
+    "APPLICATIONS": "Ilovalar",
+    "LABELS": "Yorliqlar",
+    "CUSTOM_ATTRIBUTES": "Maxsus atributlar",
+    "AUTOMATION": "Avtomatlashtirish",
+    "MACROS": "Makroslar",
+    "TEAMS": "Jamoalar",
+    "BILLING": "Hisob-kitob",
+    "CUSTOM_VIEWS_FOLDER": "Papkalar",
+    "CUSTOM_VIEWS_SEGMENTS": "Segmentlar",
+    "ALL_CONTACTS": "Barcha kontaktlar",
+    "TAGGED_WITH": "Bilan teglangan",
+    "NEW_LABEL": "Yangi yorliq",
+    "NEW_TEAM": "Yangi jamoa",
+    "NEW_INBOX": "Yangi quti",
+    "REPORTS_CONVERSATION": "Suhbatlar",
+    "CSAT": "CSAT",
+    "CAMPAIGNS": "Kampaniyalar",
+    "ONGOING": "Davom etayotgan",
+    "ONE_OFF": "Bir martalik",
+    "REPORTS_SLA": "SLA",
+    "REPORTS_BOT": "Bot",
+    "REPORTS_AGENT": "Agentlar",
+    "REPORTS_LABEL": "Yorliqlar",
+    "REPORTS_INBOX": "Quti",
+    "REPORTS_TEAM": "Jamoa",
+    "SET_AVAILABILITY_TITLE": "O'zingizni quyidagicha belgilang",
+    "SLA": "SLA",
+    "CUSTOM_ROLES": "Maxsus rollar",
+    "BETA": "Beta",
+    "REPORTS_OVERVIEW": "Umumiy ko'rinish",
+    "REAUTHORIZE": "Qutingiz ulanishi muddati tugadi, iltimos xabarlarni qabul qilish va yuborishni davom ettirish uchun qayta ulaning",
+    "HELP_CENTER": {
+      "TITLE": "Yordam markazi",
+      "ALL_ARTICLES": "Barcha maqolalar",
+      "MY_ARTICLES": "Mening maqolalarim",
+      "DRAFT": "Qoralama",
+      "ARCHIVED": "Arxivlangan",
+      "CATEGORY": "Kategoriya",
+      "SETTINGS": "Sozlamalar",
+      "CATEGORY_EMPTY_MESSAGE": "Kategoriyalar topilmadi"
+    },
+    "SET_AUTO_OFFLINE": {
+      "TEXT": "Avtomatik oflayn belgilash",
+      "INFO_TEXT": "Ilova yoki paneldan foydalanmayotganingizda tizim sizni avtomatik ravishda oflayn qilib qo'ysin."
+    },
+    "DOCS": "Hujjatlarni o'qish"
+  },
+  "BILLING_SETTINGS": {
+    "TITLE": "Hisob-kitob",
+    "CURRENT_PLAN": {
+      "TITLE": "Joriy tarif",
+      "PLAN_NOTE": "Siz hozirda **{quantity}** ta litsenziyali **{plan}** tarifiga obuna bo'lgansiz"
+    },
+    "MANAGE_SUBSCRIPTION": {
+      "TITLE": "Obunangizni boshqaring",
+      "DESCRIPTION": "Oldingi hisob-fakturalaringizni ko'ring, hisob-kitob ma'lumotlaringizni tahrirlang yoki obunangizni bekor qiling.",
+      "BUTTON_TXT": "Hisob-kitob portaliga o'tish"
+    },
+    "CHAT_WITH_US": {
+      "TITLE": "Yordam kerakmi?",
+      "DESCRIPTION": "Hisob-kitobda muammolarga duch keldingizmi? Biz yordam berishga tayyormiz.",
+      "BUTTON_TXT": "Biz bilan suhbatlashing"
+    },
+    "NO_BILLING_USER": "Hisob-kitob hisobingiz sozlanmoqda. Iltimos, sahifani yangilang va qayta urinib ko'ring."
+  },
+  "CREATE_ACCOUNT": {
+    "NO_ACCOUNT_WARNING": "Voy! Biz hech qanday Chatwoot hisobini topa olmadik. Davom etish uchun yangi hisob yarating.",
+    "NEW_ACCOUNT": "Yangi hisob",
+    "SELECTOR_SUBTITLE": "Yangi hisob yaratish",
+    "API": {
+      "SUCCESS_MESSAGE": "Hisob muvaffaqiyatli yaratildi",
+      "EXIST_MESSAGE": "Hisob allaqachon mavjud",
+      "ERROR_MESSAGE": "Woot serveriga ulanib bo'lmadi, iltimos keyinroq qayta urinib ko'ring"
+    },
+    "FORM": {
+      "NAME": {
+        "LABEL": "Kompaniya nomi",
+        "PLACEHOLDER": "Wayne Enterprises"
+      },
+      "SUBMIT": "Yuborish"
+    }
+  },
+  "KEYBOARD_SHORTCUTS": {
+    "TOGGLE_MODAL": "Barcha yorliqlarni ko'rish",
+    "TITLE": {
+      "OPEN_CONVERSATION": "Suhbatni ochish",
+      "RESOLVE_AND_NEXT": "Hal qilish va keyingisiga o'tish",
+      "NAVIGATE_DROPDOWN": "Ochiluvchi ro'yxat elementlari bo'ylab harakatlanish",
+      "RESOLVE_CONVERSATION": "Suhbatni hal qilish",
+      "GO_TO_CONVERSATION_DASHBOARD": "Suhbatlar panelga o'tish",
+      "ADD_ATTACHMENT": "Fayl qo'shish",
+      "GO_TO_CONTACTS_DASHBOARD": "Kontaktlar panelga o'tish", 
+      "TOGGLE_SIDEBAR": "Yon panelni yoqish/o'chirish",
+      "GO_TO_REPORTS_SIDEBAR": "Hisobotlar yon paneliga o'tish",
+      "MOVE_TO_NEXT_TAB": "Suhbatlar ro'yxatidagi keyingi yorliqqa o'tish",
+      "GO_TO_SETTINGS": "Sozlamalarga o'tish",
+      "SWITCH_TO_PRIVATE_NOTE": "Shaxsiy eslatmaga o'tish",
+      "SWITCH_TO_REPLY": "Javobga o'tish",
+      "TOGGLE_SNOOZE_DROPDOWN": "Kechiktirish ro'yxatini yoqish/o'chirish"
+    },
+    "KEYS": {
+      "WINDOWS_KEY_AND_COMMAND_KEY": "Win / ⌘",
+      "ALT_OR_OPTION_KEY": "Alt / ⌥", 
+      "FORWARD_SLASH_KEY": "/"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "AGENT_MGMT": {
+    "HEADER": "Agentlar",
+    "HEADER_BTN_TXT": "Agent qo'shish",
+    "LOADING": "Agentlar ro'yxati yuklanmoqda",
+    "DESCRIPTION": "Agent - bu mijozlarni qo'llab-quvvatlash jamoangizning a'zosi bo'lib, foydalanuvchi xabarlarini ko'rish va ularga javob berish imkoniyatiga ega. Quyidagi ro'yxatda hisobingizdagi barcha agentlar ko'rsatilgan.",
+    "LEARN_MORE": "Foydalanuvchi rollari haqida ko'proq ma'lumot",
+    "AGENT_TYPES": {
+      "ADMINISTRATOR": "Administrator",
+      "AGENT": "Agent"
+    },
+    "LIST": {
+      "404": "Bu hisob bilan bog'langan agentlar yo'q",
+      "TITLE": "Jamoangiz agentlarini boshqaring",
+      "DESC": "Siz jamoangizga agentlarni qo'shishingiz/olib tashlashingiz mumkin.",
+      "NAME": "Ism",
+      "EMAIL": "Elektron pochta",
+      "STATUS": "Holat",
+      "ACTIONS": "Harakatlar",
+      "VERIFIED": "Tasdiqlangan",
+      "VERIFICATION_PENDING": "Tasdiqlash kutilmoqda",
+      "AVAILABLE_CUSTOM_ROLE": "Mavjud maxsus rol ruxsatlari"
+    },
+    "ADD": {
+      "TITLE": "Jamoangizga agent qo'shing",
+      "DESC": "Siz pochta qutilari uchun yordam ko'rsata oladigan odamlarni qo'shishingiz mumkin.",
+      "CANCEL_BUTTON_TEXT": "Bekor qilish",
+      "FORM": {
+        "NAME": {
+          "LABEL": "Agent ismi",
+          "PLACEHOLDER": "Iltimos, agent ismini kiriting"
+        },
+        "AGENT_TYPE": {
+          "LABEL": "Rol",
+          "PLACEHOLDER": "Iltimos, rolni tanlang",
+          "ERROR": "Rol talab qilinadi"
+        },
+        "EMAIL": {
+          "LABEL": "Elektron pochta manzili",
+          "PLACEHOLDER": "Iltimos, agentning elektron pochta manzilini kiriting"
+        },
+        "SUBMIT": "Agent qo'shish"
+      },
+      "API": {
+        "SUCCESS_MESSAGE": "Agent muvaffaqiyatli qo'shildi",
+        "EXIST_MESSAGE": "Agent elektron pochtasi allaqachon ishlatilmoqda, iltimos boshqa elektron pochta manzilini sinab ko'ring",
+        "ERROR_MESSAGE": "Woot serveriga ulanib bo'lmadi, iltimos keyinroq qayta urinib ko'ring"
+      }
+    },
+    "DELETE": {
+      "BUTTON_TEXT": "O'chirish",
+      "API": {
+        "SUCCESS_MESSAGE": "Agent muvaffaqiyatli o'chirildi",
+        "ERROR_MESSAGE": "Woot serveriga ulanib bo'lmadi, iltimos keyinroq qayta urinib ko'ring"
+      },
+      "CONFIRM": {
+        "TITLE": "O'chirishni tasdiqlang",
+        "MESSAGE": "O'chirishni xohlaysizmi ",
+        "YES": "Ha, o'chirish ",
+        "NO": "Yo'q, saqlash "
+      }
+    },
+    "EDIT": {
+      "TITLE": "Agentni tahrirlash",
+      "FORM": {
+        "NAME": {
+          "LABEL": "Agent ismi",
+          "PLACEHOLDER": "Iltimos, agent ismini kiriting"
+        },
+        "AGENT_TYPE": {
+          "LABEL": "Rol",
+          "PLACEHOLDER": "Iltimos, rolni tanlang",
+          "ERROR": "Rol talab qilinadi"
+        },
+        "EMAIL": {
+          "LABEL": "Elektron pochta manzili",
+          "PLACEHOLDER": "Iltimos, agentning elektron pochta manzilini kiriting"
+        },
+        "AGENT_AVAILABILITY": {
+          "LABEL": "Mavjudlik",
+          "PLACEHOLDER": "Iltimos, mavjudlik holatini tanlang",
+          "ERROR": "Mavjudlik talab qilinadi"
+        },
+        "SUBMIT": "Agentni tahrirlash"
+      },
+      "BUTTON_TEXT": "Tahrirlash",
+      "CANCEL_BUTTON_TEXT": "Bekor qilish",
+      "API": {
+        "SUCCESS_MESSAGE": "Agent muvaffaqiyatli yangilandi",
+        "ERROR_MESSAGE": "Woot serveriga ulanib bo'lmadi, iltimos keyinroq qayta urinib ko'ring"
+      },
+      "PASSWORD_RESET": {
+        "ADMIN_RESET_BUTTON": "Parolni tiklash",
+        "ADMIN_SUCCESS_MESSAGE": "Agentga parolni tiklash bo'yicha ko'rsatmalar bilan elektron xat yuborildi",
+        "SUCCESS_MESSAGE": "Agent paroli muvaffaqiyatli tiklandi",
+        "ERROR_MESSAGE": "Woot serveriga ulanib bo'lmadi, iltimos keyinroq qayta urinib ko'ring"
+      }
+    },
+    "SEARCH": {
+      "NO_RESULTS": "Natijalar topilmadi."
+    },
+    "MULTI_SELECTOR": {
+      "PLACEHOLDER": "Hech qanday",
+      "TITLE": {
+        "AGENT": "Agentni tanlang",
+        "TEAM": "Jamoani tanlang"
+      },
+      "SEARCH": {
+        "NO_RESULTS": {
+          "AGENT": "Agentlar topilmadi",
+          "TEAM": "Jamoalar topilmadi"
+        },
+        "PLACEHOLDER": {
+          "AGENT": "Agentlarni qidirish",
+          "TEAM": "Jamoalarni qidirish",
+          "INPUT": "Agentlarni qidirish"
+        }
+      }
+    }
+  }
+}

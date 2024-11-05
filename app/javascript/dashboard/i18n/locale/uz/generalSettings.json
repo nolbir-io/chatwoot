@@ -1,0 +1,174 @@
+{
+  "GENERAL_SETTINGS": {
+    "TITLE": "Hisob sozlamalari",
+    "SUBMIT": "Sozlamalarni yangilash",
+    "BACK": "Orqaga",
+    "DISMISS": "Yopish",
+    "UPDATE": {
+      "ERROR": "Sozlamalarni yangilab bo'lmadi, qaytadan urinib ko'ring!",
+      "SUCCESS": "Hisob sozlamalari muvaffaqiyatli yangilandi"
+    },
+    "FORM": {
+      "ERROR": "Iltimos, forma xatolarini tuzating",
+      "GENERAL_SECTION": {
+        "TITLE": "Umumiy sozlamalar",
+        "NOTE": ""
+      },
+      "ACCOUNT_ID": {
+        "TITLE": "Hisob ID raqami",
+        "NOTE": "Ushbu ID API asosidagi integratsiyani yaratayotganingizda kerak bo'ladi"
+      },
+      "NAME": {
+        "LABEL": "Hisob nomi",
+        "PLACEHOLDER": "Hisobingiz nomi",
+        "ERROR": "Iltimos, to'g'ri hisob nomini kiriting"
+      },
+      "LANGUAGE": {
+        "LABEL": "Sayt tilini",
+        "PLACEHOLDER": "Hisobingiz nomi",
+        "ERROR": ""
+      },
+      "DOMAIN": {
+        "LABEL": "Kelayotgan Elektron pochta domeni",
+        "PLACEHOLDER": "Siz elektron pochtangizni qabul qilish uchun domen",
+        "ERROR": ""
+      },
+      "SUPPORT_EMAIL": {
+        "LABEL": "Yordam elektron pochtasi",
+        "PLACEHOLDER": "Kompaniyangiz yordam elektron pochtasi",
+        "ERROR": ""
+      },
+      "AUTO_RESOLVE_DURATION": {
+        "LABEL": "Agar faollik bo'lmasa, ticketni avtomatik ravishda yechish uchun kunlar soni",
+        "PLACEHOLDER": "30",
+        "ERROR": "Iltimos, avtomatik yechish davri (kamida 1 kun va maksimal 999 kun)ni kiriting"
+      },
+      "FEATURES": {
+        "INBOUND_EMAIL_ENABLED": "Sizning hisobingiz uchun elektron pochtalar asosida suhbatni davom ettirish imkoniyati mavjud.",
+        "CUSTOM_EMAIL_DOMAIN_ENABLED": "Siz hozircha xususiy domeningizda elektron pochtalar qabul qilishingiz mumkin."
+      }
+    },
+    "UPDATE_CHATWOOT": "Chatwoot uchun {latestChatwootVersion} yangilanishi mavjud. Iltimos, dasturingizni yangilang.",
+    "LEARN_MORE": "Batafsil ma'lumot",
+    "PAYMENT_PENDING": "To'lovingiz kutilmoqda. Chatwootdan foydalanishni davom ettirish uchun to'lov ma'lumotlaringizni yangilang",
+    "LIMITS_UPGRADE": "Hisobingiz foydalanish chegarasidan oshib ketdi, Chatwootdan foydalanishni davom ettirish uchun tarifni yangilang",
+    "OPEN_BILLING": "Billingni ochish"
+  },
+  "FORMS": {
+    "MULTISELECT": {
+      "ENTER_TO_SELECT": "Tanlash uchun enter tugmasini bosing",
+      "ENTER_TO_REMOVE": "Olib tashlash uchun enter tugmasini bosing",
+      "SELECT_ONE": "Birini tanlang",
+      "SELECT": "Tanlang"
+    }
+  },
+  "NOTIFICATIONS_PAGE": {
+    "HEADER": "Bildirishnomalar",
+    "MARK_ALL_DONE": "Barchasini bajarildi deb belgilash",
+    "DELETE_TITLE": "o'chirildi",
+    "UNREAD_NOTIFICATION": {
+      "TITLE": "O'qilmagan bildirishnomalar",
+      "ALL_NOTIFICATIONS": "Barcha bildirishnomalar ko'rish",
+      "LOADING_UNREAD_MESSAGE": "O'qilmagan bildirishnomalar yuklanmoqda...",
+      "EMPTY_MESSAGE": "Sizda o'qilmagan bildirishnomalar yo'q"
+    },
+    "LIST": {
+      "LOADING_MESSAGE": "Bildirishnomalar yuklanmoqda...",
+      "404": "Bildirishnomalar yo'q",
+      "TABLE_HEADER": [
+        "Nomi",
+        "Telefon raqami",
+        "Suhbatlar",
+        "Oxirgi aloqa"
+      ]
+    },
+    "TYPE_LABEL": {
+      "conversation_creation": "Yangi suhbat",
+      "conversation_assignment": "Suhbat murojaat qilindi",
+      "assigned_conversation_new_message": "Yangi xabar",
+      "participating_conversation_new_message": "Yangi xabar",
+      "conversation_mention": "Mention",
+      "sla_missed_first_response": "SLA qaytarmadi",
+      "sla_missed_next_response": "SLA qaytarmadi",
+      "sla_missed_resolution": "SLA qaytarmadi"
+    }
+  },
+  "NETWORK": {
+    "NOTIFICATION": {
+      "OFFLINE": "Oflayn",
+      "RECONNECTING": "Qayta ulanmoqda...",
+      "RECONNECT_SUCCESS": "Qayta ulandi"
+    },
+    "BUTTON": {
+      "REFRESH": "Yangilash"
+    }
+  },
+  "COMMAND_BAR": {
+    "SEARCH_PLACEHOLDER": "Qidirish yoki o'tish",
+    "SECTIONS": {
+      "GENERAL": "Umumiy",
+      "REPORTS": "Hisobotlar",
+      "CONVERSATION": "Suhbat",
+      "BULK_ACTIONS": "Ommaviy harakatlar",
+      "CHANGE_ASSIGNEE": "Murojaat qiluvchi o'zgartirish",
+      "CHANGE_PRIORITY": "Mavjudlik darajasini o'zgartirish",
+      "CHANGE_TEAM": "Jamoa o'zgartirish",
+      "SNOOZE_CONVERSATION": "Suhbatni yopish",
+      "ADD_LABEL": "Suhbatga label qo'shish",
+      "REMOVE_LABEL": "Suhbatdan label olib tashlash",
+      "SETTINGS": "Sozlamalar",
+      "AI_ASSIST": "AI Assist",
+      "APPEARANCE": "Kutubxona",
+      "SNOOZE_NOTIFICATION": "Bildirishnomani yopish"
+    },
+    "COMMANDS": {
+      "GO_TO_CONVERSATION_DASHBOARD": "Suhbat paneliga o'tish",
+      "GO_TO_CONTACTS_DASHBOARD": "Kontaktlar paneliga o'tish",
+      "GO_TO_REPORTS_OVERVIEW": "Hisobotlar umumiy ko'rinishi",
+      "GO_TO_CONVERSATION_REPORTS": "Suhbat hisobotlarini ko'rish",
+      "GO_TO_AGENT_REPORTS": "Agent hisobotlarini ko'rish",
+      "GO_TO_LABEL_REPORTS": "Label hisobotlarini ko'rish",
+      "GO_TO_INBOX_REPORTS": "Inbox hisobotlarini ko'rish",
+      "GO_TO_TEAM_REPORTS": "Jamoa hisobotlarini ko'rish",
+      "GO_TO_SETTINGS_AGENTS": "Agent sozlamalarini ko'rish",
+      "GO_TO_SETTINGS_TEAMS": "Jamoa sozlamalarini ko'rish",
+      "GO_TO_SETTINGS_INBOXES": "Inbox sozlamalarini ko'rish",
+      "GO_TO_SETTINGS_LABELS": "Label sozlamalarini ko'rish",
+      "GO_TO_SETTINGS_CANNED_RESPONSES": "Canned Response sozlamalarini ko'rish",
+      "GO_TO_SETTINGS_APPLICATIONS": "Dastur sozlamalarini ko'rish",
+      "GO_TO_SETTINGS_ACCOUNT": "Hisob sozlamalarini ko'rish",
+      "GO_TO_SETTINGS_PROFILE": "Profil sozlamalarini ko'rish",
+      "GO_TO_NOTIFICATIONS": "Bildirishnomalar",
+      "ADD_LABELS_TO_CONVERSATION": "Suhbatga label qo'shish",
+      "ASSIGN_AN_AGENT": "Agent murojaat qilish",
+      "AI_ASSIST": "AI Assist",
+      "ASSIGN_PRIORITY": "Mavjudlik darajasini qo'shish",
+      "ASSIGN_A_TEAM": "Jamoa qo'shish",
+      "MUTE_CONVERSATION": "Suhbatni yopish",
+      "UNMUTE_CONVERSATION": "Suhbatni yopish",
+      "REMOVE_LABEL_FROM_CONVERSATION": "Suhbatdan label olib tashlash",
+      "REOPEN_CONVERSATION": "Suhbatni qayta ochish",
+      "RESOLVE_CONVERSATION": "Suhbatni yechish",
+      "SEND_TRANSCRIPT": "Elektron pochtani yuborish",
+      "SNOOZE_CONVERSATION": "Suhbatni yopish",
+      "UNTIL_NEXT_REPLY": "Keyingi javobgacha",
+      "UNTIL_NEXT_WEEK": "Keyingi haftagacha",
+      "UNTIL_TOMORROW": "Keyingi kun",
+      "UNTIL_NEXT_MONTH": "Keyingi oy",
+      "AN_HOUR_FROM_NOW": "Keyingi soatgacha",
+      "UNTIL_CUSTOM_TIME": "Xususiy...",
+      "CHANGE_APPEARANCE": "Kutubxona o'zgartirish",
+      "LIGHT_MODE": "Yorqin",
+      "DARK_MODE": "Qorong'i",
+      "SYSTEM_MODE": "Sistem",
+      "SNOOZE_NOTIFICATION": "Bildirishnomani yopish"
+    }
+  },
+  "DASHBOARD_APPS": {
+    "LOADING_MESSAGE": "Boshqaruv paneli ilovasi yuklanmoqda..."
+  },
+  "COMMON": {
+    "OR": "Yoki",
+    "CLICK_HERE": "bu yerga bosing"
+  }
+}

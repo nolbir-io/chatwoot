@@ -1,0 +1,26 @@
+{
+  "SEARCH": {
+    "TABS": {
+      "ALL": "Hammasi",
+      "CONTACTS": "Kontaktlar",
+      "CONVERSATIONS": "Suhbatlar",
+      "MESSAGES": "Xabarlar"
+    },
+    "SECTION": {
+      "CONTACTS": "Kontaktlar",
+      "CONVERSATIONS": "Suhbatlar",
+      "MESSAGES": "Xabarlar"
+    },
+    "SEARCHING_DATA": "Qidirilmoqda",
+    "EMPTY_STATE": "'{query}' so'rovi bo'yicha {item} topilmadi",
+    "EMPTY_STATE_FULL": "'{query}' so'rovi bo'yicha natija topilmadi",
+    "PLACEHOLDER_KEYBINDING": "/ tugmasini bosing",
+    "INPUT_PLACEHOLDER": "Qidirish uchun 3 yoki undan ko'p belgi kiriting",
+    "EMPTY_STATE_DEFAULT": "Yaxshiroq natijalar uchun suhbat ID si, elektron pochta, telefon raqami yoki xabarlar orqali qidiring.",
+    "BOT_LABEL": "Bot",
+    "READ_MORE": "Ko'proq o'qish",
+    "WROTE": "yozdi:",
+    "FROM": "dan",
+    "EMAIL": "elektron pochta"
+  }
+}

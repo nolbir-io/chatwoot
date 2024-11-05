@@ -1,0 +1,13 @@
+{
+  "CSAT": {
+    "TITLE": "Suhbatingizni baholang",
+    "PLACEHOLDER": "Bizga ko'proq ayting...",
+    "RATINGS": {
+      "POOR": "😞 Yomon",
+      "FAIR": "😑 O'rtacha",
+      "AVERAGE": "😐 Yaxshi",
+      "GOOD": "😀 Juda yaxshi",
+      "EXCELLENT": "😍 A'lo"
+    }
+  }
+}

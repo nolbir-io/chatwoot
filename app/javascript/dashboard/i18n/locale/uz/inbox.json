@@ -1,0 +1,64 @@
+{
+  "INBOX": {
+    "LIST": {
+      "TITLE": "Kiruvchi xabarlar",
+      "DISPLAY_DROPDOWN": "Ko'rsatish",
+      "LOADING": "Bildirishnomalar yuklanmoqda",
+      "404": "Bu guruhda faol bildirishnomalar yo'q.",
+      "NO_NOTIFICATIONS": "Bildirishnomalar yo'q",
+      "NOTE": "Barcha obuna bo'lgan kiruvchi xabarlardan bildirishnomalar",
+      "NO_MESSAGES_AVAILABLE": "Voy! Xabarlarni yuklab bo'lmadi",
+      "SNOOZED_UNTIL": "Quyidagi vaqtgacha kechiktirildi",
+      "SNOOZED_UNTIL_TOMORROW": "Ertagacha kechiktirildi",
+      "SNOOZED_UNTIL_NEXT_WEEK": "Keyingi haftagacha kechiktirildi"
+    },
+    "ACTION_HEADER": {
+      "SNOOZE": "Bildirishnomani kechiktirish",
+      "DELETE": "Bildirishnomani o'chirish",
+      "BACK": "Orqaga"
+    },
+    "TYPES": {
+      "CONVERSATION_MENTION": "Siz suhbatda eslатib o'tilgansiz",
+      "CONVERSATION_CREATION": "Yangi suhbat yaratildi",
+      "CONVERSATION_ASSIGNMENT": "Sizga suhbat tayinlandi",
+      "ASSIGNED_CONVERSATION_NEW_MESSAGE": "Tayinlangan suhbatda yangi xabar",
+      "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "Siz ishtirok etayotgan suhbatda yangi xabar",
+      "SLA_MISSED_FIRST_RESPONSE": "Suhbat uchun SLA birinchi javob muddati o'tkazib yuborildi",
+      "SLA_MISSED_NEXT_RESPONSE": "Suhbat uchun SLA keyingi javob muddati o'tkazib yuborildi",
+      "SLA_MISSED_RESOLUTION": "Suhbat uchun SLA yechim muddati o'tkazib yuborildi"
+    },
+    "MENU_ITEM": {
+      "MARK_AS_READ": "O'qilgan deb belgilash",
+      "MARK_AS_UNREAD": "O'qilmagan deb belgilash",
+      "SNOOZE": "Kechiktirish",
+      "DELETE": "O'chirish",
+      "MARK_ALL_READ": "Hammasini o'qilgan deb belgilash",
+      "DELETE_ALL": "Hammasini o'chirish",
+      "DELETE_ALL_READ": "Barcha o'qilganlarni o'chirish"
+    },
+    "DISPLAY_MENU": {
+      "SORT": "Saralash",
+      "DISPLAY": "Ko'rsatish :",
+      "SORT_OPTIONS": {
+        "NEWEST": "Eng yangi",
+        "OLDEST": "Eng eski",
+        "PRIORITY": "Muhimlik"
+      },
+      "DISPLAY_OPTIONS": {
+        "SNOOZED": "Kechiktirilgan",
+        "READ": "O'qilgan",
+        "LABELS": "Yorliqlar",
+        "CONVERSATION_ID": "Suhbat ID raqami"
+      }
+    },
+    "ALERTS": {
+      "MARK_AS_READ": "Bildirishnoma o'qilgan deb belgilandi",
+      "MARK_AS_UNREAD": "Bildirishnoma o'qilmagan deb belgilandi",
+      "SNOOZE": "Bildirishnoma kechiktirildi",
+      "DELETE": "Bildirishnoma o'chirildi",
+      "MARK_ALL_READ": "Barcha bildirishnomalar o'qilgan deb belgilandi",
+      "DELETE_ALL": "Barcha bildirishnomalar o'chirildi",
+      "DELETE_ALL_READ": "Barcha o'qilgan bildirishnomalar o'chirildi"
+    }
+  }
+}

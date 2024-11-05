@@ -1,0 +1,74 @@
+{
+  "AUDIT_LOGS": {
+    "HEADER": "Audit jurnali",
+    "HEADER_BTN_TXT": "Audit jurnali qo'shish",
+    "LOADING": "Audit jurnali yuklanmoqda",
+    "DESCRIPTION": "Audit jurnali hisobingizdagi faoliyatlar yozuvini saqlaydi, bu orqali hisobingiz, jamoangiz yoki xizmatlaringizni kuzatish va tekshirish imkonini beradi.",
+    "LEARN_MORE": "Audit jurnali haqida ko'proq ma'lumot",
+    "SEARCH_404": "Ushbu so'rov bo'yicha hech narsa topilmadi",
+    "SIDEBAR_TXT": "<p><b>Audit jurnali</b></p><p>Audit jurnali Chatwoot tizimidagi hodisa va harakatlarning izi hisoblanadi.</p>",
+    "LIST": {
+      "404": "Ushbu hisobda audit jurnallari mavjud emas.",
+      "TITLE": "Audit jurnallarini boshqarish",
+      "DESC": "Audit jurnali Chatwoot tizimidagi hodisa va harakatlarning izi hisoblanadi.",
+      "TABLE_HEADER": {
+        "ACTIVITY": "Faoliyat",
+        "TIME": "Vaqt",
+        "IP_ADDRESS": "IP manzil"
+      }
+    },
+    "API": {
+      "SUCCESS_MESSAGE": "Audit jurnallari muvaffaqiyatli olindi",
+      "ERROR_MESSAGE": "Woot serveriga ulanib bo'lmadi, iltimos keyinroq qayta urinib ko'ring"
+    },
+    "DEFAULT_USER": "Tizim",
+    "AUTOMATION_RULE": {
+      "ADD": "{agentName} yangi avtomatlashtirish qoidasini yaratdi (#{id})",
+      "EDIT": "{agentName} avtomatlashtirish qoidasini yangiladi (#{id})",
+      "DELETE": "{agentName} avtomatlashtirish qoidasini o'chirdi (#{id})"
+    },
+    "ACCOUNT_USER": {
+      "ADD": "{agentName} {invitee}ni {role} sifatida hisobga taklif qildi",
+      "EDIT": {
+        "SELF": "{agentName} o'zining {attributes}ni {values}ga o'zgartirdi",
+        "OTHER": "{agentName} {user}ning {attributes}ni {values}ga o'zgartirdi",
+        "DELETED": "{agentName} o'chirilgan foydalanuvchining {attributes}ni {values}ga o'zgartirdi"
+      }
+    },
+    "INBOX": {
+      "ADD": "{agentName} yangi kirish qutisini yaratdi (#{id})",
+      "EDIT": "{agentName} kirish qutisini yangiladi (#{id})",
+      "DELETE": "{agentName} kirish qutisini o'chirdi (#{id})"
+    },
+    "WEBHOOK": {
+      "ADD": "{agentName} yangi webhook yaratdi (#{id})",
+      "EDIT": "{agentName} webhookni yangiladi (#{id})",
+      "DELETE": "{agentName} webhookni o'chirdi (#{id})"
+    },
+    "USER_ACTION": {
+      "SIGN_IN": "{agentName} tizimga kirdi",
+      "SIGN_OUT": "{agentName} tizimdan chiqdi"
+    },
+    "TEAM": {
+      "ADD": "{agentName} yangi jamoa yaratdi (#{id})",
+      "EDIT": "{agentName} jamoani yangiladi (#{id})",
+      "DELETE": "{agentName} jamoani o'chirdi (#{id})"
+    },
+    "MACRO": {
+      "ADD": "{agentName} yangi makros yaratdi (#{id})",
+      "EDIT": "{agentName} makrosni yangiladi (#{id})",
+      "DELETE": "{agentName} makrosni o'chirdi (#{id})"
+    },
+    "INBOX_MEMBER": {
+      "ADD": "{agentName} {user}ni kirish qutisiga(#{inbox_id}) qo'shdi",
+      "REMOVE": "{agentName} {user}ni kirish qutisidan(#{inbox_id}) olib tashladi"
+    },
+    "TEAM_MEMBER": {
+      "ADD": "{agentName} {user}ni jamoaga(#{team_id}) qo'shdi",
+      "REMOVE": "{agentName} {user}ni jamoadan(#{team_id}) olib tashladi"
+    },
+    "ACCOUNT": {
+      "EDIT": "{agentName} hisob sozlamalarini yangiladi (#{id})"
+    }
+  }
+}

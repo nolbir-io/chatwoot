@@ -1,0 +1,19 @@
+{
+  "DATE_PICKER": {
+    "APPLY_BUTTON": "Qo'llash",
+    "CLEAR_BUTTON": "Tozalash",
+    "DATE_RANGE_INPUT": {
+      "START": "Boshlanish sanasi",
+      "END": "Tugash sanasi"
+    },
+    "DATE_RANGE_OPTIONS": {
+      "TITLE": "SANA ORALIG'I",
+      "LAST_7_DAYS": "Oxirgi 7 kun",
+      "LAST_30_DAYS": "Oxirgi 30 kun",
+      "LAST_3_MONTHS": "Oxirgi 3 oy",
+      "LAST_6_MONTHS": "Oxirgi 6 oy",
+      "LAST_YEAR": "O'tgan yil",
+      "CUSTOM_RANGE": "Maxsus sana oralig'i"
+    }
+  }
+}

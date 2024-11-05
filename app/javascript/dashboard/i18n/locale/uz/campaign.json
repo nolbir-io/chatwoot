@@ -1,0 +1,126 @@
+{
+  "CAMPAIGN": {
+    "HEADER": "Kampaniyalar",
+    "SIDEBAR_TXT": "Proaktiv xabarlar mijozlarga o'z kontaktlariga tashqi xabarlar yuborish imkonini beradi, bu esa ko'proq suhbatlarga olib keladi. <b>Kampaniya qo'shish</b> tugmasini bosib yangi kampaniya yarating. Shuningdek, Tahrirlash yoki O'chirish tugmasini bosib mavjud kampaniyani tahrirlash yoki o'chirishingiz mumkin.",
+    "HEADER_BTN_TXT": {
+      "ONE_OFF": "Bir martalik kampaniya yaratish",
+      "ONGOING": "Doimiy kampaniya yaratish"
+    },
+    "ADD": {
+      "TITLE": "Kampaniya yaratish",
+      "DESC": "Proaktiv xabarlar mijozlarga o'z kontaktlariga tashqi xabarlar yuborish imkonini beradi, bu esa ko'proq suhbatlarga olib keladi.",
+      "CANCEL_BUTTON_TEXT": "Bekor qilish",
+      "CREATE_BUTTON_TEXT": "Yaratish",
+      "FORM": {
+        "TITLE": {
+          "LABEL": "Sarlavha",
+          "PLACEHOLDER": "Iltimos, kampaniya sarlavhasini kiriting",
+          "ERROR": "Sarlavha kiritish shart"
+        },
+        "SCHEDULED_AT": {
+          "LABEL": "Rejalashtirilgan vaqt",
+          "PLACEHOLDER": "Iltimos, vaqtni tanlang",
+          "CONFIRM": "Tasdiqlash",
+          "ERROR": "Rejalashtirilgan vaqt kiritish shart"
+        },
+        "AUDIENCE": {
+          "LABEL": "Auditoriya",
+          "PLACEHOLDER": "Mijoz teglarini tanlang",
+          "ERROR": "Auditoriya tanlash shart"
+        },
+        "INBOX": {
+          "LABEL": "Kiruvchi qutini tanlang",
+          "PLACEHOLDER": "Kiruvchi qutini tanlang",
+          "ERROR": "Kiruvchi qutini tanlash shart"
+        },
+        "MESSAGE": {
+          "LABEL": "Xabar",
+          "PLACEHOLDER": "Iltimos, kampaniya xabarini kiriting",
+          "ERROR": "Xabar kiritish shart"
+        },
+        "SENT_BY": {
+          "LABEL": "Yuboruvchi",
+          "PLACEHOLDER": "Iltimos, kampaniya tarkibini tanlang",
+          "ERROR": "Yuboruvchini tanlash shart"
+        },
+        "END_POINT": {
+          "LABEL": "URL",
+          "PLACEHOLDER": "Iltimos, URL manzilini kiriting",
+          "ERROR": "Iltimos, to'g'ri URL manzilini kiriting"
+        },
+        "TIME_ON_PAGE": {
+          "LABEL": "Sahifada bo'lish vaqti (soniyalarda)",
+          "PLACEHOLDER": "Iltimos, vaqtni kiriting",
+          "ERROR": "Sahifada bo'lish vaqtini kiritish shart"
+        },
+        "ENABLED": "Kampaniyani yoqish",
+        "TRIGGER_ONLY_BUSINESS_HOURS": "Faqat ish soatlarida ishga tushirish",
+        "SUBMIT": "Kampaniya qo'shish"
+      },
+      "API": {
+        "SUCCESS_MESSAGE": "Kampaniya muvaffaqiyatli yaratildi",
+        "ERROR_MESSAGE": "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring."
+      }
+    },
+    "DELETE": {
+      "BUTTON_TEXT": "O'chirish",
+      "CONFIRM": {
+        "TITLE": "O'chirishni tasdiqlash",
+        "MESSAGE": "O'chirishni xohlaysizmi?",
+        "YES": "Ha, o'chirish ",
+        "NO": "Yo'q, saqlash "
+      },
+      "API": {
+        "SUCCESS_MESSAGE": "Kampaniya muvaffaqiyatli o'chirildi",
+        "ERROR_MESSAGE": "Kampaniyani o'chirib bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring."
+      }
+    },
+    "EDIT": {
+      "TITLE": "Kampaniyani tahrirlash",
+      "UPDATE_BUTTON_TEXT": "Yangilash",
+      "API": {
+        "SUCCESS_MESSAGE": "Kampaniya muvaffaqiyatli yangilandi",
+        "ERROR_MESSAGE": "Xatolik yuz berdi, iltimos qayta urinib ko'ring"
+      }
+    },
+    "LIST": {
+      "LOADING_MESSAGE": "Kampaniyalar yuklanmoqda...",
+      "404": "Bu kiruvchi qutida yaratilgan kampaniyalar yo'q.",
+      "TABLE_HEADER": {
+        "TITLE": "Sarlavha",
+        "MESSAGE": "Xabar",
+        "INBOX": "Kiruvchi quti",
+        "STATUS": "Holat",
+        "SENDER": "Yuboruvchi",
+        "URL": "URL",
+        "SCHEDULED_AT": "Rejalashtirilgan vaqt",
+        "TIME_ON_PAGE": "Vaqt(soniyalarda)",
+        "CREATED_AT": "Yaratilgan vaqt"
+      },
+      "BUTTONS": {
+        "ADD": "Qo'shish",
+        "EDIT": "Tahrirlash",
+        "DELETE": "O'chirish"
+      },
+      "STATUS": {
+        "ENABLED": "Yoqilgan",
+        "DISABLED": "O'chirilgan",
+        "COMPLETED": "Tugallangan",
+        "ACTIVE": "Faol"
+      },
+      "SENDER": {
+        "BOT": "Bot"
+      }
+    },
+    "ONE_OFF": {
+      "HEADER": "Bir martalik kampaniyalar",
+      "404": "Bir martalik kampaniyalar yaratilmagan",
+      "INBOXES_NOT_FOUND": "Iltimos, SMS kiruvchi qutisini yarating va kampaniyalar qo'shishni boshlang"
+    },
+    "ONGOING": {
+      "HEADER": "Doimiy kampaniyalar",
+      "404": "Doimiy kampaniyalar yaratilmagan",
+      "INBOXES_NOT_FOUND": "Iltimos, veb-sayt kiruvchi qutisini yarating va kampaniyalar qo'shishni boshlang"
+    }
+  }
+}

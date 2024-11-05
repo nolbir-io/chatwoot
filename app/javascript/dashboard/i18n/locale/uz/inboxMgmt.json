@@ -1,0 +1,757 @@
+{
+  "INBOX_MGMT": {
+    "HEADER": "Kiruvchi xabarlar",
+    "DESCRIPTION": "Kanal - bu mijozingiz siz bilan muloqot qilish uchun tanlagan usul. Kiruvchi xabarlar qutisi - bu ma'lum bir kanal uchun muloqotlarni boshqaradigan joy. U elektron pochta, jonli chat va ijtimoiy tarmoqlar kabi turli manbalardan kelgan muloqotlarni o'z ichiga olishi mumkin.",
+    "LEARN_MORE": "Kiruvchi xabarlar haqida ko'proq ma'lumot",
+    "RECONNECTION_REQUIRED": "Kiruvchi xabarlar qutisi uzilgan. Yangi xabarlarni qabul qilish uchun qayta avtorizatsiyadan o'tishingiz kerak.",
+    "CLICK_TO_RECONNECT": "Qayta ulanish uchun bu yerga bosing.",
+    "LIST": {
+      "404": "Bu hisob bilan bog'langan kiruvchi xabarlar qutisi yo'q."
+    },
+    "CREATE_FLOW": {
+      "CHANNEL": {
+        "TITLE": "Kanal tanlang",
+        "BODY": "Chatwoot bilan integratsiya qilmoqchi bo'lgan provayderni tanlang."
+      },
+      "INBOX": {
+        "TITLE": "Kiruvchi xabarlar qutisini yarating",
+        "BODY": "Hisobingizni tasdiqlang va kiruvchi xabarlar qutisini yarating."
+      },
+      "AGENT": {
+        "TITLE": "Agentlarni qo'shing",
+        "BODY": "Yaratilgan kiruvchi xabarlar qutisiga agentlarni qo'shing."
+      },
+      "FINISH": {
+        "TITLE": "Tayyor!",
+        "BODY": "Hammasi tayyor!"
+      }
+    },
+    "ADD": {
+      "CHANNEL_NAME": {
+        "LABEL": "Kiruvchi xabarlar qutisi nomi",
+        "PLACEHOLDER": "Kiruvchi xabarlar qutisi nomini kiriting (masalan: Acme Inc)",
+        "ERROR": "Iltimos, ma'lum bir kiruvchi xabarlar qutisi nomini kiriting"
+      },
+      "WEBSITE_NAME": {
+        "LABEL": "Veb-sayt nomi",
+        "PLACEHOLDER": "Veb-sayt nomini kiriting (masalan: Acme Inc)"
+      },
+      "FB": {
+        "HELP": "PS: Ro'yxatdan o'tish orqali, biz sizning Sahifangiz xabarlarini olishimiz mumkin. Sizning xavfsiz xabarlarimiz Chatwootga kirib bo'lmaydi.",
+        "CHOOSE_PAGE": "Sahifa tanlang",
+        "CHOOSE_PLACEHOLDER": "Ro'yxatdan bir sahifa tanlang",
+        "INBOX_NAME": "Kiruvchi xabarlar qutisi nomi",
+        "ADD_NAME": "Kiruvchi xabarlar qutisi uchun nom qo'shing",
+        "PICK_NAME": "Kiruvchi xabarlar qutisi uchun nom tanlang",
+        "PICK_A_VALUE": "Qiymat tanlang"
+      },
+      "TWITTER": {
+        "HELP": "Siz Twitter profilni kanal sifatida qo'shmoqchi bo'lsangiz, Twitter profilni 'Twitter bilan ro'yxatdan o'tish' tugmasini bosishingiz kerak",
+        "ERROR_MESSAGE": "Twitter bilan bog'lanishda xatolik yuz berdi, qayta urinib ko'ring",
+        "TWEETS": {
+          "ENABLE": "Tweetsdan tashkil topgan konversatsiyalarni yaratish"
+        }
+      },
+      "WEBSITE_CHANNEL": {
+        "TITLE": "Veb-sayt kanal",
+        "DESC": "Sizning veb-saytingiz uchun kanal yarating va bizning veb-sayt kutubxonasidan foydalanish orqali mijozlarimizni qo'llab-quvvatlang.",
+        "LOADING_MESSAGE": "Veb-sayt qo'llab-quvvat kanalini yaratish",
+        "CHANNEL_AVATAR": {
+          "LABEL": "Kanal avatar"
+        },
+        "CHANNEL_WEBHOOK_URL": {
+          "LABEL": "Webhook URL",
+          "PLACEHOLDER": "Iltimos, sizning Webhook URLni kiriting",
+          "ERROR": "Iltimos, ma'lum URL kiriting"
+        },
+        "CHANNEL_DOMAIN": {
+          "LABEL": "Veb-sayt domaini",
+          "PLACEHOLDER": "Veb-sayt domainini kiriting (masalan: acme.com)"
+        },
+        "CHANNEL_WELCOME_TITLE": {
+          "LABEL": "Xush kelibsiz!",
+          "PLACEHOLDER": "Xush kelibsiz!"
+        },
+        "CHANNEL_WELCOME_TAGLINE": {
+          "LABEL": "Xush kelibsiz!",
+          "PLACEHOLDER": "Biz siz bilan bog'lanishimizni osonlashtiramiz. Iltimos, sizning xabaringiz yoki taklifingizni bildiring."
+        },
+        "CHANNEL_GREETING_MESSAGE": {
+          "LABEL": "Kanal xush kelibsiz xabari",
+          "PLACEHOLDER": "Acme Inc tayyorlikda tayyorlashadi."
+        },
+        "CHANNEL_GREETING_TOGGLE": {
+          "LABEL": "Kanal xush kelibsiz xabari",
+          "HELP_TEXT": "Mijozlar konversatsiyani boshlashganidan so'ng va ularning birinchi xabari yuborilgandan so'ng xush kelibsiz xabarlar yuborish",
+          "ENABLED": "Ishlatish",
+          "DISABLED": "Ishlatish"
+        },
+        "REPLY_TIME": {
+          "TITLE": "Javob vaqti",
+          "IN_A_FEW_MINUTES": "Bir nechta minutda",
+          "IN_A_FEW_HOURS": "Bir nechta soatda",
+          "IN_A_DAY": "Bir kunda",
+          "HELP_TEXT": "Ushbu javob vaqti Live chat kutubxonasida ko'rsatiladi"
+        },
+        "WIDGET_COLOR": {
+          "LABEL": "Widget rangi",
+          "PLACEHOLDER": "Widgetda ishlatiladigan rangni yangilang"
+        },
+        "SUBMIT_BUTTON": "Kiruvchi xabarlar qutisini yaratish",
+        "API": {
+          "ERROR_MESSAGE": "Veb-sayt kanalini yaratishda xatolik yuz berdi, qayta urinib ko'ring"
+        }
+      },
+      "TWILIO": {
+        "TITLE": "Twilio SMS/WhatsApp kanal",
+        "DESC": "Twilio va SMS yoki WhatsApp orqali mijozlarimizni qo'llab-quvvatlang.",
+        "ACCOUNT_SID": {
+          "LABEL": "Account SID",
+          "PLACEHOLDER": "Iltimos, Twilio hisobingiz SIDini kiriting",
+          "ERROR": "Ushbu maydonni to'ldiring"
+        },
+        "API_KEY": {
+          "USE_API_KEY": "API kalitini ishlatish",
+          "LABEL": "API Key SID",
+          "PLACEHOLDER": "Iltimos, sizning API Key SIDini kiriting",
+          "ERROR": "Ushbu maydonni to'ldiring"
+        },
+        "API_KEY_SECRET": {
+          "LABEL": "API kalitining secreti",
+          "PLACEHOLDER": "Iltimos, sizning API kalitining secretini kiriting",
+          "ERROR": "Ushbu maydonni to'ldiring"
+        },
+        "MESSAGING_SERVICE_SID": {
+          "LABEL": "Messaging Service SID",
+          "PLACEHOLDER": "Iltimos, Twilio xizmatlariningiz SIDini kiriting",
+          "ERROR": "Ushbu maydonni to'ldiring",
+          "USE_MESSAGING_SERVICE": "Twilio xizmatlariningizni ishlatish"
+        },
+        "CHANNEL_TYPE": {
+          "LABEL": "Kanal turi",
+          "ERROR": "Iltimos, kanal turini tanlang"
+        },
+        "AUTH_TOKEN": {
+          "LABEL": "Auth Token",
+          "PLACEHOLDER": "Iltimos, Twilio auth tokenini kiriting",
+          "ERROR": "Ushbu maydonni to'ldiring"
+        },
+        "CHANNEL_NAME": {
+          "LABEL": "Kiruvchi xabarlar qutisi nomi",
+          "PLACEHOLDER": "Iltimos, kiruvchi xabarlar qutisi nomini kiriting",
+          "ERROR": "Ushbu maydonni to'ldiring"
+        },
+        "PHONE_NUMBER": {
+          "LABEL": "Telefon raqami",
+          "PLACEHOLDER": "Iltimos, xabarlar yuboriladigan telefon raqamini kiriting",
+          "ERROR": "Iltimos, ma'lum bir telefon raqam kiriting, bunda `+` belgisi va probel bo'lmasligi kerak"
+        },
+        "API_CALLBACK": {
+          "TITLE": "Callback URL",
+          "SUBTITLE": "Twilio bilan xabarlarni qayta yuborish URLini kiritishingiz kerak"
+        },
+        "SUBMIT_BUTTON": "Twilio kanalini yaratish",
+        "API": {
+          "ERROR_MESSAGE": "Twilio kreditlarini tasdiqlashda xatolik yuz berdi, qayta urinib ko'ring"
+        }
+      },
+      "SMS": {
+        "TITLE": "SMS kanal",
+        "DESC": "SMS orqali mijozlarimizni qo'llab-quvvatlang.",
+        "PROVIDERS": {
+          "LABEL": "API provayder",
+          "TWILIO": "Twilio",
+          "BANDWIDTH": "Bandwidth"
+        },
+        "API": {
+          "ERROR_MESSAGE": "SMS kanalini saqlashda xatolik yuz berdi, qayta urinib ko'ring"
+        },
+        "BANDWIDTH": {
+          "ACCOUNT_ID": {
+            "LABEL": "Hisob ID",
+            "PLACEHOLDER": "Iltimos, sizning Bandwidth hisob IDni kiriting",
+            "ERROR": "Ushbu maydonni to'ldiring"
+          },
+          "API_KEY": {
+            "LABEL": "API kalit",
+            "PLACEHOLDER": "Iltimos, sizning Bandwidth API kalitini kiriting",
+            "ERROR": "Ushbu maydonni to'ldiring"
+          },
+          "API_SECRET": {
+            "LABEL": "API secreti",
+            "PLACEHOLDER": "Iltimos, sizning Bandwidth API secretini kiriting",
+            "ERROR": "Ushbu maydonni to'ldiring"
+          },
+          "APPLICATION_ID": {
+            "LABEL": "Dastur ID",
+            "PLACEHOLDER": "Iltimos, sizning Bandwidth dastur IDni kiriting",
+            "ERROR": "Ushbu maydonni to'ldiring"
+          },
+          "INBOX_NAME": {
+            "LABEL": "Kiruvchi xabarlar qutisi nomi",
+            "PLACEHOLDER": "Iltimos, kiruvchi xabarlar qutisi nomini kiriting",
+            "ERROR": "Ushbu maydonni to'ldiring"
+          },
+          "PHONE_NUMBER": {
+            "LABEL": "Telefon raqami",
+            "PLACEHOLDER": "Iltimos, xabarlar yuboriladigan telefon raqamini kiriting",
+            "ERROR": "Iltimos, ma'lum bir telefon raqam kiriting, bunda `+` belgisi va probel bo'lmasligi kerak"
+          },
+          "SUBMIT_BUTTON": "Bandwidth kanalini yaratish",
+          "API": {
+            "ERROR_MESSAGE": "Bandwidth kreditlarini tasdiqlashda xatolik yuz berdi, qayta urinib ko'ring"
+          },
+          "API_CALLBACK": {
+            "TITLE": "Callback URL",
+            "SUBTITLE": "Bandwidth bilan xabarlarni qayta yuborish URLini kiritishingiz kerak"
+          }
+        }
+      },
+      "WHATSAPP": {
+        "TITLE": "WhatsApp kanal",
+        "DESC": "WhatsApp orqali mijozlarimizni qo'llab-quvvatlang.",
+        "PROVIDERS": {
+          "LABEL": "API provayder",
+          "TWILIO": "Twilio",
+          "WHATSAPP_CLOUD": "WhatsApp Cloud",
+          "360_DIALOG": "360Dialog"
+        },
+        "INBOX_NAME": {
+          "LABEL": "Kiruvchi xabarlar qutisi nomi",
+          "PLACEHOLDER": "Iltimos, kiruvchi xabarlar qutisi nomini kiriting",
+          "ERROR": "Ushbu maydonni to'ldiring"
+        },
+        "PHONE_NUMBER": {
+          "LABEL": "Telefon raqami",
+          "PLACEHOLDER": "Iltimos, xabarlar yuboriladigan telefon raqamini kiriting",
+          "ERROR": "Iltimos, ma'lum bir telefon raqam kiriting, bunda `+` belgisi va probel bo'lmasligi kerak"
+        },
+        "PHONE_NUMBER_ID": {
+          "LABEL": "Telefon raqami ID",
+          "PLACEHOLDER": "Iltimos, Facebook developer dashboardidan olingan telefon raqami IDni kiriting",
+          "ERROR": "Iltimos, ma'lum bir qiymat kiriting"
+        },
+        "BUSINESS_ACCOUNT_ID": {
+          "LABEL": "Tashkilot hisob ID",
+          "PLACEHOLDER": "Iltimos, Facebook developer dashboardidan olingan tashkilot hisob IDni kiriting",
+          "ERROR": "Iltimos, ma'lum bir qiymat kiriting"
+        },
+        "WEBHOOK_VERIFY_TOKEN": {
+          "LABEL": "Webhook tasdiqlash tokeni",
+          "PLACEHOLDER": "Iltimos, Facebook webhooksini uchun tasdiqlash tokenini kiriting",
+          "ERROR": "Iltimos, ma'lum bir qiymat kiriting"
+        },
+        "API_KEY": {
+          "LABEL": "API kalit",
+          "SUBTITLE": "WhatsApp API kalitini konfiguratsiya qilish",
+          "PLACEHOLDER": "API kalit",
+          "ERROR": "Iltimos, ma'lum bir qiymat kiriting"
+        },
+        "API_CALLBACK": {
+          "TITLE": "Callback URL",
+          "SUBTITLE": "Iltimos, webhook URL va tasdiqlash tokenini Facebook Developer portalida kiritishingiz kerak",
+          "WEBHOOK_URL": "Webhook URL",
+          "WEBHOOK_VERIFICATION_TOKEN": "Webhook tasdiqlash tokeni"
+        },
+        "SUBMIT_BUTTON": "WhatsApp kanalini yaratish",
+        "API": {
+          "ERROR_MESSAGE": "WhatsApp kanalini saqlashda xatolik yuz berdi, qayta urinib ko'ring"
+        }
+      },
+      "API_CHANNEL": {
+        "TITLE": "API kanal",
+        "DESC": "API kanal bilan integratsiya qilish va mijozlarimizni qo'llab-quvvatlang.",
+        "CHANNEL_NAME": {
+          "LABEL": "Kanal nomi",
+          "PLACEHOLDER": "Iltimos, kanal nomini kiriting",
+          "ERROR": "Ushbu maydonni to'ldiring"
+        },
+        "WEBHOOK_URL": {
+          "LABEL": "Webhook URL",
+          "SUBTITLE": "Iltimos, sizga xabar yuboriladigan URLni kiritishingiz kerak",
+          "PLACEHOLDER": "Webhook URL"
+        },
+        "SUBMIT_BUTTON": "API kanalini yaratish",
+        "API": {
+          "ERROR_MESSAGE": "API kanalini saqlashda xatolik yuz berdi, qayta urinib ko'ring"
+        }
+      },
+      "EMAIL_CHANNEL": {
+        "TITLE": "Email kanal",
+        "DESC": "Email kutubxonasini integratsiya qilish.",
+        "CHANNEL_NAME": {
+          "LABEL": "Kanal nomi",
+          "PLACEHOLDER": "Iltimos, kanal nomini kiriting",
+          "ERROR": "Ushbu maydonni to'ldiring"
+        },
+        "EMAIL": {
+          "LABEL": "Email",
+          "SUBTITLE": "Iltimos, sizning mijozlarimiz xabar yuborish uchun email manzilini kiriting",
+          "PLACEHOLDER": "Email"
+        },
+        "SUBMIT_BUTTON": "Email kanalini yaratish",
+        "API": {
+          "ERROR_MESSAGE": "Email kanalini saqlashda xatolik yuz berdi, qayta urinib ko'ring"
+        },
+        "FINISH_MESSAGE": "Sizning xabarlaringizni quyidagi email manziliga yuborishni boshlash"
+      },
+      "LINE_CHANNEL": {
+        "TITLE": "LINE kanal",
+        "DESC": "LINE kanal bilan integratsiya qilish va mijozlarimizni qo'llab-quvvatlang.",
+        "CHANNEL_NAME": {
+          "LABEL": "Kanal nomi",
+          "PLACEHOLDER": "Iltimos, kanal nomini kiriting",
+          "ERROR": "Ushbu maydonni to'ldiring"
+        },
+        "LINE_CHANNEL_ID": {
+          "LABEL": "LINE kanal ID",
+          "PLACEHOLDER": "LINE kanal ID"
+        },
+        "LINE_CHANNEL_SECRET": {
+          "LABEL": "LINE kanal secreti",
+          "PLACEHOLDER": "LINE kanal secreti"
+        },
+        "LINE_CHANNEL_TOKEN": {
+          "LABEL": "LINE kanal tokeni",
+          "PLACEHOLDER": "LINE kanal tokeni"
+        },
+        "SUBMIT_BUTTON": "LINE kanalini yaratish",
+        "API": {
+          "ERROR_MESSAGE": "LINE kanalini saqlashda xatolik yuz berdi, qayta urinib ko'ring"
+        },
+        "API_CALLBACK": {
+          "TITLE": "Callback URL",
+          "SUBTITLE": "Iltimos, LINE ilovasida webhook URLini kiritishingiz kerak"
+        }
+      },
+      "TELEGRAM_CHANNEL": {
+        "TITLE": "Telegram kanal",
+        "DESC": "Telegram kanal bilan integratsiya qilish va mijozlarimizni qo'llab-quvvatlang.",
+        "BOT_TOKEN": {
+          "LABEL": "Bot tokeni",
+          "SUBTITLE": "Iltimos, Telegram BotFatherdan olingan bot tokenini kiriting",
+          "PLACEHOLDER": "Bot tokeni"
+        },
+        "SUBMIT_BUTTON": "Telegram kanalini yaratish",
+        "API": {
+          "ERROR_MESSAGE": "Telegram kanalini saqlashda xatolik yuz berdi, qayta urinib ko'ring"
+        }
+      },
+      "AUTH": {
+        "TITLE": "Kanal tanlang",
+        "DESC": "Chatwoot Live chat kutubxonasi, Facebook Messenger, WhatsApp, Email, va boshqalar kabi kanal sifatida ishlatiladi. Agar siz xususiy kanal yaratmoqchi bo'lsangiz, siz API kanal yaratish orqali uni yaratishingiz mumkin. Boshlash uchun, quyidagi kanal tayyorlaridan birini tanlang."
+      },
+      "AGENTS": {
+        "TITLE": "Agentlar",
+        "DESC": "Bu erda siz yangi yaratilgan kiruvchi xabarlar qutisiga agentlar qo'shishingiz mumkin. Faqat shu kiruvchi xabarlar qutisiga kirib tushgan agentlar kiruvchi xabarlar qutisini ko'rish va javob berish uchun ruxsatga ega bo'ladi. Agar siz barcha kiruvchi xabarlar qutilariga kirib tushgan bo'lsangiz, siz barcha kiruvchi xabarlar qutilariga o'z-o'zini qo'shishingiz kerak. <br> <b>PS:</b> Administratorda bo'lsangiz, agar siz barcha kiruvchi xabarlar qutilariga kirib tushgan bo'lsangiz, siz barcha kiruvchi xabarlar qutilariga o'z-o'zini qo'shishingiz kerak."
+      },
+      "DETAILS": {
+        "TITLE": "Kiruvchi xabarlar qutisi ma'lumotlari",
+        "DESC": "Pastdagi dropdowndan Facebook Sahifasini tanlang va siz uni Chatwoot bilan bog'lashimiz mumkin. Siz ham kiruvchi xabarlar qutisi uchun xususiy nom berishingiz mumkin."
+      },
+      "FINISH": {
+        "TITLE": "Tayyor!",
+        "DESC": "Siz Facebook Sahifasini Chatwoot bilan integratsiya qildingiz. Keyingi marta mijoz sizning Sahifasiga xabar yuboradi va sizning kiruvchi xabarlar qutisiga avtomatik ravishda keladi.<br>Biz sizga kutubxonaning kodini sizning veb-saytingizga qo'shishingiz mumkin. Keyingi marta mijoz Live chat yordamida siz bilan muloqot qilishi mumkin. <br>Qulaymi? Biz sizga ishonch hosil qilamiz :)"
+      },
+      "EMAIL_PROVIDER": {
+        "TITLE": "Sizning email provayderingizni tanlang",
+        "DESCRIPTION": "Quyidagi ro'yxatdan email provayderini tanlang. Agar siz ro'yxatda ko'rsatilgan email provayderni ko'rmasangiz, siz boshqa provayderni tanlashimiz mumkin va IMAP va SMTP kreditlarini kiritishingiz kerak."
+      },
+      "MICROSOFT": {
+        "TITLE": "Microsoft Email",
+        "DESCRIPTION": "Microsoft tugmasini bosish orqali boshlashimiz mumkin. Siz email sign in sahifasiga yo'naltirilasiz. Agar siz xohlaysiz, siz xabarlar qutisini yaratish jarayoniga qaytadan yo'naltirilasiz.",
+        "EMAIL_PLACEHOLDER": "Email manzilini kiriting",
+        "SIGN_IN": "Microsoft bilan ro'yxatdan o'tish",
+        "ERROR_MESSAGE": "Microsoft bilan bog'lanishda xatolik yuz berdi, qayta urinib ko'ring"
+      },
+      "GOOGLE": {
+        "TITLE": "Google Email",
+        "DESCRIPTION": "Google tugmasini bosish orqali boshlashimiz mumkin. Siz email sign in sahifasiga yo'naltirilasiz. Agar siz xohlaysiz, siz xabarlar qutisini yaratish jarayoniga qaytadan yo'naltirilasiz.",
+        "SIGN_IN": "Google bilan ro'yxatdan o'tish",
+        "EMAIL_PLACEHOLDER": "Email manzilini kiriting",
+        "ERROR_MESSAGE": "Google bilan bog'lanishda xatolik yuz berdi, qayta urinib ko'ring"
+      }
+    },
+    "DETAILS": {
+      "LOADING_FB": "Facebook bilan sizni tasdiqlash...",
+      "ERROR_FB_LOADING": "Facebook SDK yuklashda xatolik yuz berdi. Iltimos, ad-blockerlarni o'chirib va boshqa brauzerdan qayta urinib ko'ring",
+      "ERROR_FB_AUTH": "Nimadir xato ketdi, Iltimos, sahifani yangilang...",
+      "ERROR_FB_UNAUTHORIZED": "Siz bu amalni bajarishga ruxsat etilmadingiz. ",
+      "ERROR_FB_UNAUTHORIZED_HELP": "Iltimos, siz Facebook sahifasiga to'liq boshqarish imkoniyatini egallashingiz mumkin. Siz Facebook rollari haqida ko'proq ma'lumot olishingiz mumkin <a href=\" https://www.facebook.com/help/187316341316631\">bu erda</a>.",
+      "CREATING_CHANNEL": "Sizning kiruvchi xabarlar qutisini yaratmoqda...",
+      "TITLE": "Kiruvchi xabarlar qutisi ma'lumotlari",
+      "DESC": ""
+    },
+    "AGENTS": {
+      "BUTTON_TEXT": "Agentlar qo'shing",
+      "ADD_AGENTS": "Kiruvchi xabarlar qutisiga agentlar qo'shmoqda..."
+    },
+    "FINISH": {
+      "TITLE": "Sizning kiruvchi xabarlar qutisi tayyor!",
+      "MESSAGE": "Siz yangi kanal orqali mijozlar bilan muloqot qilishingiz mumkin. Tabriklaymiz",
+      "BUTTON_TEXT": "Men shu erda",
+      "MORE_SETTINGS": "Boshqa sozlamalar",
+      "WEBSITE_SUCCESS": "Siz yangi veb-sayt kanalini muvaffaqiyatli yaratdingiz. Kechirasiz, siz yangi veb-sayt kanalini yaratish jarayonida kutubxonaning kodini sizning veb-saytingizga qo'shishingiz mumkin. Keyingi marta mijoz Live chat yordamida siz bilan muloqot qilishi mumkin."
+    },
+    "REAUTH": "Qayta avtorizatsiya",
+    "VIEW": "Ko'rish",
+    "EDIT": {
+      "API": {
+        "SUCCESS_MESSAGE": "Kiruvchi xabarlar qutisi sozlamalari muvaffaqiyatli yangilandi",
+        "AUTO_ASSIGNMENT_SUCCESS_MESSAGE": "Avtomatik ta'minlash muvaffaqiyatli yangilandi",
+        "ERROR_MESSAGE": "Kiruvchi xabarlar qutisi sozlamalari yangilashda xatolik yuz berdi, qayta urinib ko'ring"
+      },
+      "EMAIL_COLLECT_BOX": {
+        "ENABLED": "Ishlatish",
+        "DISABLED": "Ishlatish"
+      },
+      "ENABLE_CSAT": {
+        "ENABLED": "Ishlatish",
+        "DISABLED": "Ishlatish"
+      },
+      "SENDER_NAME_SECTION": {
+        "TITLE": "Yuboruvchi nomi",
+        "SUB_TEXT": "Sizning mijozlarimiz xabarlarini qabul qilishda ko'rsatiladigan nomni tanlang",
+        "FOR_EG": "Masalan:",
+        "FRIENDLY": {
+          "TITLE": "Do'stona",
+          "FROM": "dan",
+          "SUBTITLE": "Yuboruvchi nomini xabarlar qutisiga qo'shish orqali do'stona nomini qo'shing"
+        },
+        "PROFESSIONAL": {
+          "TITLE": "Ishchi",
+          "SUBTITLE": "Ishchi nomini xabarlar qutisiga qo'shish orqali ishchi nomini qo'shing"
+        },
+        "BUSINESS_NAME": {
+          "BUTTON_TEXT": "+ Bizning tashkilot nomini tanlang",
+          "PLACEHOLDER": "Tashkilot nomini kiriting",
+          "SAVE_BUTTON_TEXT": "Saqlash"
+        }
+      },
+      "ALLOW_MESSAGES_AFTER_RESOLVED": {
+        "ENABLED": "Ishlatish",
+        "DISABLED": "Ishlatish"
+      },
+      "ENABLE_CONTINUITY_VIA_EMAIL": {
+        "ENABLED": "Ishlatish",
+        "DISABLED": "Ishlatish"
+      },
+      "LOCK_TO_SINGLE_CONVERSATION": {
+        "ENABLED": "Ishlatish",
+        "DISABLED": "Ishlatish"
+      },
+      "ENABLE_HMAC": {
+        "LABEL": "Ishlatish"
+      }
+    },
+    "DELETE": {
+      "BUTTON_TEXT": "O'chirish",
+      "AVATAR_DELETE_BUTTON_TEXT": "Avatar o'chirish",
+      "CONFIRM": {
+        "TITLE": "O'chirishni tasdiqlash",
+        "MESSAGE": "Siz haqiqatan o'chirmoqchimisiz ",
+        "PLACE_HOLDER": "Iltimos, {inboxName} ni kiriting, o'chirishni tasdiqlash",
+        "YES": "Ha, o'chirish",
+        "NO": "Yo'q, saqlash"
+      },
+      "API": {
+        "SUCCESS_MESSAGE": "Kiruvchi xabarlar qutisi muvaffaqiyatli o'chirildi",
+        "ERROR_MESSAGE": "Kiruvchi xabarlar qutisi o'chirishda xatolik yuz berdi, qayta urinib ko'ring",
+        "AVATAR_SUCCESS_MESSAGE": "Kiruvchi xabarlar qutisi avatar muvaffaqiyatli o'chirildi",
+        "AVATAR_ERROR_MESSAGE": "Kiruvchi xabarlar qutisi avatarini o'chirishda xatolik yuz berdi, qayta urinib ko'ring"
+      }
+    },
+    "TABS": {
+      "SETTINGS": "Sozlamalar",
+      "COLLABORATORS": "Kollektorlar",
+      "CONFIGURATION": "Konfiguratsiya",
+      "CAMPAIGN": "Kampaniyalar",
+      "PRE_CHAT_FORM": "Pre Chat Form",
+      "BUSINESS_HOURS": "Ish kunlari",
+      "WIDGET_BUILDER": "Widget Builder",
+      "BOT_CONFIGURATION": "Bot Konfiguratsiyasi"
+    },
+    "SETTINGS": "Sozlamalar",
+    "FEATURES": {
+      "LABEL": "Xususiyatlari",
+      "DISPLAY_FILE_PICKER": "Widgetda fayl tanlash",
+      "DISPLAY_EMOJI_PICKER": "Widgetda emojini tanlash",
+      "ALLOW_END_CONVERSATION": "Foydalanuvchilar widgetdan konversatsiyani tugatish imkonini beradi",
+      "USE_INBOX_AVATAR_FOR_BOT": "Kiruvchi nomi va avatar yordamida botni tanlash"
+    },
+    "SETTINGS_POPUP": {
+      "MESSENGER_HEADING": "Messenger Script",
+      "MESSENGER_SUB_HEAD": "Bu tugmani sizning body tagida joylashtiring",
+      "INBOX_AGENTS": "Agentlar",
+      "INBOX_AGENTS_SUB_TEXT": "Bu kiruvchi xabarlar qutisidan agentlar qo'shish yoki o'chirish",
+      "AGENT_ASSIGNMENT": "Konversatsiya ta'minlash",
+      "AGENT_ASSIGNMENT_SUB_TEXT": "Konversatsiya ta'minlash sozlamalarini yangilash",
+      "UPDATE": "Yangilash",
+      "ENABLE_EMAIL_COLLECT_BOX": "Email collect box",
+      "ENABLE_EMAIL_COLLECT_BOX_SUB_TEXT": "Yangi konversatsiyada email collect boxni yo'naltirish yoki o'chirish",
+      "AUTO_ASSIGNMENT": "Avtomatik ta'minlash",
+      "ENABLE_CSAT": "CSAT",
+      "SENDER_NAME_SECTION": "Agent nomini emailga qo'shish",
+      "ENABLE_CSAT_SUB_TEXT": "Konversatsiyani hal qilishdan keyin CSAT (mijozlar uchun xayrli) savolingi",
+      "SENDER_NAME_SECTION_TEXT": "Agent nomini emailga qo'shish, agar o'chirilsa, tashkilot nomini ko'rsatadi",
+      "ENABLE_CONTINUITY_VIA_EMAIL": "Konversatsiyalar email orqali davom etishi",
+      "ENABLE_CONTINUITY_VIA_EMAIL_SUB_TEXT": "Agar mijoz email manzilini mavjud bo'lsa, konversatsiyalar email orqali davom etadi",
+      "LOCK_TO_SINGLE_CONVERSATION": "Bitta konversatsiyani bloklash",
+      "LOCK_TO_SINGLE_CONVERSATION_SUB_TEXT": "Bu kiruvchi xabarlar qutisida bir nechta konversatsiyalarni bir mijoz uchun yo'naltirish yoki o'chirish",
+      "INBOX_UPDATE_TITLE": "Kiruvchi xabarlar qutisi sozlamalari",
+      "INBOX_UPDATE_SUB_TEXT": "Sizning kiruvchi xabarlar qutisi sozlamalari",
+      "AUTO_ASSIGNMENT_SUB_TEXT": "Yangi konversatsiyalarni bu kiruvchi xabarlar qutisiga qo'shish yoki o'chirish",
+      "HMAC_VERIFICATION": "Foydalanuvchi Identity tasdiqlash",
+      "HMAC_DESCRIPTION": "Ushbu kalit yordamida siz foydalanuvchilar uchun xavfsiz token yaratishingiz mumkin",
+      "HMAC_LINK_TO_DOCS": "Siz bu erda ko'proq ma'lumot olishingiz mumkin",
+      "HMAC_MANDATORY_VERIFICATION": "Foydalanuvchi Identity tasdiqlash",
+      "HMAC_MANDATORY_DESCRIPTION": "Agar yo'q, xato qaytariladi",
+      "INBOX_IDENTIFIER": "Kiruvchi xabarlar qutisi identifieri",
+      "INBOX_IDENTIFIER_SUB_TEXT": "Ushbu `inbox_identifier` tokenini kiriting, sizning API klientlarini tasdiqlash uchun",
+      "FORWARD_EMAIL_TITLE": "Emailga yuborish",
+      "FORWARD_EMAIL_SUB_TEXT": "Sizning xabarlaringizni quyidagi email manziliga yuborishni boshlash",
+      "ALLOW_MESSAGES_AFTER_RESOLVED": "Konversatsiyani hal qilishdan keyin xabarlar",
+      "ALLOW_MESSAGES_AFTER_RESOLVED_SUB_TEXT": "Agar konversatsiyani hal qilishdan keyin, mijozlar xabarlar yuborishi mumkin",
+      "WHATSAPP_SECTION_SUBHEADER": "Ushbu API kaliti WhatsApp API bilan integratsiya qilish uchun ishlatiladi",
+      "WHATSAPP_SECTION_UPDATE_SUBHEADER": "Yangi API kalitni WhatsApp API bilan integratsiya qilish uchun kiriting",
+      "WHATSAPP_SECTION_TITLE": "API kalit",
+      "WHATSAPP_SECTION_UPDATE_TITLE": "Yangi API kalit",
+      "WHATSAPP_SECTION_UPDATE_PLACEHOLDER": "Yangi API kalitni kiriting",
+      "WHATSAPP_SECTION_UPDATE_BUTTON": "Yangilash",
+      "WHATSAPP_WEBHOOK_TITLE": "Webhook tasdiqlash tokeni",
+      "WHATSAPP_WEBHOOK_SUBHEADER": "Ushbu token webhook endpointini xavfsizligini tasdiqlash uchun ishlatiladi",
+      "UPDATE_PRE_CHAT_FORM_SETTINGS": "Pre Chat Form sozlamalarini yangilash"
+    },
+    "HELP_CENTER": {
+      "LABEL": "Yordam markazi",
+      "PLACEHOLDER": "Yordam markazini tanlang",
+      "SELECT_PLACEHOLDER": "Yordam markazini tanlang",
+      "REMOVE": "Yordam markazini o'chirish",
+      "SUB_TEXT": "Kiruvchi xabarlar qutisiga yordam markazi qo'shish"
+    },
+    "AUTO_ASSIGNMENT": {
+      "MAX_ASSIGNMENT_LIMIT": "Avtomatik ta'minlash chegarasi",
+      "MAX_ASSIGNMENT_LIMIT_RANGE_ERROR": "Iltimos, 0 dan katta qiymat kiriting",
+      "MAX_ASSIGNMENT_LIMIT_SUB_TEXT": "Bu kiruvchi xabarlar qutisidan avtomatik ravishda bajariladigan konversatsiyalar sonini chegaralash"
+    },
+    "FACEBOOK_REAUTHORIZE": {
+      "TITLE": "Qayta avtorizatsiya",
+      "SUBTITLE": "Siz Facebook bilan bog'langan bog'lanish eskirgan, siz Facebook sahifasini qayta ulanish uchun ruxsat etishingiz kerak",
+      "MESSAGE_SUCCESS": "Qayta ulanish muvaffaqiyatli",
+      "MESSAGE_ERROR": "Nimadir xato ketdi, qayta urinib ko'ring"
+    },
+    "PRE_CHAT_FORM": {
+      "DESCRIPTION": "Pre chat formlar siz mijozlarimiz xabarlarini qabul qilishdan oldin ular bilan muloqot qilish uchun foydalanishimiz mumkin.",
+      "SET_FIELDS": "Pre chat form maydonlari",
+      "SET_FIELDS_HEADER": {
+        "FIELDS": "Maydonlar",
+        "LABEL": "Nom",
+        "PLACE_HOLDER": "Placeholder",
+        "KEY": "Kalit",
+        "TYPE": "Tur",
+        "REQUIRED": "Majburiy"
+      },
+      "ENABLE": {
+        "LABEL": "Pre chat formni ishlatish",
+        "OPTIONS": {
+          "ENABLED": "Ha",
+          "DISABLED": "Yo'q"
+        }
+      },
+      "PRE_CHAT_MESSAGE": {
+        "LABEL": "Pre chat xabari",
+        "PLACEHOLDER": "Bu xabari mijozlar bilan birga ko'rinadi"
+      },
+      "REQUIRE_EMAIL": {
+        "LABEL": "Mijozlar Live chat boshlashishdan oldin nom va email manzilini kiritishi kerak"
+      }
+    },
+    "BUSINESS_HOURS": {
+      "TITLE": "Sizning muloqot qilish vaqti",
+      "SUBTITLE": "Sizning Live chat kutubxonasida muloqot qilish vaqtingizni kiritish",
+      "WEEKLY_TITLE": "Sizning haftalik vaqtingiz",
+      "TIMEZONE_LABEL": "Vaqt zonasi",
+      "UPDATE": "Ish kunlari sozlamalarini yangilash",
+      "TOGGLE_AVAILABILITY": "Bu kiruvchi xabarlar qutisida muloqot qilishni yo'naltirish",
+      "UNAVAILABLE_MESSAGE_LABEL": "Mijozlar uchun xato xabari",
+      "TOGGLE_HELP": "Muloqot qilishni yo'naltirish, Live chat kutubxonasida muloqot qilish vaqtingizni ko'rsatadi. Muloqot qilish vaqtingizda barcha agentlar offline bo'lsa, mijozlar xabarlar yuborish uchun xato xabari va pre-chat formini ko'rsatadi",
+      "DAY": {
+        "ENABLE": "Bu kun uchun muloqot qilishni yo'naltirish",
+        "UNAVAILABLE": "Muloqot qilinmagan",
+        "HOURS": "soat",
+        "VALIDATION_ERROR": "Boshlash vaqtini yopilish vaqtidan oldin kiritish kerak",
+        "CHOOSE": "Tanlang"
+      },
+      "ALL_DAY": "Barcha kunlar"
+    },
+    "IMAP": {
+      "TITLE": "IMAP",
+      "SUBTITLE": "Siz IMAP ma'lumotlarini kiritishingiz kerak",
+      "NOTE_TEXT": "SMTP uchun yo'naltirish uchun IMAP yo'naltirish",
+      "UPDATE": "IMAP sozlamalarini yangilash",
+      "TOGGLE_AVAILABILITY": "Bu kiruvchi xabarlar qutisida IMAP yo'naltirishni yo'naltirish",
+      "TOGGLE_HELP": "IMAP yo'naltirish, foydalanuvchilar email qabul qilishimizga yordam beradi",
+      "EDIT": {
+        "SUCCESS_MESSAGE": "IMAP sozlamalar muvaffaqiyatli yangilandi",
+        "ERROR_MESSAGE": "IMAP sozlamalarini yangilashda xatolik yuz berdi, qayta urinib ko'ring"
+      },
+      "ADDRESS": {
+        "LABEL": "Address",
+        "PLACE_HOLDER": "Address (masalan: imap.gmail.com)"
+      },
+      "PORT": {
+        "LABEL": "Port",
+        "PLACE_HOLDER": "Port"
+      },
+      "LOGIN": {
+        "LABEL": "Login",
+        "PLACE_HOLDER": "Login"
+      },
+      "PASSWORD": {
+        "LABEL": "Password",
+        "PLACE_HOLDER": "Password"
+      },
+      "ENABLE_SSL": "SSL yo'naltirish"
+    },
+    "MICROSOFT": {
+      "TITLE": "Microsoft",
+      "SUBTITLE": "Sizning Microsoft hisobingizni qayta avtorizatsiya qilish"
+    },
+    "SMTP": {
+      "TITLE": "SMTP",
+      "SUBTITLE": "Siz SMTP ma'lumotlarini kiritishingiz kerak",
+      "UPDATE": "SMTP sozlamalarini yangilash",
+      "TOGGLE_AVAILABILITY": "Bu kiruvchi xabarlar qutisida SMTP yo'naltirishni yo'naltirish",
+      "TOGGLE_HELP": "SMTP yo'naltirish, foydalanuvchilar email yuborishimizga yordam beradi",
+      "EDIT": {
+        "SUCCESS_MESSAGE": "SMTP sozlamalar muvaffaqiyatli yangilandi",
+        "ERROR_MESSAGE": "SMTP sozlamalarini yangilashda xatolik yuz berdi, qayta urinib ko'ring"
+      },
+      "ADDRESS": {
+        "LABEL": "Address",
+        "PLACE_HOLDER": "Address (masalan: smtp.gmail.com)"
+      },
+      "PORT": {
+        "LABEL": "Port",
+        "PLACE_HOLDER": "Port"
+      },
+      "LOGIN": {
+        "LABEL": "Login",
+        "PLACE_HOLDER": "Login"
+      },
+      "PASSWORD": {
+        "LABEL": "Password",
+        "PLACE_HOLDER": "Password"
+      },
+      "DOMAIN": {
+        "LABEL": "Domain",
+        "PLACE_HOLDER": "Domain"
+      },
+      "ENCRYPTION": "Shifrlash",
+      "SSL_TLS": "SSL/TLS",
+      "START_TLS": "STARTTLS",
+      "OPEN_SSL_VERIFY_MODE": "Open SSL Verify Mode",
+      "AUTH_MECHANISM": "Authentication"
+    },
+    "NOTE": "Qo'shimcha:",
+    "WIDGET_BUILDER": {
+      "WIDGET_OPTIONS": {
+        "AVATAR": {
+          "LABEL": "Veb-sayt avatar",
+          "DELETE": {
+            "API": {
+              "SUCCESS_MESSAGE": "Avatar muvaffaqiyatli o'chirildi",
+              "ERROR_MESSAGE": "Nimadir xato ketdi, qayta urinib ko'ring"
+            }
+          }
+        },
+        "WEBSITE_NAME": {
+          "LABEL": "Veb-sayt nomi",
+          "PLACE_HOLDER": "Veb-sayt nomini kiriting (masalan: Acme Inc)",
+          "ERROR": "Iltimos, ma'lum bir veb-sayt nomini kiriting"
+        },
+        "WELCOME_HEADING": {
+          "LABEL": "Xush kelibsiz!",
+          "PLACE_HOLDER": "Xush kelibsiz!"
+        },
+        "WELCOME_TAGLINE": {
+          "LABEL": "Xush kelibsiz!",
+          "PLACE_HOLDER": "Biz siz bilan bog'lanishimizni osonlashtiramiz. Iltimos, sizning xabaringiz yoki taklifingizni bildiring."
+        },
+        "REPLY_TIME": {
+          "LABEL": "Javob vaqti",
+          "IN_A_FEW_MINUTES": "Bir nechta minutda",
+          "IN_A_FEW_HOURS": "Bir nechta soatda",
+          "IN_A_DAY": "Bir kunda"
+        },
+        "WIDGET_COLOR_LABEL": "Widget rangi",
+        "WIDGET_BUBBLE_POSITION_LABEL": "Widget Bubble Position",
+        "WIDGET_BUBBLE_TYPE_LABEL": "Widget Bubble Type",
+        "WIDGET_BUBBLE_LAUNCHER_TITLE": {
+          "DEFAULT": "Chat with us",
+          "LABEL": "Widget Bubble Launcher Title",
+          "PLACE_HOLDER": "Chat with us"
+        },
+        "UPDATE": {
+          "BUTTON_TEXT": "Widget sozlamalarini yangilash",
+          "API": {
+            "SUCCESS_MESSAGE": "Widget sozlamalar muvaffaqiyatli yangilandi",
+            "ERROR_MESSAGE": "Widget sozlamalarini yangilashda xatolik yuz berdi, qayta urinib ko'ring"
+          }
+        },
+        "WIDGET_VIEW_OPTION": {
+          "PREVIEW": "Preview",
+          "SCRIPT": "Script"
+        },
+        "WIDGET_BUBBLE_POSITION": {
+          "LEFT": "Left",
+          "RIGHT": "Right"
+        },
+        "WIDGET_BUBBLE_TYPE": {
+          "STANDARD": "Standard",
+          "EXPANDED_BUBBLE": "Expanded Bubble"
+        }
+      },
+      "WIDGET_SCREEN": {
+        "DEFAULT": "Default",
+        "CHAT": "Chat"
+      },
+      "REPLY_TIME": {
+        "IN_A_FEW_MINUTES": "Typically replies in a few minutes",
+        "IN_A_FEW_HOURS": "Typically replies in a few hours",
+        "IN_A_DAY": "Typically replies in a day"
+      },
+      "FOOTER": {
+        "START_CONVERSATION_BUTTON_TEXT": "Start Conversation",
+        "CHAT_INPUT_PLACEHOLDER": "Type your message"
+      },
+      "BODY": {
+        "TEAM_AVAILABILITY": {
+          "ONLINE": "We are Online",
+          "OFFLINE": "We are away at the moment"
+        },
+        "USER_MESSAGE": "Hi",
+        "AGENT_MESSAGE": "Hello"
+      },
+      "BRANDING_TEXT": "Powered by Chatwoot",
+      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
+    },
+    "EMAIL_PROVIDERS": {
+      "MICROSOFT": "Microsoft",
+      "GOOGLE": "Google",
+      "OTHER_PROVIDERS": "Boshqa provayderlar"
+    },
+    "CHANNELS": {
+      "MESSENGER": "Messenger",
+      "WEB_WIDGET": "Veb-sayt",
+      "TWITTER_PROFILE": "Twitter",
+      "TWILIO_SMS": "Twilio SMS",
+      "WHATSAPP": "WhatsApp",
+      "SMS": "SMS",
+      "EMAIL": "Email",
+      "TELEGRAM": "Telegram",
+      "LINE": "Line",
+      "API": "API kanal"
+    }
+  }
+}

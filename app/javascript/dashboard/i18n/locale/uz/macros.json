@@ -1,0 +1,88 @@
+{
+  "MACROS": {
+    "HEADER": "Makrolar",
+    "DESCRIPTION": "Makro - bu mijozlarga xizmat ko'rsatuvchi agentlarga vazifalarni oson bajarishga yordam beradigan saqlangan harakatlar to'plami. Agentlar suhbatni yorliq bilan belgilash, elektron pochta transkriptini yuborish, maxsus atributni yangilash va boshqa harakatlarni belgilab, ularni bir marta bosish orqali bajarishlari mumkin.",
+    "LEARN_MORE": "Makrolar haqida ko'proq ma'lumot",
+    "HEADER_BTN_TXT": "Yangi makro qo'shish",
+    "HEADER_BTN_TXT_SAVE": "Makroni saqlash",
+    "LOADING": "Makrolar yuklanmoqda",
+    "ERROR": "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring",
+    "ORDER_INFO": "Makrolar siz harakatlarni qo'shgan tartibda ishlaydi. Ularni har bir tugun yonidagi dastakdan tortib qayta tartiblashingiz mumkin.",
+    "ADD": {
+      "FORM": {
+        "NAME": {
+          "LABEL": "Makro nomi",
+          "PLACEHOLDER": "Makrongiz uchun nom kiriting",
+          "ERROR": "Makro yaratish uchun nom kiritish shart"
+        },
+        "ACTIONS": {
+          "LABEL": "Harakatlar"
+        }
+      },
+      "API": {
+        "SUCCESS_MESSAGE": "Makro muvaffaqiyatli qo'shildi",
+        "ERROR_MESSAGE": "Makro yaratib bo'lmadi, iltimos keyinroq qayta urinib ko'ring"
+      }
+    },
+    "LIST": {
+      "TABLE_HEADER": {
+        "NAME": "Nomi",
+        "CREATED BY": "Yaratuvchi",
+        "LAST_UPDATED_BY": "Oxirgi yangilovchi",
+        "VISIBILITY": "Ko'rinish"
+      },
+      "404": "Makrolar topilmadi"
+    },
+    "DELETE": {
+      "TOOLTIP": "Makroni o'chirish",
+      "CONFIRM": {
+        "MESSAGE": "O'chirishni xohlaysizmi ",
+        "YES": "Ha, O'chirish",
+        "NO": "Yo'q"
+      },
+      "API": {
+        "SUCCESS_MESSAGE": "Makro muvaffaqiyatli o'chirildi",
+        "ERROR_MESSAGE": "Makroni o'chirishda xatolik yuz berdi. Iltimos, keyinroq qayta urinib ko'ring"
+      }
+    },
+    "EDIT": {
+      "TOOLTIP": "Makroni tahrirlash",
+      "API": {
+        "SUCCESS_MESSAGE": "Makro muvaffaqiyatli yangilandi",
+        "ERROR_MESSAGE": "Makroni yangilab bo'lmadi, iltimos keyinroq qayta urinib ko'ring"
+      }
+    },
+    "EDITOR": {
+      "START_FLOW": "Oqimni boshlash",
+      "END_FLOW": "Oqimni tugatish",
+      "LOADING": "Makro yuklanmoqda",
+      "ADD_BTN_TOOLTIP": "Yangi harakat qo'shish",
+      "DELETE_BTN_TOOLTIP": "Harakatni o'chirish",
+      "VISIBILITY": {
+        "LABEL": "Makro ko'rinishi",
+        "GLOBAL": {
+          "LABEL": "Ommaviy",
+          "DESCRIPTION": "Bu makro ushbu hisobdagi barcha agentlar uchun ommaviy ravishda mavjud."
+        },
+        "PERSONAL": {
+          "LABEL": "Shaxsiy",
+          "DESCRIPTION": "Bu makro faqat siz uchun shaxsiy bo'ladi va boshqalarga ko'rinmaydi."
+        }
+      }
+    },
+    "EXECUTE": {
+      "BUTTON_TOOLTIP": "Bajarish",
+      "PREVIEW": "Makroni ko'rib chiqish",
+      "EXECUTED_SUCCESSFULLY": "Makro muvaffaqiyatli bajarildi"
+    },
+    "ERRORS": {
+      "ATTRIBUTE_KEY_REQUIRED": "Atribut kaliti talab qilinadi",
+      "FILTER_OPERATOR_REQUIRED": "Filter operatori talab qilinadi",
+      "VALUE_REQUIRED": "Qiymat talab qilinadi",
+      "VALUE_MUST_BE_BETWEEN_1_AND_998": "Qiymat 1 va 998 orasida bo'lishi kerak",
+      "ACTION_PARAMETERS_REQUIRED": "Harakat parametrlari talab qilinadi",
+      "ATLEAST_ONE_CONDITION_REQUIRED": "Kamida bitta shart talab qilinadi",
+      "ATLEAST_ONE_ACTION_REQUIRED": "Kamida bitta harakat talab qilinadi"
+    }
+  }
+}
