@@ -34,7 +34,449 @@
       "CLOSE_SIDEBAR": "Yon panelni yopish",
       "SAVING": "Saqlanmoqda...",
       "SAVED": "Saqlandi"
-    }
-    // ... existing code ...
+    },
+    "ARTICLE_EDITOR": {
+      "IMAGE_UPLOAD": {
+        "TITLE": "Rasm yuklash",
+        "UPLOADING": "Yuklanmoqda...",
+        "SUCCESS": "Rasm muvaffaqiyatli yuklandi",
+        "ERROR": "Rasmni yuklashda xatolik yuz berdi",
+        "UN_AUTHORIZED_ERROR": "Siz rasmlarni yuklash huquqiga ega emassiz",
+        "ERROR_FILE_SIZE": "Rasm hajmi {size}MB dan kichik bo'lishi kerak",
+        "ERROR_FILE_FORMAT": "Rasm formati jpg, jpeg yoki png bo'lishi kerak",
+        "ERROR_FILE_DIMENSIONS": "Rasm o'lchamlari 2000 x 2000 dan kichik bo'lishi kerak"
+      }
+    },
+    "ARTICLE_SETTINGS": {
+      "TITLE": "Maqola sozlamalari",
+      "FORM": {
+        "CATEGORY": {
+          "LABEL": "Kategoriya",
+          "TITLE": "Kategoriyani tanlang",
+          "PLACEHOLDER": "Kategoriyani tanlang",
+          "NO_RESULT": "Kategoriya topilmadi",
+          "SEARCH_PLACEHOLDER": "Kategoriyani qidirish"
+        },
+        "AUTHOR": {
+          "LABEL": "Muallif",
+          "TITLE": "Muallifni tanlang",
+          "PLACEHOLDER": "Muallifni tanlang",
+          "NO_RESULT": "Mualliflar topilmadi",
+          "SEARCH_PLACEHOLDER": "Muallifni qidirish"
+        },
+        "META_TITLE": {
+          "LABEL": "Meta sarlavha",
+          "PLACEHOLDER": "Meta sarlavha qo'shing"
+        },
+        "META_DESCRIPTION": {
+          "LABEL": "Meta tavsif",
+          "PLACEHOLDER": "Yaxshiroq SEO natijalari uchun meta tavsifingizni qo'shing..."
+        },
+        "META_TAGS": {
+          "LABEL": "Meta teglar",
+          "PLACEHOLDER": "Vergul bilan ajratilgan meta teglarni qo'shing..."
+        }
+      },
+      "BUTTONS": {
+        "ARCHIVE": "Maqolani arxivlash",
+        "DELETE": "Maqolani o'chirish"
+      }
+    },
+    "ARTICLE_SEARCH_RESULT": {
+      "UNCATEGORIZED": "Kategoriyalanmagan",
+      "SEARCH_RESULTS": "{query} uchun qidiruv natijalari",
+      "EMPTY_TEXT": "Javoblarga kiritish uchun maqolalarni qidiring.",
+      "SEARCH_LOADER": "Qidirilmoqda...",
+      "INSERT_ARTICLE": "Kiritish",
+      "NO_RESULT": "Maqolalar topilmadi",
+      "COPY_LINK": "Maqola havolasini vaqtinchalik xotiraga nusxalash",
+      "OPEN_LINK": "Maqolani yangi oynada ochish",
+      "PREVIEW_LINK": "Maqolani ko'rib chiqish"
+    },
+    "PORTAL": {
+      "HEADER": "Portallar",
+      "DEFAULT": "Standart",
+      "NEW_BUTTON": "Yangi Portal",
+      "ACTIVE_BADGE": "faol",
+      "CHOOSE_LOCALE_LABEL": "Tilni tanlang",
+      "LOADING_MESSAGE": "Portallar yuklanmoqda...",
+      "ARTICLES_LABEL": "maqolalar",
+      "NO_PORTALS_MESSAGE": "Mavjud portallar yo'q",
+      "ADD_NEW_LOCALE": "Yangi til qo'shish",
+      "POPOVER": {
+        "TITLE": "Portallar",
+        "PORTAL_SETTINGS": "Portal sozlamalari",
+        "SUBTITLE": "Sizda bir nechta portallar bor va har bir portal uchun turli tillar bo'lishi mumkin.",
+        "CANCEL_BUTTON_LABEL": "Bekor qilish",
+        "CHOOSE_LOCALE_BUTTON": "Tilni tanlash"
+      },
+      "PORTAL_SETTINGS": {
+        "LIST_ITEM": {
+          "HEADER": {
+            "COUNT_LABEL": "maqolalar",
+            "ADD": "Til qo'shish",
+            "VISIT": "Saytga tashrif",
+            "SETTINGS": "Sozlamalar",
+            "DELETE": "O'chirish"
+          },
+          "PORTAL_CONFIG": {
+            "TITLE": "Portal konfiguratsiyalari",
+            "ITEMS": {
+              "NAME": "Nomi",
+              "DOMAIN": "Maxsus domen",
+              "SLUG": "Slug",
+              "TITLE": "Portal sarlavhasi",
+              "THEME": "Mavzu rangi",
+              "SUB_TEXT": "Portal qo'shimcha matni"
+            }
+          },
+          "AVAILABLE_LOCALES": {
+            "TITLE": "Mavjud tillar",
+            "TABLE": {
+              "NAME": "Til nomi",
+              "CODE": "Til kodi",
+              "ARTICLE_COUNT": "Maqolalar soni",
+              "CATEGORIES": "Kategoriyalar soni",
+              "SWAP": "Almashtirish",
+              "DELETE": "O'chirish",
+              "DEFAULT_LOCALE": "Standart"
+            }
+          }
+        },
+        "DELETE_PORTAL": {
+          "TITLE": "Portalni o'chirish",
+          "MESSAGE": "Haqiqatan ham ushbu portalni o'chirishni xohlaysizmi",
+          "YES": "Ha, portalni o'chirish",
+          "NO": "Yo'q, portalni saqlash",
+          "API": {
+            "DELETE_SUCCESS": "Portal muvaffaqiyatli o'chirildi",
+            "DELETE_ERROR": "Portalni o'chirishda xatolik yuz berdi"
+          }
+        }
+      },
+      "EDIT": {
+        "HEADER_TEXT": "Portalni tahrirlash",
+        "TABS": {
+          "BASIC_SETTINGS": {
+            "TITLE": "Asosiy ma'lumot"
+          },
+          "CUSTOMIZATION_SETTINGS": {
+            "TITLE": "Portal sozlamalari"
+          },
+          "CATEGORY_SETTINGS": {
+            "TITLE": "Kategoriyalar"
+          },
+          "LOCALE_SETTINGS": {
+            "TITLE": "Tillar"
+          }
+        },
+        "CATEGORIES": {
+          "TITLE": "Kategoriyalar",
+          "NEW_CATEGORY": "Yangi kategoriya",
+          "TABLE": {
+            "NAME": "Nomi",
+            "DESCRIPTION": "Tavsif",
+            "LOCALE": "Til",
+            "ARTICLE_COUNT": "Maqolalar soni",
+            "ACTION_BUTTON": {
+              "EDIT": "Kategoriyani tahrirlash",
+              "DELETE": "Kategoriyani o'chirish"
+            },
+            "EMPTY_TEXT": "Kategoriyalar topilmadi"
+          }
+        },
+        "EDIT_BASIC_INFO": {
+          "BUTTON_TEXT": "Asosiy sozlamalarni yangilash"
+        }
+      },
+      "ADD": {
+        "CREATE_FLOW": {
+          "BASIC": {
+            "TITLE": "Yordam markazi ma'lumoti",
+            "BODY": "Portal haqida asosiy ma'lumot"
+          },
+          "CUSTOMIZATION": {
+            "TITLE": "Yordam markazi sozlamalari",
+            "BODY": "Portalni sozlash"
+          },
+          "FINISH": {
+            "TITLE": "Tayyor! 🎉",
+            "BODY": "Hammasi tayyor!"
+          }
+        },
+        "CREATE_FLOW_PAGE": {
+          "BACK_BUTTON": "Orqaga",
+          "BASIC_SETTINGS_PAGE": {
+            "HEADER": "Portal yaratish",
+            "TITLE": "Yordam markazi ma'lumoti",
+            "CREATE_BASIC_SETTING_BUTTON": "Portal asosiy sozlamalarini yaratish"
+          },
+          "CUSTOMIZATION_PAGE": {
+            "HEADER": "Portal sozlamalari",
+            "TITLE": "Yordam markazi sozlamalari",
+            "UPDATE_PORTAL_BUTTON": "Portal sozlamalarini yangilash"
+          },
+          "FINISH_PAGE": {
+            "TITLE": "Tayyor!🎉 Hammasi sozlandi!",
+            "MESSAGE": "Endi yaratilgan portalingizni barcha portallar sahifasida ko'rishingiz mumkin.",
+            "FINISH": "Barcha portallar sahifasiga o'tish"
+          }
+        },
+        "LOGO": {
+          "LABEL": "Logotip",
+          "UPLOAD_BUTTON": "Logotipni yuklash",
+          "HELP_TEXT": "Bu logotip portal sarlavhasida ko'rsatiladi.",
+          "IMAGE_UPLOAD_SUCCESS": "Logotip muvaffaqiyatli yuklandi",
+          "IMAGE_UPLOAD_ERROR": "Logotip muvaffaqiyatli o'chirildi",
+          "IMAGE_DELETE_ERROR": "Logotipni o'chirishda xatolik yuz berdi"
+        },
+        "NAME": {
+          "LABEL": "Nomi",
+          "PLACEHOLDER": "Portal nomi",
+          "HELP_TEXT": "Bu nom ichki tizimda ommaviy portalni ko'rsatish uchun ishlatiladi.",
+          "ERROR": "Nom kiritish majburiy"
+        },
+        "SLUG": {
+          "LABEL": "Slug",
+          "PLACEHOLDER": "URL manzillar uchun portal slugi",
+          "ERROR": "Slug kiritish majburiy"
+        },
+        "DOMAIN": {
+          "LABEL": "Maxsus domen",
+          "PLACEHOLDER": "Portal maxsus domeni",
+          "HELP_TEXT": "Agar portallaringiz uchun maxsus domendan foydalanmoqchi bo'lsangiz, qo'shing. Masalan: {exampleURL}",
+          "ERROR": "To'g'ri domen URL manzilini kiriting"
+        },
+        "HOME_PAGE_LINK": {
+          "LABEL": "Bosh sahifa havolasi",
+          "PLACEHOLDER": "Portal bosh sahifa havolasi",
+          "HELP_TEXT": "Portaldan bosh sahifaga qaytish uchun ishlatiladigan havola. Masalan: {exampleURL}",
+          "ERROR": "To'g'ri bosh sahifa URL manzilini kiriting"
+        },
+        "THEME_COLOR": {
+          "LABEL": "Portal mavzu rangi",
+          "HELP_TEXT": "Bu rang portal mavzu rangi sifatida ko'rsatiladi."
+        },
+        "PAGE_TITLE": {
+          "LABEL": "Sahifa sarlavhasi",
+          "PLACEHOLDER": "Portal sahifa sarlavhasi",
+          "HELP_TEXT": "Sahifa sarlavhasi ommaviy portalni ko'rsatish uchun ishlatiladi.",
+          "ERROR": "Sahifa sarlavhasi kiritish majburiy"
+        },
+        "HEADER_TEXT": {
+          "LABEL": "Sarlavha matni",
+          "PLACEHOLDER": "Portal sarlavha matni",
+          "HELP_TEXT": "Portal sarlavha matni ommaviy portalni ko'rsatish uchun ishlatiladi.",
+          "ERROR": "Portal sarlavha matni kiritish majburiy"
+        },
+        "API": {
+          "SUCCESS_MESSAGE_FOR_BASIC": "Portal muvaffaqiyatli yaratildi.",
+          "ERROR_MESSAGE_FOR_BASIC": "Portalni yaratib bo'lmadi. Qayta urinib ko'ring.",
+          "SUCCESS_MESSAGE_FOR_UPDATE": "Portal muvaffaqiyatli yangilandi.",
+          "ERROR_MESSAGE_FOR_UPDATE": "Portalni yangilab bo'lmadi. Qayta urinib ko'ring."
+        }
+      },
+      "ADD_LOCALE": {
+        "TITLE": "Yangi til qo'shish",
+        "SUB_TITLE": "Bu mavjud tarjimalar ro'yxatingizga yangi til qo'shadi.",
+        "PORTAL": "Portal",
+        "LOCALE": {
+          "LABEL": "Til",
+          "PLACEHOLDER": "Tilni tanlang",
+          "ERROR": "Til tanlash majburiy"
+        },
+        "BUTTONS": {
+          "CREATE": "Til yaratish",
+          "CANCEL": "Bekor qilish"
+        },
+        "API": {
+          "SUCCESS_MESSAGE": "Til muvaffaqiyatli qo'shildi",
+          "ERROR_MESSAGE": "Tilni qo'shib bo'lmadi. Qayta urinib ko'ring."
+        }
+      },
+      "CHANGE_DEFAULT_LOCALE": {
+        "API": {
+          "SUCCESS_MESSAGE": "Standart til muvaffaqiyatli yangilandi",
+          "ERROR_MESSAGE": "Standart tilni yangilab bo'lmadi. Qayta urinib ko'ring."
+        }
+      },
+      "DELETE_LOCALE": {
+        "API": {
+          "SUCCESS_MESSAGE": "Til portaldan muvaffaqiyatli olib tashlandi",
+          "ERROR_MESSAGE": "Tilni portaldan olib tashlab bo'lmadi. Qayta urinib ko'ring."
+        }
+      }
+    },
+    "TABLE": {
+      "LOADING_MESSAGE": "Maqolalar yuklanmoqda...",
+      "404": "Qidiruv bo'yicha hech qanday maqola topilmadi 🔍",
+      "NO_ARTICLES": "Mavjud maqolalar yo'q",
+      "HEADERS": {
+        "TITLE": "Sarlavha",
+        "CATEGORY": "Kategoriya", 
+        "READ_COUNT": "Ko'rishlar",
+        "STATUS": "Holat",
+        "LAST_EDITED": "Oxirgi tahrirlangan"
+      },
+      "COLUMNS": {
+        "BY": "tomonidan",
+        "AUTHOR_NOT_AVAILABLE": "Muallif mavjud emas"
+      }
+    },
+    "EDIT_ARTICLE": {
+      "LOADING": "Maqola yuklanmoqda...",
+      "TITLE_PLACEHOLDER": "Maqola sarlavhasi shu yerga yoziladi",
+      "CONTENT_PLACEHOLDER": "Maqolangizni shu yerga yozing",
+      "API": {
+        "ERROR": "Maqolani saqlashda xatolik yuz berdi"
+      }
+    },
+    "PUBLISH_ARTICLE": {
+      "API": {
+        "ERROR": "Maqolani nashr qilishda xatolik yuz berdi",
+        "SUCCESS": "Maqola muvaffaqiyatli nashr qilindi"
+      }
+    },
+    "ARCHIVE_ARTICLE": {
+      "API": {
+        "ERROR": "Maqolani arxivlashda xatolik yuz berdi",
+        "SUCCESS": "Maqola muvaffaqiyatli arxivlandi"
+      }
+    },
+    "DELETE_ARTICLE": {
+      "MODAL": {
+        "CONFIRM": {
+          "TITLE": "O'chirishni tasdiqlash",
+          "MESSAGE": "Maqolani o'chirishni xohlaysizmi?",
+          "YES": "Ha, o'chirish",
+          "NO": "Yo'q, saqlash"
+        }
+      },
+      "API": {
+        "SUCCESS_MESSAGE": "Maqola muvaffaqiyatli o'chirildi",
+        "ERROR_MESSAGE": "Maqolani o'chirishda xatolik yuz berdi"
+      }
+    },
+    "CREATE_ARTICLE": {
+      "ERROR_MESSAGE": "Sozlamalarni yangilash uchun avval maqola sarlavhasi va matnini qo'shing"
+    },
+    "SIDEBAR": {
+      "SEARCH": {
+        "PLACEHOLDER": "Maqolalarni qidirish"
+      }
+    },
+    "CATEGORY": {
+      "ADD": {
+        "TITLE": "Kategoriya yaratish",
+        "SUB_TITLE": "Kategoriya ommaviy portaldagi maqolalarni turkumlash uchun ishlatiladi.",
+        "PORTAL": "Portal",
+        "LOCALE": "Til",
+        "NAME": {
+          "LABEL": "Nomi",
+          "PLACEHOLDER": "Kategoriya nomi",
+          "HELP_TEXT": "Kategoriya nomi va belgisi ommaviy portaldagi maqolalarni turkumlash uchun ishlatiladi.",
+          "ERROR": "Nom kiritish majburiy"
+        },
+        "SLUG": {
+          "LABEL": "Slug",
+          "PLACEHOLDER": "URL manzillar uchun kategoriya slugi",
+          "HELP_TEXT": "app.chatwoot.com/hc/my-portal/en-US/categories/my-slug",
+          "ERROR": "Slug kiritish majburiy"
+        },
+        "DESCRIPTION": {
+          "LABEL": "Tavsif",
+          "PLACEHOLDER": "Kategoriya haqida qisqacha tavsif bering.",
+          "ERROR": "Tavsif kiritish majburiy"
+        },
+        "BUTTONS": {
+          "CREATE": "Kategoriya yaratish",
+          "CANCEL": "Bekor qilish"
+        },
+        "API": {
+          "SUCCESS_MESSAGE": "Kategoriya muvaffaqiyatli yaratildi",
+          "ERROR_MESSAGE": "Kategoriyani yaratib bo'lmadi"
+        }
+      },
+      "EDIT": {
+        "TITLE": "Kategoriyani tahrirlash",
+        "SUB_TITLE": "Kategoriyani tahrirlash ommaviy portaldagi kategoriyani yangilaydi.",
+        "PORTAL": "Portal",
+        "LOCALE": "Til",
+        "NAME": {
+          "LABEL": "Nomi",
+          "PLACEHOLDER": "Kategoriya nomi",
+          "HELP_TEXT": "Kategoriya nomi va belgisi ommaviy portaldagi maqolalarni turkumlash uchun ishlatiladi.",
+          "ERROR": "Nom kiritish majburiy"
+        },
+        "SLUG": {
+          "LABEL": "Slug",
+          "PLACEHOLDER": "URL manzillar uchun kategoriya slugi",
+          "HELP_TEXT": "app.chatwoot.com/hc/my-portal/en-US/categories/my-slug",
+          "ERROR": "Slug kiritish majburiy"
+        },
+        "DESCRIPTION": {
+          "LABEL": "Tavsif",
+          "PLACEHOLDER": "Kategoriya haqida qisqacha tavsif bering.",
+          "ERROR": "Tavsif kiritish majburiy"
+        },
+        "BUTTONS": {
+          "CREATE": "Kategoriyani yangilash",
+          "CANCEL": "Bekor qilish"
+        },
+        "API": {
+          "SUCCESS_MESSAGE": "Kategoriya muvaffaqiyatli yangilandi",
+          "ERROR_MESSAGE": "Kategoriyani yangilab bo'lmadi"
+        }
+      },
+      "DELETE": {
+        "API": {
+          "SUCCESS_MESSAGE": "Kategoriya muvaffaqiyatli o'chirildi",
+          "ERROR_MESSAGE": "Kategoriyani o'chirib bo'lmadi"
+        }
+      }
+    },
+    "ARTICLE_SEARCH": {
+      "TITLE": "Maqolalarni qidirish",
+      "PLACEHOLDER": "Maqolalarni qidirish",
+      "NO_RESULT": "Maqolalar topilmadi",
+      "SEARCHING": "Qidirilmoqda...",
+      "SEARCH_BUTTON": "Qidirish",
+      "INSERT_ARTICLE": "Havolani kiritish",
+      "IFRAME_ERROR": "URL bo'sh yoki noto'g'ri. Kontentni ko'rsatib bo'lmadi.",
+      "OPEN_ARTICLE_SEARCH": "Yordam markazidan maqola kiritish",
+      "SUCCESS_ARTICLE_INSERTED": "Maqola muvaffaqiyatli kiritildi",
+      "PREVIEW_LINK": "Maqolani ko'rib chiqish",
+      "CANCEL": "Yopish",
+      "BACK": "Orqaga",
+      "BACK_RESULTS": "Natijalarga qaytish"
+    },
+    "UPGRADE_PAGE": {
+      "TITLE": "Yordam markazi",
+      "DESCRIPTION": "Foydalanuvchilar uchun qulay o'z-o'ziga xizmat ko'rsatish portallarini yarating. Foydalanuvchilaringizga maqolalarga kirish va 24/7 yordam olish imkonini bering. Bu xususiyatni yoqish uchun obunangizni yangilang.",
+      "SELF_HOSTED_DESCRIPTION": "Foydalanuvchilar uchun qulay o'z-o'ziga xizmat ko'rsatish portallarini yarating. Foydalanuvchilaringizga maqolalarga kirish va 24/7 yordam olish imkonini bering. Bu xususiyatni yoqish uchun administratoringiz bilan bog'laning.",
+      "BUTTON": {
+        "LEARN_MORE": "Ko'proq ma'lumot",
+        "UPGRADE": "Yangilash"
+      },
+      "FEATURES": {
+        "PORTALS": {
+          "TITLE": "Ko'p portallar",
+          "DESCRIPTION": "Bir hisob orqali turli mahsulotlar uchun bir nechta yordam markazi portallarini yarating."
+        },
+        "LOCALES": {
+          "TITLE": "Tillarni to'liq qo'llab-quvvatlash",
+          "DESCRIPTION": "Portalni o'z tilingizda mahalliylashtiring. Biz barcha tillarni qo'llab-quvvatlaymiz va har bir maqola uchun tarjimalarni ta'minlaymiz."
+        },
+        "SEO": {
+          "TITLE": "SEO-do'stona dizayn",
+          "DESCRIPTION": "Qidiruv tizimlarida ko'rinishingizni yaxshilash uchun SEO-do'stona sahifalarimiz yordamida meta teglaringizni sozlang."
+        },
+        "API": {
+          "TITLE": "API to'liq qo'llab-quvvatlash",
+          "DESCRIPTION": "API'larimizdan foydalanib, uchinchi tomon front-end freymvorklari bilan portalni headless CMS sifatida ishlating."
+        }
+      }
+    },
+    "LOADING": "Yuklanmoqda..."
   }
 }
