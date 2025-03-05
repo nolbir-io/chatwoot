@@ -727,7 +727,7 @@
       },
       "BODY": {
         "TEAM_AVAILABILITY": {
-          "ONLINE": "We are Online",
+          "ONLINE": "Biz onlinemiz!",
           "OFFLINE": "We are away at the moment"
         },
         "USER_MESSAGE": "Hi",
