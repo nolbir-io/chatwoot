@@ -20,16 +20,12 @@ ENV NODE_OPTIONS=${NODE_OPTIONS}
 
 # Install dependencies
 RUN apk update && apk add --no-cache \
-  openssl tar build-base tzdata postgresql-dev postgresql-client nodejs=20.15.1-r0 git \
+  openssl tar build-base tzdata postgresql-dev postgresql-client nodejs=20.15.1-r0 npm git \
   && mkdir -p /var/app \
   && gem install bundler
 
-# Install pnpm and configure environment
-RUN wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.shrc" SHELL="$(which sh)" sh - \
-    && echo 'export PNPM_HOME="/root/.local/share/pnpm"' >> /root/.shrc \
-    && echo 'export PATH="$PNPM_HOME:$PATH"' >> /root/.shrc \
-    && source /root/.shrc \
-    && pnpm install -g pnpm@9.19.0 \
+# Install specific version of pnpm
+RUN npm install -g pnpm@9.19.0 \
     && pnpm --version
 
 WORKDIR /app
