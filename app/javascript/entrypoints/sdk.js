@@ -195,34 +195,6 @@ const runSDK = ({ baseUrl, websiteToken }) => {
 
       window.$chatwoot.resetTriggered = true;
     },
-
-    reinitialize(config = {}) {
-      // First reset the current instance
-      this.reset();
-      
-      // Remove the existing iframe
-      const existingFrame = IFrameHelper.getAppFrame();
-      if (existingFrame) {
-        existingFrame.remove();
-      }
-
-      // Update settings with new config
-      const newSettings = {
-        ...window.chatwootSettings,
-        ...config,
-      };
-      window.chatwootSettings = newSettings;
-
-      // Reset the hasLoaded flag
-      window.$chatwoot.hasLoaded = false;
-
-      // Re-run the SDK with new settings
-      runSDK({
-        baseUrl: config.baseUrl || window.$chatwoot.baseUrl,
-        websiteToken: config.websiteToken || window.$chatwoot.websiteToken,
-        locale: config.locale || window.$chatwoot.locale,
-      });
-    },
   };
 
   IFrameHelper.createFrame({
@@ -233,5 +205,4 @@ const runSDK = ({ baseUrl, websiteToken }) => {
 
 window.chatwootSDK = {
   run: runSDK,
-  reinitialize: reinitialize
 };
