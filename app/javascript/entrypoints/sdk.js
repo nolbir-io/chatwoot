@@ -233,11 +233,5 @@ const runSDK = ({ baseUrl, websiteToken }) => {
 
 window.chatwootSDK = {
   run: runSDK,
-  reinitialize: (config = {}) => {
-    if (!window.$chatwoot) {
-      console.warn('Chatwoot SDK is not initialized yet. Please run the SDK first.');
-      return;
-    }
-    window.$chatwoot.reinitialize(config);
-  }
+  reinitialize: reinitialize
 };
