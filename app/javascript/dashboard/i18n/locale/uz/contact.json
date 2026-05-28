@@ -1,0 +1,150 @@
+{
+  "CONTACT_PANEL": {
+    "NOT_AVAILABLE": "Mavjud emas",
+    "EMAIL_ADDRESS": "Email manzil",
+    "PHONE_NUMBER": "Telefon raqami",
+    "IDENTIFIER": "Identifikator",
+    "COPY_SUCCESSFUL": "Nusxa muvaffaqiyatli ko'chirildi",
+    "COMPANY": "Kompaniya",
+    "LOCATION": "Joylashuv",
+    "BROWSER_LANGUAGE": "Brauzer tili",
+    "CONVERSATION_TITLE": "Suhbat tafsilotlari",
+    "VIEW_PROFILE": "Profilni ko'rish",
+    "BROWSER": "Brauzer",
+    "OS": "Operatsion tizim",
+    "INITIATED_FROM": "Boshlangan manba",
+    "INITIATED_AT": "Boshlangan vaqt",
+    "IP_ADDRESS": "IP manzil",
+    "CREATED_AT_LABEL": "Yaratilgan",
+    "NEW_MESSAGE": "Yangi xabar",
+    "CONVERSATIONS": {
+      "NO_RECORDS_FOUND": "Bu kontakt bilan bog'liq oldingi suhbatlar yo'q.",
+      "TITLE": "Oldingi suhbatlar"
+    },
+    "LABELS": {
+      "CONTACT": {
+        "TITLE": "Kontakt teglari",
+        "ERROR": "Teglarni yangilab bo'lmadi"
+      },
+      "CONVERSATION": {
+        "TITLE": "Suhbat teglari",
+        "ADD_BUTTON": "Teglar qo'shish"
+      },
+      "LABEL_SELECT": {
+        "TITLE": "Teglar qo'shish",
+        "PLACEHOLDER": "Teglarni qidirish",
+        "NO_RESULT": "Teglar topilmadi",
+        "CREATE_LABEL": "Yangi teg yaratish"
+      }
+    },
+    "MERGE_CONTACT": "Kontaktni birlashtirish",
+    "CONTACT_ACTIONS": "Kontakt harakatlari",
+    "MUTE_CONTACT": "Kontaktni bloklash",
+    "UNMUTE_CONTACT": "Kontaktni blokdan chiqarish",
+    "MUTED_SUCCESS": "Bu kontakt muvaffaqiyatli bloklandi. Keyingi suhbatlar haqida xabarnoma olmaysiz.",
+    "UNMUTED_SUCCESS": "Bu kontakt muvaffaqiyatli blokdan chiqarildi.",
+    "SEND_TRANSCRIPT": "Yozishmalarni yuborish",
+    "EDIT_LABEL": "Tahrirlash",
+    "SIDEBAR_SECTIONS": {
+      "CUSTOM_ATTRIBUTES": "Maxsus atributlar",
+      "CONTACT_LABELS": "Kontakt teglari",
+      "PREVIOUS_CONVERSATIONS": "Oldingi suhbatlar",
+      "NO_RECORDS_FOUND": "Atributlar topilmadi"
+    }
+  },
+  "EDIT_CONTACT": {
+    "BUTTON_LABEL": "Kontaktni tahrirlash",
+    "TITLE": "Kontaktni tahrirlash",
+    "DESC": "Kontakt ma'lumotlarini tahrirlash"
+  },
+  "CREATE_CONTACT": {
+    "BUTTON_LABEL": "Yangi kontakt",
+    "TITLE": "Yangi kontakt yaratish",
+    "DESC": "Kontakt haqida asosiy ma'lumotlarni qo'shing."
+  },
+  "IMPORT_CONTACTS": {
+    "BUTTON_LABEL": "Import",
+    "TITLE": "Kontaktlarni import qilish",
+    "DESC": "Kontaktlarni CSV fayli orqali import qiling.",
+    "DOWNLOAD_LABEL": "Namuna CSV faylini yuklab olish.",
+    "FORM": {
+      "LABEL": "CSV fayli",
+      "SUBMIT": "Import",
+      "CANCEL": "Bekor qilish"
+    },
+    "SUCCESS_MESSAGE": "Import yakunlanganda email orqali xabardor qilinasiz.",
+    "ERROR_MESSAGE": "Xatolik yuz berdi, iltimos qayta urinib ko'ring"
+  },
+  "EXPORT_CONTACTS": {
+    "BUTTON_LABEL": "Eksport",
+    "TITLE": "Kontaktlarni eksport qilish",
+    "DESC": "Kontaktlarni CSV fayliga eksport qiling.",
+    "SUCCESS_MESSAGE": "Eksport jarayoni davom etmoqda. Eksport fayli yuklab olishga tayyor bo'lganda email orqali xabardor qilinasiz.",
+    "ERROR_MESSAGE": "Xatolik yuz berdi, iltimos qayta urinib ko'ring",
+    "CONFIRM": {
+      "TITLE": "Kontaktlarni eksport qilish",
+      "MESSAGE": "Barcha kontaktlarni eksport qilishni xohlaysizmi?",
+      "FILTERED_MESSAGE": "Filtrlangan kontaktlarni eksport qilishni xohlaysizmi?",
+      "YES": "Ha, eksport qilish",
+      "NO": "Yo'q, bekor qilish"
+    }
+  },
+  "DELETE_NOTE": {
+    "CONFIRM": {
+      "TITLE": "O'chirishni tasdiqlash",
+      "MESSAGE": "Bu eslatmani o'chirishni xohlaysizmi?",
+      "YES": "Ha, o'chirish",
+      "NO": "Yo'q, saqlash"
+    }
+  },
+  "DELETE_CONTACT": {
+    "BUTTON_LABEL": "Kontaktni o'chirish",
+    "TITLE": "Kontaktni o'chirish",
+    "DESC": "Kontakt ma'lumotlarini o'chirish",
+    "CONFIRM": {
+      "TITLE": "O'chirishni tasdiqlash",
+      "MESSAGE": "O'chirishni xohlaysizmi ",
+      "YES": "Ha, o'chirish",
+      "NO": "Yo'q, saqlash"
+    },
+    "API": {
+      "SUCCESS_MESSAGE": "Kontakt muvaffaqiyatli o'chirildi",
+      "ERROR_MESSAGE": "Kontaktni o'chirib bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring."
+    }
+  },
+  "CONTACT_FORM": {
+    "FORM": {
+      "SUBMIT": "Yuborish",
+      "CANCEL": "Bekor qilish",
+      "AVATAR": {
+        "LABEL": "Kontakt avatari"
+      },
+      "NAME": {
+        "PLACEHOLDER": "Kontaktning to'liq ismini kiriting",
+        "LABEL": "To'liq ismi"
+      },
+      "BIO": {
+        "PLACEHOLDER": "Kontaktning biografiyasini kiriting",
+        "LABEL": "Biografiya"
+      },
+      "EMAIL_ADDRESS": {
+        "PLACEHOLDER": "Kontaktning email manzilini kiriting",
+        "LABEL": "Email manzil",
+        "DUPLICATE": "Bu email manzil boshqa kontakt uchun ishlatilmoqda.",
+        "ERROR": "Iltimos, to'g'ri email manzilini kiriting."
+      },
+      "PHONE_NUMBER": {
+        "PLACEHOLDER": "Kontaktning telefon raqamini kiriting",
+        "LABEL": "Telefon raqami",
+        "HELP": "Telefon raqami E.164 formatida bo'lishi kerak, masalan: +1415555555 [+][mamlakat kodi][hudud kodi][mahalliy telefon raqami]. Siz raqam kodini ro'yxatdan tanlashingiz mumkin.",
+        "ERROR": "Telefon raqami bo'sh yoki E.164 formatida bo'lishi kerak",
+        "DIAL_CODE_ERROR": "Iltimos, ro'yxatdan raqam kodini tanlang",
+        "DUPLICATE": "Bu telefon raqami boshqa kontakt uchun ishlatilmoqda."
+      },
+      "LOCATION": {
+        "PLACEHOLDER": "Kontaktning joylashuvini kiriting",
+        "LABEL": "Joylashuv"
+      }
+    }
+  }
+}

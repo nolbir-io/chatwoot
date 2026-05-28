@@ -1,0 +1,41 @@
+{
+  "BULK_ACTION": {
+    "CONVERSATIONS_SELECTED": "{conversationCount} ta suhbat tanlandi",
+    "AGENT_SELECT_LABEL": "Agent tanlang",
+    "ASSIGN_CONFIRMATION_LABEL": "{conversationCount} ta {conversationLabel}ni tayinlashni xohlaysizmi",
+    "UNASSIGN_CONFIRMATION_LABEL": "{conversationCount} ta {conversationLabel}ni bekor qilishni xohlaysizmi?",
+    "GO_BACK_LABEL": "Ortga qaytish",
+    "ASSIGN_LABEL": "Tayinlash",
+    "YES": "Ha",
+    "SEARCH_INPUT_PLACEHOLDER": "Qidirish",
+    "ASSIGN_AGENT_TOOLTIP": "Agent tayinlash",
+    "ASSIGN_TEAM_TOOLTIP": "Jamoa tayinlash",
+    "ASSIGN_SUCCESFUL": "Suhbatlar muvaffaqiyatli tayinlandi.",
+    "ASSIGN_FAILED": "Suhbatlarni tayinlab bo'lmadi. Iltimos, qayta urinib ko'ring.",
+    "RESOLVE_SUCCESFUL": "Suhbatlar muvaffaqiyatli hal qilindi.",
+    "RESOLVE_FAILED": "Suhbatlarni hal qilib bo'lmadi. Iltimos, qayta urinib ko'ring.",
+    "ALL_CONVERSATIONS_SELECTED_ALERT": "Faqat ushbu sahifada ko'rinadigan suhbatlar tanlangan.",
+    "AGENT_LIST_LOADING": "Agentlar yuklanmoqda",
+    "UPDATE": {
+      "CHANGE_STATUS": "Holatni o'zgartirish",
+      "SNOOZE_UNTIL": "Kechiktirish",
+      "UPDATE_SUCCESFUL": "Suhbat holati muvaffaqiyatli yangilandi.",
+      "UPDATE_FAILED": "Suhbatlarni yangilab bo'lmadi. Iltimos, qayta urinib ko'ring."
+    },
+    "LABELS": {
+      "ASSIGN_LABELS": "Teglarni tayinlash",
+      "NO_LABELS_FOUND": "Uchun teglar topilmadi",
+      "ASSIGN_SELECTED_LABELS": "Tanlangan teglarni tayinlash",
+      "ASSIGN_SUCCESFUL": "Teglar muvaffaqiyatli tayinlandi.",
+      "ASSIGN_FAILED": "Teglarni tayinlab bo'lmadi. Iltimos, qayta urinib ko'ring."
+    },
+    "TEAMS": {
+      "TEAM_SELECT_LABEL": "Jamoani tanlang",
+      "NONE": "Hech qaysi",
+      "NO_TEAMS_AVAILABLE": "Ushbu hisobda hali jamoalar qo'shilmagan.",
+      "ASSIGN_SELECTED_TEAMS": "Tanlangan jamoani tayinlash.",
+      "ASSIGN_SUCCESFUL": "Jamoalar muvaffaqiyatli tayinlandi.",
+      "ASSIGN_FAILED": "Jamoani tayinlab bo'lmadi. Iltimos, qayta urinib ko'ring."
+    }
+  }
+}

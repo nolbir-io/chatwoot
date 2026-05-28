@@ -1,0 +1,73 @@
+{
+  "AGENT_BOTS": {
+    "HEADER": "Botlar",
+    "LOADING_EDITOR": "Muharrir yuklanmoqda...",
+    "HEADER_BTN_TXT": "Bot konfiguratsiyasini qo'shish",
+    "SIDEBAR_TXT": "<p><b>Agent botlari</b> <p>Agent botlari jamoangizning eng ajoyib a'zolari kabidir. Ular kichik ishlarni bajara oladi, shuning uchun siz muhim ishlarga e'tibor qarata olasiz. Ularni sinab ko'ring.</p> <p>Siz ushbu sahifadan botlaringizni boshqarishingiz yoki 'Bot konfiguratsiyasini qo'shish' tugmasi orqali yangilarini yaratishingiz mumkin.</p> <p>Yordam uchun <a href=\"https://www.chatwoot.com/hc/chatwoot-user-guide-cloud-version/articles/1677497472-how-to-use-agent-bots\" target=\"blank\">Agent botlari qo'llanmasini</a> boshqa oynada oching.</p>",
+    "CSML_BOT_EDITOR": {
+      "NAME": {
+        "LABEL": "Bot nomi",
+        "PLACEHOLDER": "Botingizga nom bering.",
+        "ERROR": "Bot nomi kiritilishi shart."
+      },
+      "DESCRIPTION": {
+        "LABEL": "Bot tavsifi",
+        "PLACEHOLDER": "Bu bot nima qiladi?"
+      },
+      "BOT_CONFIG": {
+        "ERROR": "Iltimos, CSML bot konfiguratsiyangizni yuqorida kiriting.",
+        "API_ERROR": "CSML konfiguratsiyangiz noto'g'ri. Iltimos, tuzating va qaytadan urinib ko'ring."
+      },
+      "SUBMIT": "Tekshirish va saqlash"
+    },
+    "BOT_CONFIGURATION": {
+      "TITLE": "Agent botni tanlang",
+      "DESC": "Inboksingizga Agent botni tayinlang. Ular dastlabki suhbatlarni boshqarishi va zarur bo'lganda ularni jonli agentga o'tkazishi mumkin.",
+      "SUBMIT": "Yangilash",
+      "DISCONNECT": "Botni uzish",
+      "SUCCESS_MESSAGE": "Agent bot muvaffaqiyatli yangilandi.",
+      "DISCONNECTED_SUCCESS_MESSAGE": "Agent bot muvaffaqiyatli uzildi.",
+      "ERROR_MESSAGE": "Agent botni yangilab bo'lmadi. Iltimos, qaytadan urinib ko'ring.",
+      "DISCONNECTED_ERROR_MESSAGE": "Agent botni uzib bo'lmadi. Iltimos, qaytadan urinib ko'ring.",
+      "SELECT_PLACEHOLDER": "Botni tanlang"
+    },
+    "ADD": {
+      "TITLE": "Yangi bot sozlash",
+      "CANCEL_BUTTON_TEXT": "Bekor qilish",
+      "API": {
+        "SUCCESS_MESSAGE": "Bot muvaffaqiyatli qo'shildi.",
+        "ERROR_MESSAGE": "Botni qo'shib bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring."
+      }
+    },
+    "LIST": {
+      "404": "Botlar topilmadi. 'Yangi bot sozlash' tugmasini bosish orqali bot yaratishingiz mumkin ↗",
+      "LOADING": "Botlar yuklanmoqda...",
+      "TYPE": "Bot turi"
+    },
+    "DELETE": {
+      "BUTTON_TEXT": "O'chirish",
+      "TITLE": "Botni o'chirish",
+      "SUBMIT": "O'chirish",
+      "CANCEL_BUTTON_TEXT": "Bekor qilish",
+      "DESCRIPTION": "Ushbu botni o'chirishni xohlaysizmi? Bu amalni qaytarib bo'lmaydi.",
+      "API": {
+        "SUCCESS_MESSAGE": "Bot muvaffaqiyatli o'chirildi.",
+        "ERROR_MESSAGE": "Botni o'chirib bo'lmadi. Iltimos, qaytadan urinib ko'ring."
+      }
+    },
+    "EDIT": {
+      "BUTTON_TEXT": "Tahrirlash",
+      "LOADING": "Botlar yuklanmoqda...",
+      "TITLE": "Botni tahrirlash",
+      "CANCEL_BUTTON_TEXT": "Bekor qilish",
+      "API": {
+        "SUCCESS_MESSAGE": "Bot muvaffaqiyatli yangilandi.",
+        "ERROR_MESSAGE": "Botni yangilab bo'lmadi. Iltimos, qaytadan urinib ko'ring."
+      }
+    },
+    "TYPES": {
+      "WEBHOOK": "Webhook bot",
+      "CSML": "CSML bot"
+    }
+  }
+}

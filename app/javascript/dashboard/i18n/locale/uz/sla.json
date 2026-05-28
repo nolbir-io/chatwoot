@@ -1,0 +1,108 @@
+{
+  "SLA": {
+    "HEADER": "Xizmat darajasi kelishuvlari",
+    "ADD_ACTION": "SLA qo'shish",
+    "ADD_ACTION_LONG": "Yangi SLA siyosatini yaratish",
+    "DESCRIPTION": "Xizmat darajasi kelishuvlari (SLA) - bu jamoangiz va mijozlar o'rtasidagi aniq kutishlarni belgilaydigan shartnomalardir. Ular javob berish va hal qilish vaqtlari uchun standartlarni o'rnatadi, javobgarlik uchun asos yaratadi va izchil, yuqori sifatli tajribani ta'minlaydi.",
+    "LEARN_MORE": "SLA haqida ko'proq ma'lumot",
+    "LOADING": "SLAlar yuklanmoqda",
+    "PAYWALL": {
+      "TITLE": "SLA yaratish uchun tarifni yangilang",
+      "AVAILABLE_ON": "SLA xususiyati faqat Biznes va Enterprise tariflarda mavjud.",
+      "UPGRADE_PROMPT": "Jamoa boshqaruvi, avtomatlashtirish, maxsus atributlar va boshqa ilg'or xususiyatlarga kirish uchun tarifingizni yangilang.",
+      "UPGRADE_NOW": "Hozir yangilang",
+      "CANCEL_ANYTIME": "Siz istalgan vaqtda tarifingizni o'zgartirish yoki bekor qilish mumkin"
+    },
+    "ENTERPRISE_PAYWALL": {
+      "AVAILABLE_ON": "SLA xususiyati faqat pullik tariflarda mavjud.",
+      "UPGRADE_PROMPT": "Audit jurnallari, agent sig'imi va boshqa ilg'or xususiyatlarga kirish uchun pullik tarifga o'ting.",
+      "ASK_ADMIN": "Yangilash uchun administrator bilan bog'laning."
+    },
+    "LIST": {
+      "404": "Bu hisobda SLAlar mavjud emas.",
+      "EMPTY": {
+        "TITLE_1": "Enterprise P0",
+        "DESC_1": "Enterprise mijozlar tomonidan ko'tarilgan, zudlik bilan e'tibor talab qiladigan masalalar.",
+        "TITLE_2": "Enterprise P1",
+        "DESC_2": "Enterprise mijozlar tomonidan ko'tarilgan, tez tan olinishi kerak bo'lgan masalalar."
+      },
+      "BUSINESS_HOURS_ON": "Ish soatlari yoqilgan",
+      "BUSINESS_HOURS_OFF": "Ish soatlari o'chirilgan",
+      "RESPONSE_TYPES": {
+        "FRT": "Birinchi javob vaqti chegarasi",
+        "NRT": "Keyingi javob vaqti chegarasi",
+        "RT": "Hal qilish vaqti chegarasi",
+        "SHORT_HAND": {
+          "FRT": "BJV",
+          "NRT": "KJV",
+          "RT": "HV"
+        }
+      }
+    },
+    "FORM": {
+      "NAME": {
+        "LABEL": "SLA nomi",
+        "PLACEHOLDER": "SLA nomi",
+        "REQUIRED_ERROR": "SLA nomi talab qilinadi",
+        "MINIMUM_LENGTH_ERROR": "Minimal uzunlik 2 ta belgi bo'lishi kerak",
+        "VALID_ERROR": "Faqat harflar, raqamlar, chiziqcha va pastki chiziq ruxsat etilgan"
+      },
+      "DESCRIPTION": {
+        "LABEL": "Tavsif",
+        "PLACEHOLDER": "Premium mijozlar uchun SLA"
+      },
+      "FIRST_RESPONSE_TIME": {
+        "LABEL": "Birinchi javob vaqti",
+        "PLACEHOLDER": "5"
+      },
+      "NEXT_RESPONSE_TIME": {
+        "LABEL": "Keyingi javob vaqti",
+        "PLACEHOLDER": "5"
+      },
+      "RESOLUTION_TIME": {
+        "LABEL": "Hal qilish vaqti",
+        "PLACEHOLDER": "60"
+      },
+      "BUSINESS_HOURS": {
+        "LABEL": "Ish soatlari",
+        "PLACEHOLDER": "Faqat ish soatlari davomida"
+      },
+      "THRESHOLD_TIME": {
+        "INVALID_FORMAT_ERROR": "Chegara raqam bo'lishi va noldan katta bo'lishi kerak"
+      },
+      "EDIT": "Tahrirlash",
+      "CREATE": "Yaratish",
+      "DELETE": "O'chirish",
+      "CANCEL": "Bekor qilish"
+    },
+    "ADD": {
+      "TITLE": "SLA qo'shish",
+      "DESC": "Ajoyib xizmat uchun do'stona va'dalar!",
+      "API": {
+        "SUCCESS_MESSAGE": "SLA muvaffaqiyatli qo'shildi",
+        "ERROR_MESSAGE": "Xatolik yuz berdi, iltimos qayta urinib ko'ring"
+      }
+    },
+    "DELETE": {
+      "TITLE": "SLAni o'chirish",
+      "API": {
+        "SUCCESS_MESSAGE": "SLA muvaffaqiyatli o'chirildi",
+        "ERROR_MESSAGE": "Xatolik yuz berdi, iltimos qayta urinib ko'ring"
+      },
+      "CONFIRM": {
+        "TITLE": "O'chirishni tasdiqlang",
+        "MESSAGE": "Haqiqatan ham o'chirishni xohlaysizmi ",
+        "YES": "Ha, o'chirish ",
+        "NO": "Yo'q, saqlash "
+      }
+    },
+    "EVENTS": {
+      "TITLE": "SLA buzilishlari",
+      "FRT": "Birinchi javob vaqti",
+      "NRT": "Keyingi javob vaqti",
+      "RT": "Hal qilish vaqti",
+      "SHOW_MORE": "yana {count} ta",
+      "HIDE": "{count} ta qatorni yashirish"
+    }
+  }
+}

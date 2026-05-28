@@ -1,0 +1,9 @@
+{
+  "GENERAL": {
+    "SHOWING_RESULTS": "{totalCount} ta elementdan {firstIndex}-{lastIndex} ko'rsatilmoqda",
+    "PHONE_INPUT": {
+      "PLACEHOLDER": "Qidirish",
+      "EMPTY_STATE": "Natija topilmadi"
+    }
+  }
+}

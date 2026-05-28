@@ -1,0 +1,44 @@
+{
+  "REGISTER": {
+    "TRY_WOOT": "Hisob yaratish",
+    "TITLE": "Ro'yxatdan o'tish",
+    "TESTIMONIAL_HEADER": "Oldinga siljish uchun bitta qadam kifoya",
+    "TESTIMONIAL_CONTENT": "Mijozlaringiz bilan muloqot qilish, ularni saqlab qolish va yangilarini topish uchun bir qadam qoldi.",
+    "TERMS_ACCEPT": "Hisob yaratish orqali siz bizning <a href=\"https://www.chatwoot.com/terms\">Foydalanish shartlari</a> va <a href=\"https://www.chatwoot.com/privacy-policy\">Maxfiylik siyosati</a>ga rozilik bildirasiz",
+    "OAUTH": {
+      "GOOGLE_SIGNUP": "Google orqali ro'yxatdan o'tish"
+    },
+    "COMPANY_NAME": {
+      "LABEL": "Kompaniya nomi",
+      "PLACEHOLDER": "Kompaniyangiz nomini kiriting. Masalan: Wayne Enterprises",
+      "ERROR": "Kompaniya nomi juda qisqa."
+    },
+    "FULL_NAME": {
+      "LABEL": "To'liq ism",
+      "PLACEHOLDER": "To'liq ismingizni kiriting. Masalan: Bruce Wayne",
+      "ERROR": "To'liq ism juda qisqa."
+    },
+    "EMAIL": {
+      "LABEL": "Ish elektron pochtasi",
+      "PLACEHOLDER": "Ish elektron pochtangizni kiriting. Masalan: bruce{'@'}wayne{'.'}enterprises",
+      "ERROR": "Iltimos, to'g'ri ish elektron pochtasini kiriting."
+    },
+    "PASSWORD": {
+      "LABEL": "Parol",
+      "PLACEHOLDER": "Parol",
+      "ERROR": "Parol juda qisqa.",
+      "IS_INVALID_PASSWORD": "Parol kamida 1 ta katta harf, 1 ta kichik harf, 1 ta raqam va 1 ta maxsus belgidan iborat bo'lishi kerak."
+    },
+    "CONFIRM_PASSWORD": {
+      "LABEL": "Parolni tasdiqlang",
+      "PLACEHOLDER": "Parolni tasdiqlang",
+      "ERROR": "Parol mos kelmaydi."
+    },
+    "API": {
+      "SUCCESS_MESSAGE": "Ro'yxatdan o'tish muvaffaqiyatli yakunlandi",
+      "ERROR_MESSAGE": "Woot serveriga ulanib bo'lmadi. Iltimos, qayta urinib ko'ring."
+    },
+    "SUBMIT": "Hisob yaratish",
+    "HAVE_AN_ACCOUNT": "Allaqachon hisobingiz bormi?"
+  }
+}

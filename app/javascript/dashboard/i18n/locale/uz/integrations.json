@@ -1,0 +1,306 @@
+{
+  "INTEGRATION_SETTINGS": {
+    "HEADER": "Integratsiyalar",
+    "DESCRIPTION": "Chatwoot jamoangiz samaradorligini oshirish uchun ko'plab vositalar va xizmatlar bilan integratsiyalashadi. Sevimli ilovalaringizni sozlash uchun quyidagi ro'yxatni ko'rib chiqing.",
+    "LEARN_MORE": "Integratsiyalar haqida ko'proq ma'lumot",
+    "LOADING": "Integratsiyalar yuklanmoqda",
+    "CAPTAIN": {
+      "DISABLED": "Captain hisobingizda yoqilmagan.",
+      "CLICK_HERE_TO_CONFIGURE": "Sozlash uchun bu yerga bosing",
+      "LOADING_CONSOLE": "Captain konsoli yuklanmoqda...",
+      "FAILED_TO_LOAD_CONSOLE": "Captain konsolini yuklashda xatolik yuz berdi. Iltimos, yangilang va qayta urinib ko'ring."
+    },
+    "WEBHOOK": {
+      "SUBSCRIBED_EVENTS": "Obuna bo'lingan hodisalar",
+      "LEARN_MORE": "Webhook'lar haqida ko'proq ma'lumot",
+      "FORM": {
+        "CANCEL": "Bekor qilish",
+        "DESC": "Webhook hodisalari sizning Chatwoot hisobingizda nima sodir bo'layotgani haqida real vaqt ma'lumotlarini taqdim etadi. Callback'ni sozlash uchun to'g'ri URL manzilini kiriting.",
+        "SUBSCRIPTIONS": {
+          "LABEL": "Hodisalar",
+          "EVENTS": {
+            "CONVERSATION_CREATED": "Suhbat yaratildi",
+            "CONVERSATION_STATUS_CHANGED": "Suhbat holati o'zgartirildi",
+            "CONVERSATION_UPDATED": "Suhbat yangilandi",
+            "MESSAGE_CREATED": "Xabar yaratildi",
+            "MESSAGE_UPDATED": "Xabar yangilandi",
+            "WEBWIDGET_TRIGGERED": "Jonli chat vidjeti foydalanuvchi tomonidan ochildi",
+            "CONTACT_CREATED": "Kontakt yaratildi",
+            "CONTACT_UPDATED": "Kontakt yangilandi"
+          }
+        },
+        "END_POINT": {
+          "LABEL": "Webhook URL manzili",
+          "PLACEHOLDER": "Misol: {webhookExampleURL}",
+          "ERROR": "Iltimos, to'g'ri URL manzilini kiriting"
+        },
+        "EDIT_SUBMIT": "Webhookni yangilash",
+        "ADD_SUBMIT": "Webhook yaratish"
+      },
+      "TITLE": "Webhook",
+      "CONFIGURE": "Sozlash",
+      "HEADER": "Webhook sozlamalari",
+      "HEADER_BTN_TXT": "Yangi webhook qo'shish",
+      "LOADING": "Biriktirilgan webhook'lar yuklanmoqda",
+      "SEARCH_404": "Bu so'rov bo'yicha hech narsa topilmadi",
+      "SIDEBAR_TXT": "<p><b>Webhook'lar</b></p><p>Webhook'lar har bir hisob uchun belgilanadigan HTTP callback'lardir. Ular Chatwoot'da xabar yaratish kabi hodisalar tomonidan ishga tushiriladi. Bu hisob uchun bir nechta webhook yaratishingiz mumkin.<br /><br /><b>Webhook</b> yaratish uchun <b>Yangi webhook qo'shish</b> tugmasini bosing. Mavjud webhook'ni O'chirish tugmasini bosib olib tashlashingiz ham mumkin.</p>",
+      "LIST": {
+        "404": "Bu hisob uchun hech qanday webhook sozlanmagan.",
+        "TITLE": "Webhook'larni boshqarish",
+        "TABLE_HEADER": {
+          "WEBHOOK_ENDPOINT": "Webhook endpointi",
+          "ACTIONS": "Amallar"
+        }
+      },
+      "EDIT": {
+        "BUTTON_TEXT": "Tahrirlash",
+        "TITLE": "Webhook'ni tahrirlash",
+        "API": {
+          "SUCCESS_MESSAGE": "Webhook sozlamalari muvaffaqiyatli yangilandi",
+          "ERROR_MESSAGE": "Woot serveriga ulanib bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring"
+        }
+      },
+      "ADD": {
+        "CANCEL": "Bekor qilish",
+        "TITLE": "Yangi webhook qo'shish",
+        "API": {
+          "SUCCESS_MESSAGE": "Webhook sozlamalari muvaffaqiyatli qo'shildi",
+          "ERROR_MESSAGE": "Woot serveriga ulanib bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring"
+        }
+      },
+      "DELETE": {
+        "BUTTON_TEXT": "O'chirish",
+        "API": {
+          "SUCCESS_MESSAGE": "Webhook muvaffaqiyatli o'chirildi",
+          "ERROR_MESSAGE": "Woot serveriga ulanib bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring"
+        },
+        "CONFIRM": {
+          "TITLE": "O'chirishni tasdiqlash",
+          "MESSAGE": "Webhookni o'chirishni xohlaysizmi? ({webhookURL})",
+          "YES": "Ha, o'chirish",
+          "NO": "Yo'q, saqlab qolish"
+        }
+      }
+    },
+    "SLACK": {
+      "DELETE": "O'chirish",
+      "DELETE_CONFIRMATION": {
+        "TITLE": "Integratsiyani o'chirish",
+        "MESSAGE": "Integratsiyani o'chirishni xohlaysizmi? Bu Slack ishchi maydoningizdagi suhbatlarga kirishni yo'qotishga olib keladi."
+      },
+      "HELP_TEXT": {
+        "TITLE": "Slack integratsiyasidan qanday foydalanish kerak?",
+        "BODY": "Bu integratsiya bilan barcha kiruvchi suhbatlaringiz Slack ishchi maydoningizdagi ***{selectedChannelName}*** kanaliga sinxronlanadi. Siz barcha mijozlar bilan suhbatlarni to'g'ridan-to'g'ri kanal ichida boshqarishingiz va hech qanday xabarni o'tkazib yubormasligingiz mumkin.\n\nIntegratsiyaning asosiy xususiyatlari:\n\n**Slack orqali suhbatlarga javob berish:** ***{selectedChannelName}*** Slack kanalida suhbatga javob berish uchun xabaringizni yozing va uni thread sifatida yuboring. Bu Chatwoot orqali mijozga javob qaytaradi. Juda oddiy!\n\n**Shaxsiy eslatmalar yaratish:** Agar javoblar o'rniga shaxsiy eslatmalar yaratmoqchi bo'lsangiz, xabaringizni ***`note:`*** bilan boshlang. Bu xabaringiz shaxsiy qolishini va mijozga ko'rinmasligini ta'minlaydi.\n\n**Agent profilini bog'lash:** Agar Slack'da javob bergan shaxsning Chatwoot'da xuddi shu elektron pochta ostida agent profili bo'lsa, javoblar avtomatik ravishda o'sha agent profili bilan bog'lanadi. Bu kim qachon nima deganini osonlik bilan kuzatib borishingizga imkon beradi. Boshqa tomondan, javob beruvchining bog'langan agent profili bo'lmasa, javoblar mijozga bot profilidan ko'rinadi.",
+        "SELECTED": "tanlangan"
+      },
+      "SELECT_CHANNEL": {
+        "OPTION_LABEL": "Kanal tanlang",
+        "UPDATE": "Yangilash",
+        "BUTTON_TEXT": "Kanalni ulash",
+        "DESCRIPTION": "Slack ishchi maydoningiz endi Chatwoot bilan bog'langan. Ammo integratsiya hozircha faol emas. Integratsiyani faollashtirish va kanalni Chatwoot'ga ulash uchun quyidagi tugmani bosing.\n\n**Eslatma:** Agar shaxsiy kanalni ulashga harakat qilayotgan bo'lsangiz, bu qadamni bajarishdan oldin Chatwoot ilovasini Slack kanaliga qo'shing.",
+        "ATTENTION_REQUIRED": "E'tibor talab qilinadi",
+        "EXPIRED": "Slack integratsiyangiz muddati tugadi. Slack'da xabarlarni qabul qilishni davom ettirish uchun integratsiyani o'chirib, ishchi maydoningizni qayta ulang."
+      },
+      "UPDATE_ERROR": "Integratsiyani yangilashda xatolik yuz berdi, iltimos qayta urinib ko'ring",
+      "UPDATE_SUCCESS": "Kanal muvaffaqiyatli ulandi",
+      "FAILED_TO_FETCH_CHANNELS": "Slack'dan kanallarni olishda xatolik yuz berdi, iltimos qayta urinib ko'ring"
+    },
+    "DYTE": {
+      "CLICK_HERE_TO_JOIN": "Qo'shilish uchun bu yerga bosing",
+      "LEAVE_THE_ROOM": "Xonadan chiqish",
+      "START_VIDEO_CALL_HELP_TEXT": "Mijoz bilan yangi video qo'ng'iroq boshlash",
+      "JOIN_ERROR": "Qo'ng'iroqqa qo'shilishda xatolik yuz berdi, iltimos qayta urinib ko'ring",
+      "CREATE_ERROR": "Uchrashuv havolasini yaratishda xatolik yuz berdi, iltimos qayta urinib ko'ring"
+    },
+    "OPEN_AI": {
+      "AI_ASSIST": "AI yordami",
+      "WITH_AI": " {option} AI bilan ",
+      "OPTIONS": {
+        "REPLY_SUGGESTION": "Javob taklifi",
+        "SUMMARIZE": "Qisqacha mazmuni",
+        "REPHRASE": "Yozuvni yaxshilash",
+        "FIX_SPELLING_GRAMMAR": "Imlo va grammatikani to'g'rilash",
+        "SHORTEN": "Qisqartirish",
+        "EXPAND": "Kengaytirish",
+        "MAKE_FRIENDLY": "Xabar ohangini do'stona qilish",
+        "MAKE_FORMAL": "Rasmiy ohangdan foydalanish",
+        "SIMPLIFY": "Soddalatirish"
+      },
+      "ASSISTANCE_MODAL": {
+        "DRAFT_TITLE": "Qoralama matn",
+        "GENERATED_TITLE": "Yaratilgan matn",
+        "AI_WRITING": "AI yozmoqda",
+        "BUTTONS": {
+          "APPLY": "Bu taklifdan foydalanish",
+          "CANCEL": "Bekor qilish"
+        }
+      },
+      "CTA_MODAL": {
+        "TITLE": "OpenAI bilan integratsiya",
+        "DESC": "OpenAI'ning GPT modellari bilan boshqaruv panelingizga ilg'or AI xususiyatlarini qo'shing. Boshlash uchun OpenAI hisobingizdan API kalitini kiriting.",
+        "KEY_PLACEHOLDER": "OpenAI API kalitingizni kiriting",
+        "BUTTONS": {
+          "NEED_HELP": "Yordam kerakmi?",
+          "DISMISS": "Yopish",
+          "FINISH": "Sozlashni tugatish"
+        },
+        "DISMISS_MESSAGE": "OpenAI integratsiyasini keyinroq xohlagan vaqtingizda sozlashingiz mumkin.",
+        "SUCCESS_MESSAGE": "OpenAI integratsiyasi muvaffaqiyatli sozlandi"
+      },
+      "TITLE": "AI bilan yaxshilash",
+      "SUMMARY_TITLE": "AI bilan qisqacha mazmun",
+      "REPLY_TITLE": "AI bilan javob taklifi",
+      "SUBTITLE": "Joriy qoralamangiz asosida AI yordamida yaxshilangan javob yaratiladi.",
+      "TONE": {
+        "TITLE": "Ohang",
+        "OPTIONS": {
+          "PROFESSIONAL": "Professional",
+          "FRIENDLY": "Do'stona"
+        }
+      },
+      "BUTTONS": {
+        "GENERATE": "Yaratish",
+        "GENERATING": "Yaratilmoqda...",
+        "CANCEL": "Bekor qilish"
+      },
+      "GENERATE_ERROR": "Kontentni qayta ishlashda xatolik yuz berdi, iltimos OpenAI API kalitingizni tekshiring va qayta urinib ko'ring"
+    },
+    "DELETE": {
+      "BUTTON_TEXT": "O'chirish",
+      "API": {
+        "SUCCESS_MESSAGE": "Integratsiya muvaffaqiyatli o'chirildi"
+      }
+    },
+    "CONNECT": {
+      "BUTTON_TEXT": "Ulanish"
+    },
+    "DASHBOARD_APPS": {
+      "TITLE": "Boshqaruv paneli ilovalari",
+      "HEADER_BTN_TXT": "Yangi boshqaruv paneli ilovasi qo'shish",
+      "SIDEBAR_TXT": "<p><b>Boshqaruv paneli ilovalari</b></p><p>Boshqaruv paneli ilovalari tashkilotlarga mijozlarni qo'llab-quvvatlash agentlariga kontekst taqdim etish uchun Chatwoot boshqaruv paneliga ilova joylashtirishga imkon beradi. Bu xususiyat sizga mustaqil ravishda ilova yaratish va uni boshqaruv paneliga joylashtirish orqali foydalanuvchi ma'lumotlari, ularning buyurtmalari yoki oldingi to'lov tarixini ko'rsatish imkonini beradi.</p><p>Ilovangizni Chatwoot boshqaruv paneli orqali joylashtirganda, ilovangiz suhbat va kontakt kontekstini oyna hodisasi sifatida oladi. Kontekstni qabul qilish uchun sahifangizda xabar hodisasi uchun tinglovchi yarating.</p><p>Yangi boshqaruv paneli ilovasi qo'shish uchun 'Yangi boshqaruv paneli ilovasi qo'shish' tugmasini bosing.</p>",
+      "DESCRIPTION": "Boshqaruv paneli ilovalari tashkilotlarga mijozlarni qo'llab-quvvatlash agentlariga kontekst taqdim etish uchun boshqaruv paneliga ilova joylashtirishga imkon beradi. Bu xususiyat sizga mustaqil ravishda ilova yaratish va uni joylashtirish orqali foydalanuvchi ma'lumotlari, ularning buyurtmalari yoki oldingi to'lov tarixini ko'rsatish imkonini beradi.",
+      "LEARN_MORE": "Boshqaruv paneli ilovalari haqida ko'proq ma'lumot",
+      "LIST": {
+        "404": "Bu hisobda hali hech qanday boshqaruv paneli ilovasi sozlanmagan",
+        "LOADING": "Boshqaruv paneli ilovalari yuklanmoqda...",
+        "TABLE_HEADER": {
+          "NAME": "Nomi",
+          "ENDPOINT": "Endpoint"
+        },
+        "EDIT_TOOLTIP": "Ilovani tahrirlash",
+        "DELETE_TOOLTIP": "Ilovani o'chirish"
+      },
+      "FORM": {
+        "TITLE_LABEL": "Nomi",
+        "TITLE_PLACEHOLDER": "Boshqaruv paneli ilovangiz uchun nom kiriting",
+        "TITLE_ERROR": "Boshqaruv paneli ilovasi uchun nom talab qilinadi",
+        "URL_LABEL": "Endpoint",
+        "URL_PLACEHOLDER": "Ilovangiz joylashgan endpoint URL manzilini kiriting",
+        "URL_ERROR": "To'g'ri URL manzili talab qilinadi"
+      },
+      "CREATE": {
+        "HEADER": "Yangi boshqaruv paneli ilovasi qo'shish",
+        "FORM_SUBMIT": "Yuborish",
+        "FORM_CANCEL": "Bekor qilish",
+        "API_SUCCESS": "Boshqaruv paneli ilovasi muvaffaqiyatli sozlandi",
+        "API_ERROR": "Ilova yaratib bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring"
+      },
+      "UPDATE": {
+        "HEADER": "Boshqaruv paneli ilovasini tahrirlash",
+        "FORM_SUBMIT": "Yangilash",
+        "FORM_CANCEL": "Bekor qilish",
+        "API_SUCCESS": "Boshqaruv paneli ilovasi muvaffaqiyatli yangilandi",
+        "API_ERROR": "Ilovani yangilab bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring"
+      },
+      "DELETE": {
+        "CONFIRM_YES": "Ha, o'chirish",
+        "CONFIRM_NO": "Yo'q, saqlab qolish",
+        "TITLE": "O'chirishni tasdiqlash",
+        "MESSAGE": "{appName} ilovasini o'chirishni xohlaysizmi?",
+        "API_SUCCESS": "Boshqaruv paneli ilovasi muvaffaqiyatli o'chirildi",
+        "API_ERROR": "Ilovani o'chirib bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring"
+      }
+    },
+    "LINEAR": {
+      "ADD_OR_LINK_BUTTON": "Linear muammosini yaratish/bog'lash",
+      "LOADING": "Linear muammolari yuklanmoqda...",
+      "LOADING_ERROR": "Linear muammolarini olishda xatolik yuz berdi, iltimos qayta urinib ko'ring",
+      "CREATE": "Yaratish",
+      "LINK": {
+        "SEARCH": "Muammolarni qidirish",
+        "SELECT": "Muammoni tanlash",
+        "TITLE": "Bog'lash",
+        "EMPTY_LIST": "Linear muammolari topilmadi",
+        "LOADING": "Yuklanmoqda",
+        "ERROR": "Linear muammolarini olishda xatolik yuz berdi, iltimos qayta urinib ko'ring",
+        "LINK_SUCCESS": "Muammo muvaffaqiyatli bog'landi",
+        "LINK_ERROR": "Muammoni bog'lashda xatolik yuz berdi, iltimos qayta urinib ko'ring",
+        "LINK_TITLE": "{name} bilan suhbat (#{conversationId})"
+      },
+      "ADD_OR_LINK": {
+        "TITLE": "Linear muammosini yaratish/bog'lash",
+        "DESCRIPTION": "Suhbatlardan Linear muammolarini yarating yoki mavjudlarini bog'lang.",
+        "FORM": {
+          "TITLE": {
+            "LABEL": "Sarlavha",
+            "PLACEHOLDER": "Sarlavhani kiriting",
+            "REQUIRED_ERROR": "Sarlavha talab qilinadi"
+          },
+          "DESCRIPTION": {
+            "LABEL": "Tavsif",
+            "PLACEHOLDER": "Tavsifni kiriting"
+          },
+          "TEAM": {
+            "LABEL": "Jamoa",
+            "PLACEHOLDER": "Jamoani tanlang",
+            "SEARCH": "Jamoani qidirish",
+            "REQUIRED_ERROR": "Jamoa talab qilinadi"
+          },
+          "ASSIGNEE": {
+            "LABEL": "Tayinlangan shaxs",
+            "PLACEHOLDER": "Tayinlangan shaxsni tanlang",
+            "SEARCH": "Tayinlangan shaxsni qidirish"
+          },
+          "PRIORITY": {
+            "LABEL": "Muhimlik darajasi",
+            "PLACEHOLDER": "Muhimlik darajasini tanlang",
+            "SEARCH": "Muhimlik darajasini qidirish"
+          },
+          "LABEL": {
+            "LABEL": "Yorliq",
+            "PLACEHOLDER": "Yorliqni tanlang",
+            "SEARCH": "Yorliqni qidirish"
+          },
+          "STATUS": {
+            "LABEL": "Holat",
+            "PLACEHOLDER": "Holatni tanlang",
+            "SEARCH": "Holatni qidirish"
+          },
+          "PROJECT": {
+            "LABEL": "Loyiha",
+            "PLACEHOLDER": "Loyihani tanlang",
+            "SEARCH": "Loyihani qidirish"
+          }
+        },
+        "CREATE": "Yaratish",
+        "CANCEL": "Bekor qilish",
+        "CREATE_SUCCESS": "Muammo muvaffaqiyatli yaratildi",
+        "CREATE_ERROR": "Muammoni yaratishda xatolik yuz berdi, iltimos qayta urinib ko'ring",
+        "LOADING_TEAM_ERROR": "Jamoalarni olishda xatolik yuz berdi, iltimos qayta urinib ko'ring",
+        "LOADING_TEAM_ENTITIES_ERROR": "Jamoa ob'ektlarini olishda xatolik yuz berdi, iltimos qayta urinib ko'ring"
+      },
+      "ISSUE": {
+        "STATUS": "Holat",
+        "PRIORITY": "Muhimlik darajasi",
+        "ASSIGNEE": "Tayinlangan shaxs",
+        "LABELS": "Yorliqlar",
+        "CREATED_AT": "{createdAt} da yaratilgan"
+      },
+      "UNLINK": {
+        "TITLE": "Bog'lanishni bekor qilish",
+        "SUCCESS": "Muammo bog'lanishi muvaffaqiyatli bekor qilindi",
+        "ERROR": "Muammo bog'lanishini bekor qilishda xatolik yuz berdi, iltimos qayta urinib ko'ring"
+      }
+    }
+  }
+}

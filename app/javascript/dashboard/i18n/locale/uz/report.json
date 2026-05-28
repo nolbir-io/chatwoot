@@ -1,0 +1,54 @@
+{
+  "REPORT": {
+    "HEADER": "Hisobotlar",
+    "LOADING_CHART": "Diagramma yuklanmoqda...",
+    "NO_ENOUGH_DATA": "Hisobot yaratish uchun yetarli ma'lumot mavjud emas, iltimos keyinroq qayta urinib ko'ring.",
+    "DOWNLOAD_AGENT_REPORTS": "Agent hisobotlarini yuklab olish",
+    "DATA_FETCHING_FAILED": "Ma'lumotlarni olishda xatolik yuz berdi, iltimos keyinroq qayta urinib ko'ring.",
+    "SUMMARY_FETCHING_FAILED": "Xulosani olishda xatolik yuz berdi, iltimos keyinroq qayta urinib ko'ring.",
+    
+    "METRICS": {
+      "CONVERSATIONS": {
+        "NAME": "Suhbatlar",
+        "DESC": "( Jami )"
+      },
+      "INCOMING_MESSAGES": {
+        "NAME": "Qabul qilingan xabarlar",
+        "DESC": "( Jami )"
+      },
+      "OUTGOING_MESSAGES": {
+        "NAME": "Yuborilgan xabarlar",
+        "DESC": "( Jami )"
+      },
+      "FIRST_RESPONSE_TIME": {
+        "NAME": "Birinchi javob vaqti",
+        "DESC": "( O'rtacha )",
+        "INFO_TEXT": "Hisoblash uchun ishlatilgan jami suhbatlar soni:",
+        "TOOLTIP_TEXT": "Birinchi javob vaqti {metricValue} ({conversationCount} ta suhbat asosida)"
+      }
+    },
+
+    "DATE_RANGE_OPTIONS": {
+      "LAST_7_DAYS": "Oxirgi 7 kun",
+      "LAST_30_DAYS": "Oxirgi 30 kun",
+      "LAST_3_MONTHS": "Oxirgi 3 oy",
+      "LAST_6_MONTHS": "Oxirgi 6 oy",
+      "LAST_YEAR": "O'tgan yil",
+      "CUSTOM_DATE_RANGE": "Maxsus sana oralig'i"
+    },
+
+    "CUSTOM_DATE_RANGE": {
+      "CONFIRM": "Qo'llash",
+      "PLACEHOLDER": "Sana oralig'ini tanlang"
+    },
+
+    "GROUP_BY_FILTER_DROPDOWN_LABEL": "Guruhlash",
+    "DURATION_FILTER_LABEL": "Davomiyligi",
+    "GROUPING_OPTIONS": {
+      "DAY": "Kun",
+      "WEEK": "Hafta",
+      "MONTH": "Oy",
+      "YEAR": "Yil"
+    }
+  }
+}

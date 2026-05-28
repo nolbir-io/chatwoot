@@ -1,0 +1,85 @@
+{
+  "LABEL_MGMT": {
+    "HEADER": "Yorliqlar",
+    "HEADER_BTN_TXT": "Yorliq qo'shish",
+    "LOADING": "Yorliqlar yuklanmoqda",
+    "DESCRIPTION": "Yorliqlar suhbatlar va potensial mijozlarni turkumlash va ustuvorligini belgilashga yordam beradi. Siz yon panel orqali suhbat yoki kontaktga yorliq biriktira olasiz.",
+    "LEARN_MORE": "Yorliqlar haqida ko'proq ma'lumot",
+    "SEARCH_404": "Ushbu so'rov bo'yicha hech narsa topilmadi",
+    "LIST": {
+      "404": "Ushbu hisobda mavjud yorliqlar yo'q.",
+      "TITLE": "Yorliqlarni boshqarish",
+      "DESC": "Yorliqlar suhbatlarni guruhlash imkonini beradi.",
+      "TABLE_HEADER": {
+        "NAME": "Nomi",
+        "DESCRIPTION": "Tavsif",
+        "COLOR": "Rang"
+      }
+    },
+    "FORM": {
+      "NAME": {
+        "LABEL": "Yorliq nomi",
+        "PLACEHOLDER": "Yorliq nomi",
+        "REQUIRED_ERROR": "Yorliq nomi kiritilishi shart",
+        "MINIMUM_LENGTH_ERROR": "Minimal uzunlik 2 ta belgi bo'lishi kerak",
+        "VALID_ERROR": "Faqat harflar, raqamlar, chiziqcha va pastki chiziq ruxsat etilgan"
+      },
+      "DESCRIPTION": {
+        "LABEL": "Tavsif",
+        "PLACEHOLDER": "Yorliq tavsifi"
+      },
+      "COLOR": {
+        "LABEL": "Rang"
+      },
+      "SHOW_ON_SIDEBAR": {
+        "LABEL": "Yorliqni yon panelda ko'rsatish"
+      },
+      "EDIT": "Tahrirlash",
+      "CREATE": "Yaratish",
+      "DELETE": "O'chirish",
+      "CANCEL": "Bekor qilish"
+    },
+    "SUGGESTIONS": {
+      "TOOLTIP": {
+        "SINGLE_SUGGESTION": "Suhbatga yorliq qo'shish",
+        "MULTIPLE_SUGGESTION": "Ushbu yorliqni tanlash",
+        "DESELECT": "Yorliqni bekor qilish",
+        "DISMISS": "Taklifni rad etish"
+      },
+      "POWERED_BY": "Chatwoot AI",
+      "DISMISS": "Rad etish",
+      "ADD_SELECTED_LABELS": "Tanlangan yorliqlarni qo'shish",
+      "ADD_SELECTED_LABEL": "Tanlangan yorliqni qo'shish",
+      "ADD_ALL_LABELS": "Barcha yorliqlarni qo'shish",
+      "SUGGESTED_LABELS": "Tavsiya etilgan yorliqlar"
+    },
+    "ADD": {
+      "TITLE": "Yorliq qo'shish",
+      "DESC": "Yorliqlar suhbatlarni guruhlash imkonini beradi.",
+      "API": {
+        "SUCCESS_MESSAGE": "Yorliq muvaffaqiyatli qo'shildi",
+        "ERROR_MESSAGE": "Xatolik yuz berdi, iltimos qayta urinib ko'ring"
+      }
+    },
+    "EDIT": {
+      "TITLE": "Yorliqni tahrirlash",
+      "API": {
+        "SUCCESS_MESSAGE": "Yorliq muvaffaqiyatli yangilandi",
+        "ERROR_MESSAGE": "Xatolik yuz berdi, iltimos qayta urinib ko'ring"
+      }
+    },
+    "DELETE": {
+      "BUTTON_TEXT": "O'chirish",
+      "API": {
+        "SUCCESS_MESSAGE": "Yorliq muvaffaqiyatli o'chirildi",
+        "ERROR_MESSAGE": "Xatolik yuz berdi, iltimos qayta urinib ko'ring"
+      },
+      "CONFIRM": {
+        "TITLE": "O'chirishni tasdiqlash",
+        "MESSAGE": "O'chirishni xohlaysizmi ",
+        "YES": "Ha, o'chirish ",
+        "NO": "Yo'q, saqlash "
+      }
+    }
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "CONVERSATION": {
+    "SELECT_A_CONVERSATION": "Iltimos, chap paneldan suhbatni tanlang",
+    "CSAT_REPLY_MESSAGE": "Iltimos, suhbatni baholang",
+    "404": "Kechirasiz, suhbat topilmadi. Iltimos, qayta urinib ko'ring",
+    "SWITCH_VIEW_LAYOUT": "Ko'rinishni o'zgartirish",
+    "DASHBOARD_APP_TAB_MESSAGES": "Xabarlar",
+    "UNVERIFIED_SESSION": "Bu foydalanuvchining shaxsi tasdiqlanmagan",
+    "NO_MESSAGE_1": "Voy! Kiritish qutingizda mijozlardan xabarlar yo'qqa o'xshaydi.",
+    "NO_MESSAGE_2": " sahifangizga xabar yuborish uchun!",
+    "NO_INBOX_1": "Salom! Hali hech qanday kiruvchi quti qo'shmaganga o'xshaysiz.",
+    "NO_INBOX_2": " boshlash uchun",
+    "NO_INBOX_AGENT": "Voy! Siz hech qanday kiruvchi qutiga a'zo emassiz. Iltimos, administrator bilan bog'laning",
+    "SEARCH_MESSAGES": "Suhbatlardagi xabarlarni qidirish",
+    "EMPTY_STATE": {
+      "CMD_BAR": "buyruqlar menyusini ochish uchun",
+      "KEYBOARD_SHORTCUTS": "klaviatura yorliqlarini ko'rish uchun"
+    },
+    "SEARCH": {
+      "TITLE": "Xabarlarni qidirish",
+      "RESULT_TITLE": "Qidiruv natijalari",
+      "LOADING_MESSAGE": "Ma'lumotlar tahlil qilinmoqda...",
+      "PLACEHOLDER": "Xabarlarni qidirish uchun matn kiriting",
+      "NO_MATCHING_RESULTS": "Natijalar topilmadi."
+    },
+    "UNREAD_MESSAGES": "O'qilmagan xabarlar",
+    "UNREAD_MESSAGE": "O'qilmagan xabar",
+    "CLICK_HERE": "Bu yerga bosing",
+    "LOADING_INBOXES": "Kiruvchi qutilar yuklanmoqda",
+    "LOADING_CONVERSATIONS": "Suhbatlar yuklanmoqda",
+    "CANNOT_REPLY": "Javob bera olmaysiz, sababi",
+    "24_HOURS_WINDOW": "24 soatlik xabar chegarasi",
+    "NOT_ASSIGNED_TO_YOU": "Bu suhbat sizga tayinlanmagan. Suhbatni o'zingizga tayinlashni xohlaysizmi?",
+    "ASSIGN_TO_ME": "Menga tayinlash",
+    "TWILIO_WHATSAPP_CAN_REPLY": "Siz bu suhbatga faqat shablon xabar orqali javob bera olasiz, sababi",
+    "TWILIO_WHATSAPP_24_HOURS_WINDOW": "24 soatlik xabar chegarasi",
+    "REPLYING_TO": "Javob bermoqdasiz:",
+    "REMOVE_SELECTION": "Tanlovni bekor qilish",
+    "DOWNLOAD": "Yuklab olish",
+    "UNKNOWN_FILE_TYPE": "Noma'lum fayl",
+    "SAVE_CONTACT": "Saqlash",
+    "UPLOADING_ATTACHMENTS": "Fayllar yuklanmoqda...",
+    "REPLIED_TO_STORY": "Hikoyangizga javob berdi",
+    "UNSUPPORTED_MESSAGE": "Bu xabar qo'llab-quvvatlanmaydi.",
+    "UNSUPPORTED_MESSAGE_FACEBOOK": "Bu xabar qo'llab-quvvatlanmaydi. Siz bu xabarni Facebook Messenger ilovasida ko'rishingiz mumkin.",
+    "UNSUPPORTED_MESSAGE_INSTAGRAM": "Bu xabar qo'llab-quvvatlanmaydi. Siz bu xabarni Instagram ilovasida ko'rishingiz mumkin.",
+    "SUCCESS_DELETE_MESSAGE": "Xabar muvaffaqiyatli o'chirildi",
+    "FAIL_DELETE_MESSSAGE": "Xabarni o'chirib bo'lmadi! Qayta urinib ko'ring",
+    "NO_RESPONSE": "Javob yo'q",
+    "RATING_TITLE": "Baholash",
+    "FEEDBACK_TITLE": "Fikr-mulohaza",
+    "REPLY_MESSAGE_NOT_FOUND": "Xabar mavjud emas",
+    "CARD": {
+      "SHOW_LABELS": "Teglarni ko'rsatish",
+      "HIDE_LABELS": "Teglarni yashirish"
+    },
+    "HEADER": {
+      "RESOLVE_ACTION": "Hal qilish",
+      "REOPEN_ACTION": "Qayta ochish",
+      "OPEN_ACTION": "Ochish",
+      "OPEN": "Ko'proq",
+      "CLOSE": "Yopish",
+      "DETAILS": "tafsilotlar",
+      "SNOOZED_UNTIL": "Kechiktirilgan vaqt",
+      "SNOOZED_UNTIL_TOMORROW": "Ertagacha kechiktirilgan",
+      "SNOOZED_UNTIL_NEXT_WEEK": "Keyingi haftagacha kechiktirilgan",
+      "SNOOZED_UNTIL_NEXT_REPLY": "Keyingi javobgacha kechiktirilgan",
+      "SLA_STATUS": {
+        "FRT": "FRT {status}",
+        "NRT": "NRT {status}",
+        "RT": "RT {status}",
+        "MISSED": "o'tkazib yuborildi",
+        "DUE": "muddati"
+      }
+    },
+    "RESOLVE_DROPDOWN": {
+      "MARK_PENDING": "Kutilmoqda deb belgilash",
+      "SNOOZE_UNTIL": "Kechiktirish",
+      "SNOOZE": {
+        "TITLE": "Quyidagi vaqtgacha kechiktirish",
+        "NEXT_REPLY": "Keyingi javob",
+        "TOMORROW": "Ertaga",
+        "NEXT_WEEK": "Keyingi hafta"
+      }
+    },
+    "CUSTOM_SNOOZE": {
+      "TITLE": "Quyidagi vaqtgacha kechiktirish",
+      "APPLY": "Kechiktirish",
+      "CANCEL": "Bekor qilish"
+    },
+    "PRIORITY": {
+      "TITLE": "Muhimlik",
+      "OPTIONS": {
+        "NONE": "Yo'q",
+        "URGENT": "Juda muhim",
+        "HIGH": "Yuqori",
+        "MEDIUM": "O'rta",
+        "LOW": "Past"
+      },
+      "CHANGE_PRIORITY": {
+        "SELECT_PLACEHOLDER": "Yo'q",
+        "INPUT_PLACEHOLDER": "Muhimlikni tanlang",
+        "NO_RESULTS": "Natija topilmadi",
+        "SUCCESSFUL": "{conversationId} suhbatining muhimligi {priority}ga o'zgartirildi",
+        "FAILED": "Muhimlikni o'zgartirib bo'lmadi. Iltimos, qayta urinib ko'ring."
+      }
+    },
+    "CARD_CONTEXT_MENU": {
+      "PENDING": "Kutilmoqda deb belgilash",
+      "RESOLVED": "Hal qilingan deb belgilash",
+      "MARK_AS_UNREAD": "O'qilmagan deb belgilash",
+      "REOPEN": "Suhbatni qayta ochish",
+      "SNOOZE": {
+        "TITLE": "Kechiktirish",
+        "NEXT_REPLY": "Keyingi javobgacha",
+        "TOMORROW": "Ertagacha",
+        "NEXT_WEEK": "Keyingi haftagacha"
+      },
+      "ASSIGN_AGENT": "Agent tayinlash",
+      "ASSIGN_LABEL": "Teg tayinlash",
+      "AGENTS_LOADING": "Agentlar yuklanmoqda...",
+      "ASSIGN_TEAM": "Jamoa tayinlash",
+      "API": {
+        "AGENT_ASSIGNMENT": {
+          "SUCCESFUL": "{conversationId} suhbati \"{agentName}\"ga tayinlandi",
+          "FAILED": "Agentni tayinlab bo'lmadi. Iltimos, qayta urinib ko'ring."
+        },
+        "LABEL_ASSIGNMENT": {
+          "SUCCESFUL": "#{labelName} tegi {conversationId} suhbatiga tayinlandi",
+          "FAILED": "Tegni tayinlab bo'lmadi. Iltimos, qayta urinib ko'ring."
+        },
+        "TEAM_ASSIGNMENT": {
+          "SUCCESFUL": "\"{team}\" jamoasi {conversationId} suhbatiga tayinlandi",
+          "FAILED": "Jamoani tayinlab bo'lmadi. Iltimos, qayta urinib ko'ring."
+        }
+      }
+    },
+    "FOOTER": {
+      "MESSAGE_SIGN_TOOLTIP": "Xabar imzosi",
+      "ENABLE_SIGN_TOOLTIP": "Imzoni yoqish",
+      "DISABLE_SIGN_TOOLTIP": "Imzoni o'chirish",
+      "MSG_INPUT": "Yangi qatorga o'tish uchun Shift + Enter. Tayyor javobni tanlash uchun '/' bilan boshlang.",
+      "PRIVATE_MSG_INPUT": "Yangi qatorga o'tish uchun Shift + Enter. Bu faqat Agentlarga ko'rinadi",
+      "MESSAGE_SIGNATURE_NOT_CONFIGURED": "Xabar imzosi sozlanmagan, iltimos uni profil sozlamalarida sozlang.",
+      "CLICK_HERE": "Yangilash uchun bu yerga bosing",
+      "WHATSAPP_TEMPLATES": "WhatsApp shablonlari"
+    },
+    "REPLYBOX": {
+      "REPLY": "Javob berish",
+      "PRIVATE_NOTE": "Shaxsiy eslatma",
+      "SEND": "Yuborish",
+      "CREATE": "Eslatma qo'shish",
+      "INSERT_READ_MORE": "Ko'proq o'qish",
+      "DISMISS_REPLY": "Javobni bekor qilish",
+      "REPLYING_TO": "Javob bermoqdasiz:",
+      "TIP_FORMAT_ICON": "Matn muharririni ko'rsatish",
+      "TIP_EMOJI_ICON": "Emoji tanlovchini ko'rsatish",
+      "TIP_ATTACH_ICON": "Fayllarni biriktirish",
+      "TIP_AUDIORECORDER_ICON": "Audio yozib olish",
+      "TIP_AUDIORECORDER_PERMISSION": "Audioga ruxsat berish",
+      "TIP_AUDIORECORDER_ERROR": "Audioni ochib bo'lmadi",
+      "DRAG_DROP": "Biriktirish uchun bu yerga torting",
+      "START_AUDIO_RECORDING": "Audio yozishni boshlash",
+      "STOP_AUDIO_RECORDING": "Audio yozishni to'xtatish",
+      "": "",
+      "EMAIL_HEAD": {
+        "TO": "KIMGA",
+        "ADD_BCC": "BCC qo'shish",
+        "CC": {
+          "LABEL": "CC",
+          "PLACEHOLDER": "Vergul bilan ajratilgan emaillar",
+          "ERROR": "Iltimos, to'g'ri email manzillarini kiriting"
+        },
+        "BCC": {
+          "LABEL": "BCC",
+          "PLACEHOLDER": "Vergul bilan ajratilgan emaillar",
+          "ERROR": "Iltimos, to'g'ri email manzillarini kiriting"
+        }
+      },
+      "UNDEFINED_VARIABLES": {
+        "TITLE": "Aniqlanmagan o'zgaruvchilar",
+        "MESSAGE": "Xabaringizda {undefinedVariablesCount} ta aniqlanmagan o'zgaruvchi bor: {undefinedVariables}. Xabarni baribir yuborishni xohlaysizmi?",
+        "CONFIRM": {
+          "YES": "Yuborish",
+          "CANCEL": "Bekor qilish"
+        }
+      }
+    },
+    "VISIBLE_TO_AGENTS": "Shaxsiy eslatma: Faqat siz va jamoangizga ko'rinadi",
+    "CHANGE_STATUS": "Suhbat holati o'zgartirildi",
+    "CHANGE_STATUS_FAILED": "Suhbat holatini o'zgartirib bo'lmadi",
+    "CHANGE_AGENT": "Suhbat tayinlangani o'zgartirildi",
+    "CHANGE_AGENT_FAILED": "Tayinlanganni o'zgartirib bo'lmadi",
+    "ASSIGN_LABEL_SUCCESFUL": "Teg muvaffaqiyatli tayinlandi",
+    "ASSIGN_LABEL_FAILED": "Tegni tayinlab bo'lmadi",
+    "CHANGE_TEAM": "Suhbat jamoasi o'zgartirildi",
+    "FILE_SIZE_LIMIT": "Fayl {MAXIMUM_SUPPORTED_FILE_UPLOAD_SIZE} MB biriktirma chegarasidan oshib ketdi",
+    "MESSAGE_ERROR": "Bu xabarni yuborib bo'lmadi, iltimos keyinroq qayta urinib ko'ring",
+    "SENT_BY": "Yuboruvchi:",
+    "BOT": "Bot",
+    "SEND_FAILED": "Xabarni yuborib bo'lmadi! Qayta urinib ko'ring",
+    "TRY_AGAIN": "qayta urinish",
+    "ASSIGNMENT": {
+      "SELECT_AGENT": "Agent tanlang",
+      "REMOVE": "Olib tashlash",
+      "ASSIGN": "Tayinlash"
+    },
+    "CONTEXT_MENU": {
+      "COPY": "Nusxalash",
+      "REPLY_TO": "Bu xabarga javob berish",
+      "DELETE": "O'chirish",
+      "CREATE_A_CANNED_RESPONSE": "Tayyor javoblarga qo'shish",
+      "TRANSLATE": "Tarjima qilish",
+      "COPY_PERMALINK": "Xabar havolasini nusxalash",
+      "LINK_COPIED": "Xabar URL manzili vaqtinchalik xotiraga nusxalandi",
+      "DELETE_CONFIRMATION": {
+        "TITLE": "Bu xabarni o'chirishni xohlaysizmi?",
+        "MESSAGE": "Bu amalni qaytarib bo'lmaydi",
+        "DELETE": "O'chirish",
+        "CANCEL": "Bekor qilish"
+      }
+    }
+  },
+  "EMAIL_TRANSCRIPT": {
+    "TITLE": "Suhbat yozishmasini yuborish",
+    "DESC": "Suhbat yozishmasining nusxasini ko'rsatilgan email manziliga yuborish",
+    "SUBMIT": "Yuborish",
+    "CANCEL": "Bekor qilish",
+    "SEND_EMAIL_SUCCESS": "Chat yozishmasi muvaffaqiyatli yuborildi",
+    "SEND_EMAIL_ERROR": "Xatolik yuz berdi, iltimos qayta urinib ko'ring",
+    "FORM": {
+      "SEND_TO_CONTACT": "Yozishmani mijozga yuborish",
+      "SEND_TO_AGENT": "Yozishmani tayinlangan agentga yuborish",
+      "SEND_TO_OTHER_EMAIL_ADDRESS": "Yozishmani boshqa email manziliga yuborish",
+      "EMAIL": {
+        "PLACEHOLDER": "Email manzilini kiriting",
+        "ERROR": "Iltimos, to'g'ri email manzilini kiriting"
+      }
+    }
+  },
+  "ONBOARDING": {
+    "TITLE": "Salom 👋, {installationName}ga xush kelibsiz!",
+    "DESCRIPTION": "Ro'yxatdan o'tganingiz uchun rahmat. {installationName}dan maksimal foydalanishingizni xohlaymiz. Mana {installationName}da qilishingiz mumkin bo'lgan bir necha narsa.",
+    "GREETING_MORNING": "👋 Xayrli tong, {name}. {installationName}ga xush kelibsiz.",
+    "GREETING_AFTERNOON": "👋 Xayrli kun, {name}. {installationName}ga xush kelibsiz.",
+    "GREETING_EVENING": "👋 Xayrli kech, {name}. {installationName}ga xush kelibsiz.",
+    "READ_LATEST_UPDATES": "Oxirgi yangilanishlarni o'qing",
+    "ALL_CONVERSATION": {
+      "TITLE": "Barcha suhbatlaringiz bir joyda",
+      "DESCRIPTION": "Mijozlaringiz bilan bo'lgan barcha suhbatlarni yagona boshqaruv panelida ko'ring. Suhbatlarni kiruvchi kanal, teg va holat bo'yicha filtrlashingiz mumkin.",
+      "NEW_LINK": "Kiruvchi quti yaratish uchun bu yerga bosing"
+    },
+    "TEAM_MEMBERS": {
+      "TITLE": "Jamoa a'zolarini taklif qiling",
+      "DESCRIPTION": "Mijozingiz bilan suhbatlashishga tayyorlanayotganingizda, hamkasblaringizni yordamga chaqiring. Jamoa a'zolarini ularning email manzillarini agent ro'yxatiga qo'shish orqali taklif qilishingiz mumkin.",
+      "NEW_LINK": "Jamoa a'zosini taklif qilish uchun bu yerga bosing"
+    },
+    "LABELS": {
+      "TITLE": "Suhbatlarni teglar bilan tashkil qiling",
+      "DESCRIPTION": "Teglar suhbatlaringizni kategoriyalashning osonroq usulini taqdim etadi. #yordam-so'rovi, #billing-savol kabi teglarni yarating, so'ngra ularni keyinroq suhbatda ishlatishingiz mumkin.",
+      "NEW_LINK": "Teglar yaratish uchun bu yerga bosing"
+    },
+    "CANNED_RESPONSES": {
+      "TITLE": "Tayyor javoblar yarating",
+      "DESCRIPTION": "Oldindan yozilgan tez javob shablonlari suhbatga tezroq javob berishga yordam beradi. Agentlar '/' belgisini va qisqa kodni yozib, javobni kiritishlari mumkin.",
+      "NEW_LINK": "Tayyor javob yaratish uchun bu yerga bosing"
+    }
+  },
+  "CONVERSATION_SIDEBAR": {
+    "ASSIGNEE_LABEL": "Tayinlangan agent",
+    "SELF_ASSIGN": "O'zimga tayinlash",
+    "TEAM_LABEL": "Tayinlangan jamoa",
+    "SELECT": {
+      "PLACEHOLDER": "Yo'q"
+    },
+    "ACCORDION": {
+      "CONTACT_DETAILS": "Kontakt ma'lumotlari",
+      "CONVERSATION_ACTIONS": "Suhbat harakatlari",
+      "CONVERSATION_LABELS": "Suhbat teglari",
+      "CONVERSATION_INFO": "Suhbat ma'lumotlari",
+      "CONTACT_ATTRIBUTES": "Kontakt atributlari",
+      "PREVIOUS_CONVERSATION": "Oldingi suhbatlar",
+      "MACROS": "Makroslar"
+    }
+  },
+  "CONVERSATION_CUSTOM_ATTRIBUTES": {
+    "ADD_BUTTON_TEXT": "Atribut yaratish",
+    "NO_RECORDS_FOUND": "Atributlar topilmadi",
+    "UPDATE": {
+      "SUCCESS": "Atribut muvaffaqiyatli yangilandi",
+      "ERROR": "Atributni yangilab bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring"
+    },
+    "ADD": {
+      "TITLE": "Qo'shish",
+      "SUCCESS": "Atribut muvaffaqiyatli qo'shildi",
+      "ERROR": "Atributni qo'shib bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring"
+    },
+    "DELETE": {
+      "SUCCESS": "Atribut muvaffaqiyatli o'chirildi",
+      "ERROR": "Atributni o'chirib bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring"
+    },
+    "ATTRIBUTE_SELECT": {
+      "TITLE": "Atributlar qo'shish",
+      "PLACEHOLDER": "Atributlarni qidirish",
+      "NO_RESULT": "Atributlar topilmadi"
+    }
+  },
+  "EMAIL_HEADER": {
+    "FROM": "Kimdan",
+    "TO": "Kimga",
+    "BCC": "Bcc",
+    "CC": "Cc",
+    "SUBJECT": "Mavzu"
+  },
+  "CONVERSATION_PARTICIPANTS": {
+    "SIDEBAR_MENU_TITLE": "Qatnashmoqda",
+    "SIDEBAR_TITLE": "Suhbat ishtirokchilari",
+    "NO_RECORDS_FOUND": "Natijalar topilmadi",
+    "ADD_PARTICIPANTS": "Ishtirokchilarni tanlang",
+    "REMANING_PARTICIPANTS_TEXT": "+{count} ta boshqalar",
+    "REMANING_PARTICIPANT_TEXT": "+{count} ta boshqa",
+    "TOTAL_PARTICIPANTS_TEXT": "{count} kishi qatnashmoqda.",
+    "TOTAL_PARTICIPANT_TEXT": "{count} kishi qatnashmoqda.",
+    "NO_PARTICIPANTS_TEXT": "Hech kim qatnashmayapti!",
+    "WATCH_CONVERSATION": "Suhbatga qo'shilish",
+    "YOU_ARE_WATCHING": "Siz qatnashmoqdasiz",
+    "API": {
+      "ERROR_MESSAGE": "Yangilab bo'lmadi, qayta urinib ko'ring!",
+      "SUCCESS_MESSAGE": "Ishtirokchilar yangilandi!"
+    }
+  },
+  "TRANSLATE_MODAL": {
+    "TITLE": "Tarjima qilingan matnni ko'rish",
+    "DESC": "Siz tarjima qilingan matnni har bir tilda ko'rishingiz mumkin.",
+    "ORIGINAL_CONTENT": "Asl matn",
+    "TRANSLATED_CONTENT": "Tarjima qilingan matn",
+    "NO_TRANSLATIONS_AVAILABLE": "Bu matn uchun tarjimalar mavjud emas"
+  }
+}

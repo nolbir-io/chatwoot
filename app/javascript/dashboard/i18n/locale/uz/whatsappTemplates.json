@@ -1,0 +1,25 @@
+{
+    "WHATSAPP_TEMPLATES": {
+        "MODAL": {
+            "TITLE": "WhatsApp shablonlari",
+            "SUBTITLE": "Yubormoqchi bo'lgan WhatsApp shablonini tanlang",
+            "TEMPLATE_SELECTED_SUBTITLE": "{templateName}ni qayta ishlash"
+        },
+        "PICKER": {
+            "SEARCH_PLACEHOLDER": "Shablonlarni qidirish",
+            "NO_TEMPLATES_FOUND": "Uchun shablonlar topilmadi",
+            "LABELS": {
+                "LANGUAGE": "Til",
+                "TEMPLATE_BODY": "Shablon matni",
+                "CATEGORY": "Kategoriya"
+            }
+        },
+        "PARSER": {
+            "VARIABLES_LABEL": "O'zgaruvchilar",
+            "VARIABLE_PLACEHOLDER": "{variable} qiymatini kiriting",
+            "GO_BACK_LABEL": "Orqaga",
+            "SEND_MESSAGE_LABEL": "Xabar yuborish",
+            "FORM_ERROR_MESSAGE": "Yuborishdan oldin barcha o'zgaruvchilarni to'ldiring"
+        }
+    }
+}
