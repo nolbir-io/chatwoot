@@ -36,14 +36,16 @@ class Webhooks::InstagramEventsJob < MutexApplicationJob
     messages(entry).each do |messaging|
       Rails.logger.info("Instagram Events Job Messaging: #{messaging}")
 
-      instagram_id = instagram_id(messaging)
-      channel = find_channel(instagram_id)
+      event_name = event_name(messaging)
+      next if event_name.blank?
 
+      instagram_id = instagram_id(messaging)
+      next if instagram_id.blank?
+
+      channel = find_channel(instagram_id)
       next if channel.blank?
 
-      if (event_name = event_name(messaging))
-        send(event_name, messaging, channel)
-      end
+      send(event_name, messaging, channel)
     end
   end
 
@@ -67,9 +69,9 @@ class Webhooks::InstagramEventsJob < MutexApplicationJob
 
   def instagram_id(messaging)
     if agent_message_via_echo?(messaging)
-      messaging[:sender][:id]
+      messaging.dig(:sender, :id)
     else
-      messaging[:recipient][:id]
+      messaging.dig(:recipient, :id)
     end
   end
 
@@ -110,7 +112,7 @@ class Webhooks::InstagramEventsJob < MutexApplicationJob
   end
 
   def event_name(messaging)
-    @event_name ||= SUPPORTED_EVENTS.find { |key| messaging.key?(key) }
+    SUPPORTED_EVENTS.find { |key| messaging.key?(key) }
   end
 
   def message(messaging, channel)
